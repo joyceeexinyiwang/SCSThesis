@@ -1,7 +1,7 @@
 # Societal Computing
 General research and preparation for computer science senior honors thesis in societal computing
 
-## Related works
+## Field
 > Ask you read, think about...Why does this paper matter? What are the methodologied employed in this research?
 
 - Carley, Kathleen M., Guido Cervone, Nitin Agarwal, Huan Liu. "Social Cyber-Security." [link](http://www.casos.cs.cmu.edu/events/summer_institute/2018/si_portal/pubs/Carley%20-%20Social%20Cyber%20Security.pdf)
@@ -22,3 +22,6 @@ General research and preparation for computer science senior honors thesis in so
 ## Orgs
 
 ## Interesting topics 
+
+## My project
+related works, problem space, approach, experiments...
