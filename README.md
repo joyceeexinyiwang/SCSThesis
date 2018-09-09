@@ -8,12 +8,17 @@ Advised by Prof. Kathleen Carley
 - [Documents]()
 
 ## Semester Plan
-- heavy amounts of reading on social-media journalism and network analysis
-- data collection
-- learn network analysis techniques from reading and shadowing other ongoing projects of PhD students
-- initial experiments on: 
-  - categorizing different journalistic practices and strategies
-- final poster presentation in December
+September and October:
+- read media literacy literature
+- initial observations on Twitter and Facebook
+- read Twitter journalism research
+- read network analysis
+- data collection (3 months)
+
+Later:
+- develop formal framework to characterize journalistic practice
+- finding patterns in readership changes
+Paper structure: relates works, framework, case studies, discussion, process and methods
 
 ## Documents
 [Proposal]()
