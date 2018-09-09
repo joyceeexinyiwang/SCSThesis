@@ -1,3 +1,6 @@
+### 9/9/2018
+> Paper structure: relates works, framework, case studies, discussion, process and methods
+
 ### 9/7/2018
 Engage Early, Correct More: How Journalists Participate in False Rumors Online During Crisis Events (CHI 2018)
 > I can have a list of research questions and hypotheses in my paper, and tackle them individually but (hopefully) within the same process/framework
