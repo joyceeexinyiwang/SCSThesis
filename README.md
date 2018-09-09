@@ -2,10 +2,10 @@
 SCS Senior Honors Thesis
 Advised by Prof. Kathleen Carley
 
-- [Progess log]()
+- [Progess log](/ProgressLog.md)
 - [Reading notes]()
-- [Semester Plan]()
-- [Documents]()
+- [Semester Plan](#semester-plan)
+- [Documents](#documents)
 
 ## Semester Plan
 September and October:
@@ -21,4 +21,4 @@ Later:
 Paper structure: relates works, framework, case studies, discussion, process and methods
 
 ## Documents
-[Proposal]()
+[Proposal](/Joyce%20Wang%20thesis%20proposal.pdf)
