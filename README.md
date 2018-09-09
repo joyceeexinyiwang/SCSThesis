@@ -1,5 +1,5 @@
 # Evaluating Journalistic Practices on Twitter Using Social Network Analysis
-SCS Senior Honors Thesis
+SCS Senior Honors Thesis  
 Advised by Prof. Kathleen Carley
 
 - [Progess log](/ProgressLog.md)
