@@ -23,7 +23,7 @@
 
 "The lack of social connectivity to unknown sources is perhaps not surprising in that familiarity with a source leads to a level of trust; Hermida, Lewis and Zamith argue that “the more familiar journalists are with a source, the more likely they are to be considered credible” [11]."
 
-![](/graph0.png)
+![](./graph0.png)
 
 "When social media content is deemed worthy of further inquiry, journalists pursue a number of methods for validating information. The most popular method adopts the long-standing practice of direct contact with trusted individuals. Eighty-three percent of respondents state that, in order to validate content on social media, they contact official bodies, such as press offices or the police."
 
