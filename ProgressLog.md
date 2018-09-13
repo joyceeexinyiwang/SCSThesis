@@ -1,13 +1,25 @@
+### 9/13/2018
+["Xinhua to integrate AI into news production"](http://www.xinhuanet.com/english/2018-01/09/c_129786724.htm)
+
+### 9/12/2018
+Twitter Journalism reading:  
+"Finding News Curators in Twitter"  
+"Engage Early, Correct More: How Journalists Participate in False Rumors Online During Crisis Events"  
+"Sourcing and Trust: Twitter Journalism in Ireland"  
+
+### 9/11/2018
+Watched [videos](http://netanomics.com/ora-video-training-guides/) about ORA
+
 ### 9/9/2018
 > Paper structure: relates works, framework, case studies, discussion, process and methods
 
 ### 9/7/2018
-Engage Early, Correct More: How Journalists Participate in False Rumors Online During Crisis Events (CHI 2018)
+"Engage Early, Correct More: How Journalists Participate in False Rumors Online During Crisis Events" (CHI 2018)
 > I can have a list of research questions and hypotheses in my paper, and tackle them individually but (hopefully) within the same process/framework
 
 ### 9/6/2018
-D&S: The Promises, Challenges, and Futures of Media Literacy  
-D&S: Searching for Alternative Facts: Analyzing Scriptural Inference in Conservative News Practices
+D&S: "The Promises, Challenges, and Futures of Media Literacy"  
+D&S: "Searching for Alternative Facts: Analyzing Scriptural Inference in Conservative News Practices"  
 > - research on Youtube data could really benefit from video analysis technologies like what Will Crichton works on  
 > - annotation scheme: network of interlocutors (forwarding, featuring, etc)  
 > - how to formally characterize the behaviors of news accounts?  
