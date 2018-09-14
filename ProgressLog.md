@@ -1,3 +1,6 @@
+### 9/14/2018
+["Pay Models for Online News"](https://medium.com/journalism-trends-technologies/pay-models-for-online-news-8ea87d46a3c7#_ftn1)
+
 ### 9/13/2018
 ["Xinhua to integrate AI into news production"](http://www.xinhuanet.com/english/2018-01/09/c_129786724.htm)
 
