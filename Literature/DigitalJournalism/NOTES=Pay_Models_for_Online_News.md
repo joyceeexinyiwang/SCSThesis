@@ -23,4 +23,6 @@ Sustainability-related challenges that digital news faces:
 
 ### Freemium models
 = a hybrid access model
+![](./freemium.jpeg)
+
 
