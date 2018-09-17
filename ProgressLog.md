@@ -1,3 +1,8 @@
+### 9/17/2018
+Modeling and Predicting News Consumption on Twitter  
+Found Medium publication ["Journalism Trends and Technologies: White Papers on Key Trends in Journalism"](https://medium.com/journalism-trends-technologies).  
+Found ["Journalism,"Fake News" & Disinformation: Handbook for Journalism Education and Training"](http://unesdoc.unesco.org/images/0026/002655/265552E.pdf) as part of UNESCO Series on Journalism Education (via [Neiman Lab article](http://www.niemanlab.org/2018/09/fighting-back-against-fake-news-a-new-un-handbook-aims-to-explain-and-resist-our-current-information-disorder/?utm_source=Daily+Lab+email+list&utm_campaign=a2dcdf2ff7-dailylabemail3&utm_medium=email&utm_term=0_d68264fd5e-a2dcdf2ff7-396323673)).
+
 ### 9/14/2018
 ["Pay Models for Online News"](https://medium.com/journalism-trends-technologies/pay-models-for-online-news-8ea87d46a3c7#_ftn1)
 
@@ -5,7 +10,6 @@
 ["Xinhua to integrate AI into news production"](http://www.xinhuanet.com/english/2018-01/09/c_129786724.htm)
 
 ### 9/12/2018
-Twitter Journalism reading:  
 "Finding News Curators in Twitter"  
 "Engage Early, Correct More: How Journalists Participate in False Rumors Online During Crisis Events"  
 "Sourcing and Trust: Twitter Journalism in Ireland"  
