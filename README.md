@@ -2,10 +2,20 @@
 SCS Senior Honors Thesis  
 Advised by Prof. Kathleen Carley
 
-- [Progess log](/ProgressLog.md)
-- [Reading notes](/Literature)
+- [Problem Statement](#problem_statement)
+- [Research Questions](#research_questions)
+- [Progess Log](/ProgressLog.md)
 - [Semester Plan](#semester-plan)
 - [Documents](#documents)
+
+## Problem Statement
+analyze readership of news accounts  
+analyze social media news reporting behaviors  
+prediction model --> from journalistic practices to readership changes  
+
+## Research Questions
+
+
 
 ## Semester Plan
 September:
@@ -24,4 +34,5 @@ December:
 - poster presentation
 
 ## Documents
-[Proposal](/Joyce%20Wang%20thesis%20proposal.pdf)
+- [Reading notes](/Literature)
+- [Proposal](/Joyce%20Wang%20thesis%20proposal.pdf)
