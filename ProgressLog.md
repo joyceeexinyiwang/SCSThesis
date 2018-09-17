@@ -1,5 +1,5 @@
 ### 9/17/2018
-Modeling and Predicting News Consumption on Twitter  
+"Modeling and Predicting News Consumption on Twitter"
 Found Medium publication ["Journalism Trends and Technologies: White Papers on Key Trends in Journalism"](https://medium.com/journalism-trends-technologies).  
 Found ["Journalism,"Fake News" & Disinformation: Handbook for Journalism Education and Training"](http://unesdoc.unesco.org/images/0026/002655/265552E.pdf) as part of UNESCO Series on Journalism Education (via [Neiman Lab article](http://www.niemanlab.org/2018/09/fighting-back-against-fake-news-a-new-un-handbook-aims-to-explain-and-resist-our-current-information-disorder/?utm_source=Daily+Lab+email+list&utm_campaign=a2dcdf2ff7-dailylabemail3&utm_medium=email&utm_term=0_d68264fd5e-a2dcdf2ff7-396323673)).
 
