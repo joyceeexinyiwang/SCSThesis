@@ -2,26 +2,28 @@
 SCS Senior Honors Thesis  
 Advised by Prof. Kathleen Carley
 
-- [Problem Statement](#problem_statement)
-- [Research Questions](#research_questions)
+- [Problem Statement](#problem-statement)
+- [Research Questions](#questions)
 - [Progess Log](/ProgressLog.md)
 - [Semester Plan](#semester-plan)
 - [Documents](#documents)
 
 ## Problem Statement
+(?)
 analyze readership of news accounts  
 analyze social media news reporting behaviors  
 prediction model --> from journalistic practices to readership changes  
 
-## Research Questions
-
-
+## Questions
+- how to define "readership" in the context of social media-based journalism (which is a subspace of digital journalism, that is free and doesn't require membership or paywalls)?
+- what to consider in describing the news reporting behaviors of social media accounts (timeliness, use of images or videos, mentioning, similarity to the print/web of the news org, topics, retweets, etc.)?
+- how do state media accounts differ from news accounts of democratic states in their posting behaviors?
 
 ## Semester Plan
 September:
 - read media literacy literature
-- initial observations on Twitter and Facebook
 - read Twitter journalism research
+- initial observations on Twitter and Facebook
 - begin data collection (3 months)
 - learn network analysis techniques by reading and shadowing ongoing projects
 
