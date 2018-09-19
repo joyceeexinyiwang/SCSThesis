@@ -3,7 +3,7 @@ SCS Senior Honors Thesis
 Advised by Prof. Kathleen Carley
 
 - [Problem Statement](#problem-statement)
-- [Research Questions](#questions)
+- [Questions](#questions)
 - [Progess Log](/ProgressLog.md)
 - [Semester Plan](#semester-plan)
 - [Documents](#documents)
