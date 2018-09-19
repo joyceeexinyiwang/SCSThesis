@@ -18,7 +18,7 @@ prediction model --> from journalistic practices to readership changes
 - how to define "readership" in the context of social media-based journalism (which is a subspace of digital journalism, that is free and doesn't require membership or paywalls)?
 - what to consider in describing the news reporting behaviors of social media accounts (timeliness, use of images or videos, mentioning, similarity to the print/web of the news org, topics, retweets, etc.)?
 - how do state media accounts differ from news accounts of democratic states in their posting behaviors?
-- Without knowing the automation mechanisms behind news corps Twitter accounts, how to distinguish between journalistic practices and understand their rippling effect?
+- Without knowing the automation mechanisms or curatorial intentions behind news corps Twitter accounts, how to make sense of **observable** journalistic practices and understand their rippling effect? --> 
 
 ## Semester Plan
 September:
