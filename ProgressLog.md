@@ -1,5 +1,6 @@
 ### 9/19/2018
-"NOTES=What Journalists Share: A Comparative Study of the National Press Corps in Australia and Germany"  
+“Computing Political Preference among Twitter Followers”  
+"What Journalists Share: A Comparative Study of the National Press Corps in Australia and Germany"  
 ["Who’s behind that tweet? Here’s how 7 news orgs manage their Twitter and Facebook accounts"](http://www.niemanlab.org/2014/05/whos-behind-that-tweet-heres-how-7-news-orgs-manage-their-twitter-and-facebook-accounts/#disqus_thread) via Neiman Lab
 > Without knowing the automation mechanisms behind news corps Twitter accounts, how to distinguish between journalistic practices and understand their rippling effect?
 
