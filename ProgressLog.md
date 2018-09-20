@@ -2,6 +2,8 @@
 “Computing Political Preference among Twitter Followers”  
 "What Journalists Share: A Comparative Study of the National Press Corps in Australia and Germany"  
 ["Who’s behind that tweet? Here’s how 7 news orgs manage their Twitter and Facebook accounts"](http://www.niemanlab.org/2014/05/whos-behind-that-tweet-heres-how-7-news-orgs-manage-their-twitter-and-facebook-accounts/#disqus_thread) via Neiman Lab
+> According to this Neiman Lab article, tweets with voices tend to generate the most interactions. Maybe consider **voice/no voice** as one of the distinguishing factors for social media-based journalistic behavior?  
+> This article is from 2014 and most news outlets had a manual component to their Twitter. However, as NLG technologies become more advanced these days, is the real personal voice still necessary? Are they using generated personal voices now?
 > Without knowing the automation mechanisms behind news corps Twitter accounts, how to distinguish between journalistic practices and understand their rippling effect?
 
 ### 9/17/2018
