@@ -9,10 +9,9 @@ Advised by Prof. Kathleen Carley
 - [Documents](#documents)
 
 ## Problem Statement
-(?)
-analyze readership of news accounts  
-analyze social media news reporting behaviors  
-prediction model --> from journalistic practices to readership changes  
+I hope to explore new approaches to analyze the way different kinds of journalistic behaviors by official news accounts influence their readership on social media. Drawing from theories of journalism and network analysis techniques, I hope to develop a model that maps journalistic practices to readership changing patterns. 
+
+The purpose of this work is to inform journalists and news organizations on the latent impact of their behaviors and provide evidence for media literacy education.
 
 ## Questions
 - how to define "readership" in the context of social media-based journalism (which is a subspace of digital journalism, that is free and doesn't require membership or paywalls)?
