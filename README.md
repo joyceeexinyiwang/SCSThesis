@@ -19,6 +19,8 @@ The purpose of this work is to inform journalists and news organizations on the 
 - how do state media accounts differ from news accounts of democratic states in their posting behaviors?
 - Without knowing the automation mechanisms or curatorial intentions behind news corps Twitter accounts, how to make sense of **observable** journalistic practices and understand their rippling effect? --> 
 
+*"What the media says and how they say it, affect who is listening."*
+
 ## Semester Plan
 September:
 - read media literacy literature
