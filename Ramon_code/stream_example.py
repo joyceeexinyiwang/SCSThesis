@@ -10,7 +10,7 @@ homeDir=r''
 out_Path=r''
 
 #Load Queries for Semis
-queries={}
+queries= {}
 with open(homeDir+r'\Data\terms.csv',encoding='utf8') as inFile:
     reader=csv.DictReader(inFile)
     for row in reader:
