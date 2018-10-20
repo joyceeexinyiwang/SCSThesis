@@ -38,5 +38,5 @@ December:
 - poster presentation
 
 ## Documents
-- [Reading notes](/Literature)
+- [Reading notes](/literature)
 - [Proposal](/Joyce%20Wang%20thesis%20proposal.pdf)

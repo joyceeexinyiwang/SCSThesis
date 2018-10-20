@@ -1,3 +1,8 @@
+### 10/17/2018
+adapted Ramon's code to collect 
+
+---
+
 ### 9/19/2018
 “Computing Political Preference among Twitter Followers”  
 "What Journalists Share: A Comparative Study of the National Press Corps in Australia and Germany"  
