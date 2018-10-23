@@ -10,22 +10,25 @@ cred_dict['Thesis']['asecret']=["ob7MhEOhFykrggxvPpxc8qnjE0aO9xSrVY9UgIhFRG1m1pr
 
 ### App-User Authorization
 
-def getAuth(i):
+def getAuth(i, mode):
     ckey = cred_dict['Thesis']['ckey'][i]
     csecret = cred_dict['Thesis']['csecret'][i]
     atoken = cred_dict['Thesis']['atoken'][i]
     asecret = cred_dict['Thesis']['asecret'][i]
-    auth = authorizer(ckey,csecret,atoken,asecret)
+    auth = authorizer(ckey,csecret,atoken,asecret, mode)
     return auth
 
 
-def authorizer(ckey,csecret,atoken=None,asecret=None):
+def authorizer(ckey,csecret,atoken=None,asecret=None, mode="user"):
     """
     Ramon:
     :mode: either "user" or "app". "user" requires access tokens also.
     :return: corresponding API authorization
     """
-    auth = tweepy.OAuthHandler(ckey, csecret)
-    auth.set_access_token(atoken, asecret) 
-
+    if mode == "user":
+        auth = tweepy.OAuthHandler(ckey, csecret)
+        auth.set_access_token(atoken, asecret) 
+    else:
+        auth = tweepy.AppAuthHandler(ckey, csecret)
+        
     return auth

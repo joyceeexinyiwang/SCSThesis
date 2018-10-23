@@ -14,6 +14,10 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=500000, fileName=
 
     if not os.path.exists(outPath):
         os.makedirs(outPath)     
+
+    o_file = open(outPath+"/queries.csv", "w")
+    o_file.write(",".join(terms))
+
     print("Saving in..." + outPath)
     
     collectedCounts=Counter()

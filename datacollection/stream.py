@@ -1,16 +1,16 @@
 """
 
+To run this, adjust time zone to UTC
+
 COMMANDS:
 source activate thesis
 python stream.py queries.csv
 
 """
 
-
-import csv, sys, time, os
+import sys
 from datetime import datetime
-import credentials as cred
-import stream_tools
+from stream_tools import stream_tweets
 from credentials import getAuth
 
 def run(queryFile):
@@ -19,26 +19,18 @@ def run(queryFile):
     queries = ""
     with open(queryFile) as i_file:
         queries = i_file.read()
-    queries = queries.split(",")
+    queries_list = queries.split(",")
 
-    key = "hello"
-    uKey ="Thesis"
+    # choose which Twitter app to use for this query
     i = 1
-    quer = ["hello"]
 
-    print('Streaming for ' + key)
+    print('Streaming for ' + queryFile)
 
-    ckey = cred.cred_dict[uKey]['ckey'][i]
-    csecret = cred.cred_dict[uKey]['csecret'][i]
-    atoken = cred.cred_dict[uKey]['atoken'][i]
-    asecret = cred.cred_dict[uKey]['asecret'][i]
-
-    auth = getAuth(i)
-    # auth = None
-
+    auth = getAuth(i, "user")
     now = datetime.now()
-    out_Path = "streamData/" + now.strftime("%Y-%m-%d-%H-%M")
-    stream_tools.stream_tweets(auth, key, quer, out_Path, ckey, csecret, atoken, asecret)
+    out_Path = "data/streamed/" + now.strftime("%Y-%m-%d-%H-%M")
+
+    stream_tweets(auth, queries_list, out_Path)
 
 
 def main(argv):
