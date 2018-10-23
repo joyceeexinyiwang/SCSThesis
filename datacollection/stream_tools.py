@@ -1,5 +1,6 @@
 import csv, sys, time, os
 from datetime import datetime
+import tweepy
 from tweepy import Stream, OAuthHandler
 from tweepy.streaming import StreamListener
 import credentials as cred
@@ -7,6 +8,7 @@ import stream_tools
 
 class listener(StreamListener):
     def __init__(self, path, fileName,StartDate):
+        StreamListener.__init__(self)
         self.fileName=r'{0}/{1}'.format(path,fileName)
         self.start_date=StartDate        
         self.base_file=open(r'{0}.json'.format(self.fileName),'a+',encoding="utf8")
@@ -23,19 +25,28 @@ class listener(StreamListener):
         self.base_file.write(data)
         return True
 
-def fetch(query,outPath,fileName,ckey,csecret,atoken,asecret,max_daily_errors=5):
-    auth = OAuthHandler(ckey, csecret)
-    auth.set_access_token(atoken, asecret)
+    def on_status(self, status):
+        print(status.text)
+
+    def on_error(self, status_code):
+        print(status_code)
+        if status_code == 420:
+            #returning False in on_data disconnects the stream
+            return False
+
+def fetch(auth, query,outPath,fileName,ckey,csecret,atoken,asecret,max_daily_errors=5):
+
     startDate=datetime.now().strftime("%Y-%m-%d")
     error_per_day=0
     timeOfFirstError=None
     sListenter=listener(outPath,fileName,startDate)
-    twitterStream = Stream(auth=auth, listener=nsListenter)
+
+    twitterStream = Stream(auth=auth, listener=sListenter)
     print('Starting Stream')
-    twitterStream.filter(track=["python"], async=True)
+    twitterStream.filter(track=query)
     while True:
         try:
-            print('.', end="")
+            print('...', end="")
         except:
             if error_per_day==0:
                 error_per_day+=1
@@ -60,10 +71,10 @@ def fetch(query,outPath,fileName,ckey,csecret,atoken,asecret,max_daily_errors=5)
                 print('Four errors in the same day, breaking stream')
                 sListenter.base_file.close()
                 break
-        time.sleep(1)
+        time.sleep(0.1)
 
-def stream_tweets(appName,seachedKey,query_list,outPath,ckey,csecret,atoken,asecret):
+def stream_tweets(auth, seachedKey,query_list,outPath,ckey,csecret,atoken,asecret):
     if not os.path.exists(outPath):
         os.makedirs(outPath)
     fName='{0}'.format(seachedKey)
-    fetch(query_list,outPath,fName,ckey,csecret,atoken,asecret)
+    fetch(auth, query_list,outPath,fName,ckey,csecret,atoken,asecret)
