@@ -1,3 +1,22 @@
+### 10/25/2018 *Meeting with Matt*
+
+ORA
+- friends/followers networks
+- ask/mention/retweet networks
+- each node: new agency? journalist? bots?
+  - can add additional attributes to each Agent
+- ORA generates reports
+
+Stories behind interactions
+  - read individual tweets in Excel
+  - examine how individual agents interact with the new stories
+  - group dynamics v.s. individual behaviors
+
+[How Humans versus Bots React to Deceptive and Trusted News Sources: A Case Study of Active Users](https://arxiv.org/abs/1807.05327)
+
+talk to Dave: network changes over time
+
+
 ### 10/17/2018
 adapted Ramon's code to collect 
 

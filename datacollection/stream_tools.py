@@ -19,9 +19,11 @@ class listener(StreamListener):
     def on_data(self, data):
         print("on_data")
 
-        today=datetime.now().strftime("%Y-%m-%d")
+        today=datetime.now().strftime("%Y-%m-%d-%H-%M")
 
-        if today!=self.start_date:
+        if today[:5]!=self.start_date[:5]:
+            print("today: "  + today)
+            print("self.start_data: " + self.start_date)
             self.start_date=datetime.now().strftime("%Y-%m-%d-%H-%M")
             self.base_file.close()
 
@@ -60,7 +62,7 @@ class listener(StreamListener):
 
 def fetch(auth,query,outPath,fileName,max_daily_errors=5):
 
-    startDate=datetime.now().strftime("%Y-%m-%d")
+    startDate=datetime.now().strftime("%Y-%m-%d-%H-%M")
     error_per_day=0
     timeOfFirstError=None
     sListenter=listener(outPath,fileName,startDate)
@@ -69,10 +71,11 @@ def fetch(auth,query,outPath,fileName,max_daily_errors=5):
     print('Starting Stream')
     twitterStream.filter(track=query)
 
-    fileCount = 0
+    keyboard = Controller()
+
     while True:
         try:
-            print("", end="")
+            pass
         except:
             if error_per_day==0:
                 error_per_day+=1
@@ -101,6 +104,9 @@ def fetch(auth,query,outPath,fileName,max_daily_errors=5):
 
 def stream_tweets(auth, query_list, outPath):
     if not os.path.exists(outPath):
+        os.makedirs(outPath)
+    else:
+        outPath += "_"
         os.makedirs(outPath)
 
     o_file = open(outPath+"/queries.csv", "w")

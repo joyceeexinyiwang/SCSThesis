@@ -29,7 +29,7 @@ def run(qFile, maxTweets):
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
     now = datetime.datetime.now()
-    out_Path = "data/scraped/" + now.strftime("%Y-%m-%d-%H-%M")
+    out_Path = "data/" + now.strftime("%Y-%m-%d-%H-%M") + "-scrape"
 
     ## Start Scrapping
     print ('## Running scrape \"{keywords}\" on app #{a})'.format(keywords=str(queries), a=i))

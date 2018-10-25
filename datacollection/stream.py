@@ -28,7 +28,7 @@ def run(queryFile):
 
     auth = getAuth(i, "user")
     now = datetime.now()
-    out_Path = "data/streamed/" + now.strftime("%Y-%m-%d-%H-%M")
+    out_Path = "data/" + now.strftime("%Y-%m-%d-%H-%M") + "-stream"
 
     stream_tweets(auth, queries_list, out_Path)
 
