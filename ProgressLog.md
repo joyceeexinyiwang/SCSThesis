@@ -1,3 +1,33 @@
+
+### To-do:
+*What is my hypothesis???*
+- continue to collect tweets (coming up with better keywords?)
+- read a sample of individual tweets to make some empirical observations and understand what exactly people tend to write
+- understand the different types of agents in the tweets I collected (journalists? followers of the news agency? bots?)
+- observe the ask/mention/retweets networks
+- meet with Dave (suggested by Matt) to learn about how to analyze network changes over time
+- get ORA pro
+
+- read "Statistical Analysis of Network Data"
+- read DNA book
+
+
+---
+
+### 10/26/2018
+Twitter API truncate issue: 
+- similar problem: https://twittercommunity.com/t/retrieve-full-tweet-when-truncated-non-retweet/75542
+- answer: https://developer.twitter.com/en/docs/tweets/tweet-updates.html
+- answer: https://github.com/tweepy/tweepy/issues/878
+
+`results = api.search(q=query, lang=language, count=tweetCount, tweet_mode='extended')  
+for tweet in results:  
+        print(tweet.fulltext)`
+
+**apparently not working for retweet??**
+
+
+
 ### 10/25/2018 *Meeting with Matt*
 
 ORA
@@ -20,7 +50,6 @@ talk to Dave: network changes over time
 ### 10/17/2018
 adapted Ramon's code to collect 
 
----
 
 ### 9/19/2018
 “Computing Political Preference among Twitter Followers”  
