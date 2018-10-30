@@ -1,20 +1,69 @@
 
-### To-do:
-*What is my hypothesis???*
-- continue to collect tweets (coming up with better keywords?)
-- read a sample of individual tweets to make some empirical observations and understand what exactly people tend to write
-- understand the different types of agents in the tweets I collected (journalists? followers of the news agency? bots?)
-- observe the ask/mention/retweets networks
-- meet with Dave (suggested by Matt) to learn about how to analyze network changes over time
-- get ORA pro
+## To-do
 
+*What is my hypothesis???*
+
+**Approach 1: Tracing threads** 
+- Read a sample of individual tweets to make some empirical observations and understand what exactly people tend to write
+- find patterns of how information gets passed on as a news story unfolds
+
+**Approach 2: DNA**
+- mention/retweets/comments 
+- friends and followers
+  - understand the different types of agents in the tweets I collected (journalists? followers of the news agency? bots?)
+
+- get ORA pro
 - read "Statistical Analysis of Network Data"
 - read DNA book
 
 
 ---
 
-### 10/26/2018
+### Fri 11/2/2018
+scrape tweets [@AP, @AJEnglish] x [event keywords]
+scrape friends/follower data
+
+### Thu 11/1/2018
+a few narratives of information trails
+
+### Wed 10/31/2018
+- add friends/follower data to ORA
+- analyze report
+- build framework based on ideas from 10/28/2018
+
+### Tue 10/30/2018
+- how to scrape friends/follower data? what do we use it for?
+- a few narratives of information trails (adding on the observations from 10/26/2018)
+
+---
+
+## Past
+
+### Tue 10/30/2018
+- wrote dedup.py, clean.py, and bydate.py
+
+### Mon 10/29/2018
+- read texts
+- started user.py, dedup.py, bydate.py
+
+### Sun 10/28/2018
+
+influencer v.s. non-influencer  
+agreement v.s. disagreement  
+reaction v.s. reiteration  
+
+mentioning: reaction, disagreement  
+retweeting: agreement, replication  
+number of followers and verified status: influencer/non-influencer status  
+centrality measures: 
+
+*how do these things change over time?*  
+*how to trace the spread of one specific piece of information that stems from a news agency? (which kind of information has the deepest/longest thread? which has the broadest/widest? )*  
+
+(meta-analysis, not focusing on specific opinions, but on the exchange of opinions)  
+
+
+### Fri 10/26/2018
 Twitter API truncate issue: 
 - similar problem: https://twittercommunity.com/t/retrieve-full-tweet-when-truncated-non-retweet/75542
 - answer: https://developer.twitter.com/en/docs/tweets/tweet-updates.html
@@ -26,6 +75,21 @@ for tweet in results:
 
 **apparently not working for retweet??**
 
+
+From reading individual tweets, I saw that
+- some times a person would address multiple news agencies at the same time in a tweet. "@AJEnglish @newsweek blah blah blah..." (e.g. tweet id 1054414678619815938)
+- accounts with low follower counts issue strong opinions  
+
+*How many people who engage in this stuff is an influencer?*  
+*How many people are not influencers?*  
+*What are the different impacts of influencers and non-influencers on the community? (define influencer based on follower counts? people non-influencers tend to express opinions more? influencers get more retweets? non-influencers get more followers when they issue opinions?)*
+
+*how do those who agree with the news stories and those who don't behave differently? (hypo: agreement gets more retweets, disagreements add more personal opinions, disagreements come from non-influencers --> echo chambers)*
+- other sources that prove the following hypothesis?
+  - people who agree tend to retweet more than other forms of interactions
+  - people who disagree tend to reply, comment, or @ their target news agencies
+  - agreement behaviors tend to come from a wide range of people
+  - disagreement baheviors tend to come from a small number of non-influencers
 
 
 ### 10/25/2018 *Meeting with Matt*
@@ -57,7 +121,7 @@ adapted Ramon's code to collect
 ["Who’s behind that tweet? Here’s how 7 news orgs manage their Twitter and Facebook accounts"](http://www.niemanlab.org/2014/05/whos-behind-that-tweet-heres-how-7-news-orgs-manage-their-twitter-and-facebook-accounts/#disqus_thread) via Neiman Lab
 > According to this Neiman Lab article, tweets with voices tend to generate the most interactions. Maybe consider **voice/no voice** as one of the distinguishing factors for social media-based journalistic behavior?
 
-> This article is from 2014 and most news outlets had a manual component to their Twitter. However, as NLG technologies become more advanced these days, is the real personal voice still necessary? Are they using generated personal voices now?  
+> This article is from 2014 and most news outlets had a manual component to their Twitter. However, as NLG technologies become more advanced these days, is the real personal voice still necessary? Are they using generated personal voices now?
 
 > Without knowing the automation mechanisms behind news corps Twitter accounts, how to distinguish between journalistic practices and understand their rippling effect?
 

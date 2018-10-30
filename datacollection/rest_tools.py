@@ -183,3 +183,14 @@ def get_timeline(tweetAPI, user_id, directory, pages = 1):
         print(e.reason)
 
     return(timeline)
+
+def print_fulltweets(user_id): 
+    tweets = []
+    for page in tweepy.Cursor(api.user_timeline, id=user_id, tweet_mode='extended').pages():
+        tweets.extend(page)
+
+    for t in tweets:
+        try:
+            print(t.retweeted_status.full_text)
+        except:
+            print(t.full_text)

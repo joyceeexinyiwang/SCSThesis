@@ -16,23 +16,16 @@ The purpose of this work is to inform journalists and news organizations on the 
 
 *"What the media says and how they say it, affect who is listening."*
 
-## Semester Plan
-September:
-- read media literacy literature
-- read Twitter journalism research
-- initial observations on Twitter and Facebook
-- learn network analysis techniques by reading and shadowing ongoing projects
-- begin data collection
+## Methods
 
-October + November:
-- data collection
-- characterize readership changing patterns
-- characterize journalistic practices of news corps
-- characterize patterns of correlations between readership changes and practices of news corps
-- read Dynamic Network Analysis literature
+Study news consumption of ...
+- @AP and @AJEnglish around the murder of Saudi Journalist Jamal Khashoggi.
+- @AP and @PittsburghPG around the Tree of Life shooting.
 
-December:
-- poster presentation
+Zoom in on stories of how a piece of new originated from a news corp gets passed on to individual agents on Twitter.
+
+Find changing patterns of friends/follower networks and tweet networks as a news story unfold
+
 
 ## Questions
 - how to define "readership" in the context of social media-based journalism (which is a subspace of digital journalism, that is free and doesn't require membership or paywalls)?
