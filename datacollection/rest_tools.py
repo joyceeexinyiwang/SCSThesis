@@ -2,9 +2,9 @@ import datetime, time, os, math, json, csv, sys
 from collections import Counter
 import tweepy
 
-def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=500000, fileName=None, max_num_errors=5):
+def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=100000, fileName=None, max_num_errors=5):
     ''' Perform a REST grab of terms '''
-    tweetsPerQry = 100  # this is the max the API permits
+    tweetsPerQry = 100  # this is the max the API permits according to documentation
     # Number of tweets per file
     file_num=1
     # If results from a specific ID onwards are reqd, set since_id to that ID.
@@ -13,7 +13,7 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=500000, fileName=
     # else default to no upper limit, start from the most recent tweet matching the search query.
 
     if not os.path.exists(outPath):
-        os.makedirs(outPath)     
+        os.makedirs(outPath)
 
     o_file = open(outPath+"/queries.csv", "w")
     o_file.write(",".join(terms))
@@ -39,7 +39,7 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=500000, fileName=
             print("Downloading max {0} tweets for \'{1}\'".format(maxTweets,t))
             if fileName is not None: nPart='{1}_{2}'.format(fileName, "_".join(t.split(" ")))
             else:   nPart=t
-            fname=outPath+r'/{0}_tweets_{1}_max{2}.json'.format("_".join(t.split(" ")), file_num, maxTweets)
+            fname=outPath+r'/{0}_{1}.json'.format("_".join(t.split(" ")), file_num)
             f=open(fname, 'a+',encoding='utf8')
             while tweetCount < maxTweets:
                 try:

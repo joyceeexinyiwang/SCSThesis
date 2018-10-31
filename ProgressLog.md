@@ -24,16 +24,20 @@ scrape tweets [@AP, @AJEnglish] x [event keywords]
 scrape friends/follower data
 
 ### Thu 11/1/2018
-a few narratives of information trails
+a few narratives of information threads
 
 ### Wed 10/31/2018
+- how to scrape friends/follower data? what do we use it for?
 - add friends/follower data to ORA
-- analyze report
 - build framework based on ideas from 10/28/2018
 
-### Tue 10/30/2018
-- how to scrape friends/follower data? what do we use it for?
-- a few narratives of information trails (adding on the observations from 10/26/2018)
+- empirical observations: narratives of information threads
+  - (from 10/26/2018) some times a person would address multiple news agencies at the same time in a tweet. "@AJEnglish @newsweek blah blah blah..." (e.g. tweet id 1054414678619815938)
+  - (from 10/26/2018) accounts with low follower counts issue strong opinions 
+  - many journalists tend to help spread the words
+
+- analyze report
+  - what what
 
 ---
 
@@ -41,6 +45,7 @@ a few narratives of information trails
 
 ### Tue 10/30/2018
 - wrote dedup.py, clean.py, and bydate.py
+
 
 ### Mon 10/29/2018
 - read texts
@@ -74,7 +79,6 @@ for tweet in results:
         print(tweet.fulltext)`
 
 **apparently not working for retweet??**
-
 
 From reading individual tweets, I saw that
 - some times a person would address multiple news agencies at the same time in a tweet. "@AJEnglish @newsweek blah blah blah..." (e.g. tweet id 1054414678619815938)
