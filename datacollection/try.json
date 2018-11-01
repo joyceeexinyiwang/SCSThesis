@@ -1,0 +1,488 @@
+{
+  "created_at": "Mon Oct 22 18:55:12 +0000 2018",
+  "id": 1054446087740764160,
+  "id_str": "1054446087740764160",
+  "full_text": "RT @DoctorDoom2: @GadflyPersia Annnd not a peep from western press!!!\n#Khashoggi\n\n@CNN\n@FoxNews\n@BBCWorld\n@Reuters\n@AP\n@FRANCE24\n@dwnews\n@A…",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    140
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "text": "Khashoggi",
+        "indices": [
+          70,
+          80
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "DoctorDoom2",
+        "name": "Darkseid",
+        "id": 538681310,
+        "id_str": "538681310",
+        "indices": [
+          3,
+          15
+        ]
+      },
+      {
+        "screen_name": "GadflyPersia",
+        "name": "شروان فشندی",
+        "id": 979547029675368449,
+        "id_str": "979547029675368449",
+        "indices": [
+          17,
+          30
+        ]
+      },
+      {
+        "screen_name": "CNN",
+        "name": "CNN",
+        "id": 759251,
+        "id_str": "759251",
+        "indices": [
+          82,
+          86
+        ]
+      },
+      {
+        "screen_name": "FoxNews",
+        "name": "Fox News",
+        "id": 1367531,
+        "id_str": "1367531",
+        "indices": [
+          87,
+          95
+        ]
+      },
+      {
+        "screen_name": "BBCWorld",
+        "name": "BBC News (World)",
+        "id": 742143,
+        "id_str": "742143",
+        "indices": [
+          96,
+          105
+        ]
+      },
+      {
+        "screen_name": "Reuters",
+        "name": "Reuters Top News",
+        "id": 1652541,
+        "id_str": "1652541",
+        "indices": [
+          106,
+          114
+        ]
+      },
+      {
+        "screen_name": "AP",
+        "name": "The Associated Press",
+        "id": 51241574,
+        "id_str": "51241574",
+        "indices": [
+          115,
+          118
+        ]
+      },
+      {
+        "screen_name": "FRANCE24",
+        "name": "FRANCE 24",
+        "id": 1994321,
+        "id_str": "1994321",
+        "indices": [
+          119,
+          128
+        ]
+      },
+      {
+        "screen_name": "dwnews",
+        "name": "DW News",
+        "id": 6134882,
+        "id_str": "6134882",
+        "indices": [
+          129,
+          136
+        ]
+      }
+    ],
+    "urls": []
+  },
+  "metadata": {
+    "iso_language_code": "en",
+    "result_type": "recent"
+  },
+  "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 867036398649475072,
+    "id_str": "867036398649475072",
+    "name": "zhabiz",
+    "screen_name": "sufferance_595",
+    "location": "",
+    "description": "‏‏‏یک مادر که آرزو دارد باد آزادانه در گیسوان دخترش برقصد",
+    "url": null,
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 286,
+    "friends_count": 65,
+    "listed_count": 0,
+    "created_at": "Tue May 23 15:16:01 +0000 2017",
+    "favourites_count": 14702,
+    "utc_offset": null,
+    "time_zone": null,
+    "geo_enabled": false,
+    "verified": false,
+    "statuses_count": 8391,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "F5F8FA",
+    "profile_background_image_url": null,
+    "profile_background_image_url_https": null,
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/867097525735628801/SoL-YeJ0_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/867097525735628801/SoL-YeJ0_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/867036398649475072/1533132654",
+    "profile_link_color": "1DA1F2",
+    "profile_sidebar_border_color": "C0DEED",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "profile_text_color": "333333",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": true,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Mon Oct 22 02:45:41 +0000 2018",
+    "id": 1054202102250160129,
+    "id_str": "1054202102250160129",
+    "full_text": "@GadflyPersia Annnd not a peep from western press!!!\n#Khashoggi\n\n@CNN\n@FoxNews\n@BBCWorld\n@Reuters\n@AP\n@FRANCE24\n@dwnews\n@AFP\n@CBSNews\n@abcnews\n@NewsHour\n@washingtonpost\n@Telegraph\n@BILD\n@lemondefr\n@SkyNews\n@MSNBC\n@nytimesworld\n@RaiNews\n@AlArabiya_Eng",
+    "truncated": false,
+    "display_text_range": [
+      14,
+      250
+    ],
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Khashoggi",
+          "indices": [
+            53,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "GadflyPersia",
+          "name": "شروان فشندی",
+          "id": 979547029675368449,
+          "id_str": "979547029675368449",
+          "indices": [
+            0,
+            13
+          ]
+        },
+        {
+          "screen_name": "CNN",
+          "name": "CNN",
+          "id": 759251,
+          "id_str": "759251",
+          "indices": [
+            65,
+            69
+          ]
+        },
+        {
+          "screen_name": "FoxNews",
+          "name": "Fox News",
+          "id": 1367531,
+          "id_str": "1367531",
+          "indices": [
+            70,
+            78
+          ]
+        },
+        {
+          "screen_name": "BBCWorld",
+          "name": "BBC News (World)",
+          "id": 742143,
+          "id_str": "742143",
+          "indices": [
+            79,
+            88
+          ]
+        },
+        {
+          "screen_name": "Reuters",
+          "name": "Reuters Top News",
+          "id": 1652541,
+          "id_str": "1652541",
+          "indices": [
+            89,
+            97
+          ]
+        },
+        {
+          "screen_name": "AP",
+          "name": "The Associated Press",
+          "id": 51241574,
+          "id_str": "51241574",
+          "indices": [
+            98,
+            101
+          ]
+        },
+        {
+          "screen_name": "FRANCE24",
+          "name": "FRANCE 24",
+          "id": 1994321,
+          "id_str": "1994321",
+          "indices": [
+            102,
+            111
+          ]
+        },
+        {
+          "screen_name": "dwnews",
+          "name": "DW News",
+          "id": 6134882,
+          "id_str": "6134882",
+          "indices": [
+            112,
+            119
+          ]
+        },
+        {
+          "screen_name": "AFP",
+          "name": "AFP news agency",
+          "id": 380648579,
+          "id_str": "380648579",
+          "indices": [
+            120,
+            124
+          ]
+        },
+        {
+          "screen_name": "CBSNews",
+          "name": "CBS News",
+          "id": 15012486,
+          "id_str": "15012486",
+          "indices": [
+            125,
+            133
+          ]
+        },
+        {
+          "screen_name": "abcnews",
+          "name": "ABC News",
+          "id": 2768501,
+          "id_str": "2768501",
+          "indices": [
+            134,
+            142
+          ]
+        },
+        {
+          "screen_name": "NewsHour",
+          "name": "PBS NewsHour",
+          "id": 14437914,
+          "id_str": "14437914",
+          "indices": [
+            143,
+            152
+          ]
+        },
+        {
+          "screen_name": "washingtonpost",
+          "name": "Washington Post",
+          "id": 2467791,
+          "id_str": "2467791",
+          "indices": [
+            153,
+            168
+          ]
+        },
+        {
+          "screen_name": "Telegraph",
+          "name": "The Telegraph",
+          "id": 16343974,
+          "id_str": "16343974",
+          "indices": [
+            169,
+            179
+          ]
+        },
+        {
+          "screen_name": "BILD",
+          "name": "BILD",
+          "id": 9204502,
+          "id_str": "9204502",
+          "indices": [
+            180,
+            185
+          ]
+        },
+        {
+          "screen_name": "lemondefr",
+          "name": "Le Monde",
+          "id": 24744541,
+          "id_str": "24744541",
+          "indices": [
+            186,
+            196
+          ]
+        },
+        {
+          "screen_name": "SkyNews",
+          "name": "Sky News",
+          "id": 7587032,
+          "id_str": "7587032",
+          "indices": [
+            197,
+            205
+          ]
+        },
+        {
+          "screen_name": "MSNBC",
+          "name": "MSNBC",
+          "id": 2836421,
+          "id_str": "2836421",
+          "indices": [
+            206,
+            212
+          ]
+        },
+        {
+          "screen_name": "nytimesworld",
+          "name": "New York Times World",
+          "id": 1877831,
+          "id_str": "1877831",
+          "indices": [
+            213,
+            226
+          ]
+        },
+        {
+          "screen_name": "RaiNews",
+          "name": "Rainews",
+          "id": 14060262,
+          "id_str": "14060262",
+          "indices": [
+            227,
+            235
+          ]
+        },
+        {
+          "screen_name": "AlArabiya_Eng",
+          "name": "Al Arabiya English",
+          "id": 22240612,
+          "id_str": "22240612",
+          "indices": [
+            236,
+            250
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "recent"
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1054167024371417088,
+    "in_reply_to_status_id_str": "1054167024371417088",
+    "in_reply_to_user_id": 979547029675368449,
+    "in_reply_to_user_id_str": "979547029675368449",
+    "in_reply_to_screen_name": "GadflyPersia",
+    "user": {
+      "id": 538681310,
+      "id_str": "538681310",
+      "name": "Darkseid",
+      "screen_name": "DoctorDoom2",
+      "location": "Cardiff, Wales",
+      "description": "Davoud  Rezaei.\nA stranger to any land, but Iran ... 20 yrs in exile.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 260,
+      "friends_count": 111,
+      "listed_count": 7,
+      "created_at": "Wed Mar 28 03:15:31 +0000 2012",
+      "favourites_count": 22878,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 18278,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1044646915906957320/ehYqdvIE_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1044646915906957320/ehYqdvIE_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/538681310/1537898253",
+      "profile_link_color": "FAB81E",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 2,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "lang": "en"
+}
