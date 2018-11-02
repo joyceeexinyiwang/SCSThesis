@@ -24,11 +24,11 @@ scrape tweets [@AP, @AJEnglish] x [event keywords]
 
 
 ### Sat 11/3/2018
-
-
-### Fri 11/2/2018
 - how to scrape friends/follower data? what do we use it for?
 - analyze report
+- read texts (existing knowledge!!)
+
+
 
 ---
 
@@ -45,11 +45,10 @@ improved thread.py
   - many journalists tend to help spread the words
   - discourse often starts with news articles and evolve into larger scope (needs proof)
   - people mentioning make comparisons between concurrent events ('Don Mathews 🌊': '@AP_Politics @AP It [Trump visiting Pittsburgh] reminds me of the Saudi prince inviting Khashoggi’s son to the Palace') 
-  - ??? when someone mentions a news corp, does the news corp decide to respond?
-  -
-  -
-  -
+  - ??? when someone mentions a news corp, does the news corp decide to respond???
 
+data collection issues:
+- @AP includes a bunch of unrelated users and tweets
 
 
 ### Wed 10/31/2018
