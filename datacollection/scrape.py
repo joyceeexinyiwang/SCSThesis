@@ -8,9 +8,9 @@ $ python scrape.py xxx.csv 100000000
 
 import datetime, sys
 import tweepy
-from credentials import getAuth
-from rest_tools import rest_scrape
-from clean import clean
+from tools import credentials as cred
+from tools import rest_tools as rest
+from tools import clean
 
 def run(qFile, maxTweets):   
 
@@ -25,7 +25,7 @@ def run(qFile, maxTweets):
 
     i = 1
 
-    auth = getAuth(i, "app")
+    auth = cred.getAuth(i, "app")
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
     now = datetime.datetime.now()
@@ -33,9 +33,9 @@ def run(qFile, maxTweets):
 
     ## Start Scrapping
     print ('## Running scrape \"{keywords}\" on app #{a})'.format(keywords=str(queries), a=i))
-    ScrapeResults=rest_scrape(queries, api, out_Path + "/by_keywords", int(maxTweets))
+    ScrapeResults=rest.rest_scrape(queries, api, out_Path + "/by_keywords", int(maxTweets))
 
-    clean(out_Path + "/by_keywords",  out_Path +  "/by_dates")
+    clean.clean(out_Path + "/by_keywords",  out_Path +  "/by_dates")
 
 
 def main(argv):

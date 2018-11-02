@@ -3,8 +3,7 @@ from datetime import datetime
 import tweepy
 from tweepy import Stream, OAuthHandler
 from tweepy.streaming import StreamListener
-import credentials as cred
-import stream_tools
+from tools import credentials as cred
 
 class listener(StreamListener):
     def __init__(self, path, fileName, StartDate):

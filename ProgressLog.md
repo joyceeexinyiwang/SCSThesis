@@ -19,29 +19,41 @@
 
 ---
 
-### Fri 11/2/2018
+### Mon 11/5/2018
 scrape tweets [@AP, @AJEnglish] x [event keywords]
-scrape friends/follower data
 
-### Thu 11/1/2018
-a few narratives of information threads
 
-### Wed 10/31/2018
+### Sat 11/3/2018
+
+
+### Fri 11/2/2018
 - how to scrape friends/follower data? what do we use it for?
-- add friends/follower data to ORA
-- build framework based on ideas from 10/28/2018
-
-- empirical observations: narratives of information threads
-  - (from 10/26/2018) some times a person would address multiple news agencies at the same time in a tweet. "@AJEnglish @newsweek blah blah blah..." (e.g. tweet id 1054414678619815938)
-  - (from 10/26/2018) accounts with low follower counts issue strong opinions 
-  - many journalists tend to help spread the words
-
 - analyze report
-  - what what
 
 ---
 
 ## Past
+
+### Fri 11/2/2018
+
+improved thread.py
+- print retweet, quote, reply (from a particular tweet, going *backward*)
+
+**Empirical observations**: narratives of information threads
+  - (from 10/26/2018) some times a person would address multiple news agencies at the same time in a tweet. "@AJEnglish @newsweek blah blah blah..." (e.g. tweet id 1054414678619815938)
+  - (from 10/26/2018) accounts with low follower counts issue strong opinions 
+  - many journalists tend to help spread the words
+  - discourse often starts with news articles and evolve into larger scope (needs proof)
+  - people mentioning make comparisons between concurrent events ('Don Mathews 🌊': '@AP_Politics @AP It [Trump visiting Pittsburgh] reminds me of the Saudi prince inviting Khashoggi’s son to the Palace') 
+  -
+  -
+  -
+  -
+
+
+
+### Wed 10/31/2018
+- wrote thread.py to get short threads of interactions
 
 ### Tue 10/30/2018
 - wrote dedup.py, clean.py, and bydate.py
