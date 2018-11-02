@@ -45,7 +45,7 @@ improved thread.py
   - many journalists tend to help spread the words
   - discourse often starts with news articles and evolve into larger scope (needs proof)
   - people mentioning make comparisons between concurrent events ('Don Mathews 🌊': '@AP_Politics @AP It [Trump visiting Pittsburgh] reminds me of the Saudi prince inviting Khashoggi’s son to the Palace') 
-  -
+  - ??? when someone mentions a news corp, does the news corp decide to respond?
   -
   -
   -
