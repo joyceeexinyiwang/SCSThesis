@@ -2,7 +2,11 @@
 
 """
 $ source activate thesis
-$ python scrape.py xxx.csv 100000000
+$ python scrape.py queries/AJEEnglish_Khashoggi.csv 100000000 0
+$ python scrape.py queries/AP_Khashoggi.csv 100000000 1
+$ python scrape.py queries/AP_tol.csv 100000000 2
+$ python scrape.py queries/PittsburghPG_tol.csv 100000000 1
+
 
 """
 
@@ -12,7 +16,7 @@ from tools import credentials as cred
 from tools import rest_tools as rest
 from tools import clean
 
-def run(qFile, maxTweets):   
+def run(qFile, maxTweets, appN):   
 
     #Create Query list
     queries = ""
@@ -23,7 +27,7 @@ def run(qFile, maxTweets):
     qFilename = qFile[qFile.rindex("/"):qFile.index(".")]
     print ("## Running scrape on file {a}".format(a=qFilename))
 
-    i = 1
+    i = int(appN)
 
     auth = cred.getAuth(i, "app")
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
@@ -40,8 +44,8 @@ def run(qFile, maxTweets):
 
 def main(argv):
   print("")
-  # queries, maxTweet
-  run(argv[0], argv[1])
+  # queries, maxTweet, app number
+  run(argv[0], argv[1], argv[2])
   
 if __name__== "__main__":
   main(sys.argv[1:])

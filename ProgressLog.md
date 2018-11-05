@@ -1,38 +1,69 @@
 
 ## To-do
 
-*What is my hypothesis???*
+*scope down to some specific research questions and start defining some hypothesis.*
 
 **Approach 1: Tracing threads** 
 - Read a sample of individual tweets to make some empirical observations and understand what exactly people tend to write
 - find patterns of how information gets passed on as a news story unfolds
 
 **Approach 2: DNA**
-- mention/retweets/comments 
-- friends and followers
-  - understand the different types of agents in the tweets I collected (journalists? followers of the news agency? bots?)
+- mention/retweets/quote/reply networks
+- friends and followers networks
+  - understand the different types of agents in the tweets I collected (influencers? journalists? followers of the news agency? bots?)
 
 - get ORA pro
 - read "Statistical Analysis of Network Data"
 - read DNA book
 
+Curious: 
+> when the news cycle around Jamal Khashoggi dies down, who is still talking about it, and how are they talking about it?
+
+> read papers (existing knowledge!!)
+
 
 ---
 
+
+### Fri 11/9/2018
+### Thu 11/8/2018
+### Wed 11/7/2018
+**put some numbers behind the observations.**
+To assess the opinion strength of the message you could use these indicators
+a) use of emotional words
+b) use of bold letters
+c) use of capitals
+d) use of excalamation points
+
+### Tue 11/6/2018
+- profile agents and scrape agent data
+- analyze ORA report
+
 ### Mon 11/5/2018
-scrape tweets [@AP, @AJEnglish] x [event keywords]
-
-
-### Sat 11/3/2018
-- how to scrape friends/follower data? what do we use it for?
-- analyze report
-- read texts (existing knowledge!!)
-
-
+profile agents by 
+- profession (news orgs, individual journalist, and others, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
+- influence (high/mid/low profile, by follower number)
+- activeness (how frequently they post on Twitter)
+some example types
+- POTUS (other, high profile, active)
+- NYTimes (news orgs, high profile, active)
+- [@ArturoFernandez](https://twitter.com/ArturoFernandez) (individual journalist, mid profile, active)
+- [Pittsburgh Jewish Chronicle](https://twitter.com/PittJewishChron) (news orgs, mid profile, active)
+- [carolyn limnyuy](https://twitter.com/CarolineBeriny1) (other, low profile, active)
+> which kinds of agents are most common?  
+> how do these agents interact with each other? 
 
 ---
 
 ## Past
+
+
+### Mon 11/5/2018
+- scrape tweets [@AP, @AJEnglish] x [event keywords]
+- [Glossary of graph theory terms](https://en.wikipedia.org/wiki/Glossary_of_graph_theory_terms#Walks)
+
+### Sat 11/3/2018
+- read papers
 
 ### Fri 11/2/2018
 
