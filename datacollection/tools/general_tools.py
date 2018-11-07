@@ -14,7 +14,7 @@ import datetime, time, sys, json
 import tweepy
 from tools import credentials
 
-def getFriends(user_id):
+def getFriends(user_id, api):
 	i = 0
 	auth = credentials.getAuth(i, "app")
 	api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
@@ -57,6 +57,27 @@ def getTimeline(user_id):
 	# 		print(t.retweeted_status.full_text)
 	# 	except:
 	# 		print(t.full_text)
+
+def getAgentByTweet():
+
+	# get user object from Tweet
+
+	# get timeline
+
+	# influence
+	# profession
+	# activeness
+
+	pass
+
+def getAgentsByTweets():
+
+	# loop through each tweet
+	# get agent info for each tweet
+
+	# return a dict mapping agent ID their tweets, and their info
+
+	pass
 
 def getSourceID(user_id):
 	i = 0

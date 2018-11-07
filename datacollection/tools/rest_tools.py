@@ -103,6 +103,74 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=100000, fileName=
     return collectedCounts
 
 
+def rest_scrape_single(t, maxTweets, api):
+    ''' Perform a REST grab of terms '''
+    print("Scraping for \'" + t + "\'.")
+    tweetsPerQry = 100  # this is the max the API permits according to documentation
+    allTweets = []
+
+    # for page in tweepy.Cursor(api.search, q=term, count=tweetsPerQry, tweet_mode='extended').pages():
+    #     # process status here
+    #     allTweets.extend(page)
+
+    # print("Found " + str(len(allTweets)) + " tweets.")
+
+
+    #Check whether more than 450 calls have been done before 15 minutes
+    errors=0
+    sinceId = None
+    max_id = -1 
+    tweetCount = 0
+    count = 0
+    start_time = time.time()
+    while tweetCount < maxTweets:
+        try:
+            count += 1
+            elapsed_time= time.time() - start_time
+            if count>=449:
+                if elapsed_time<=15*60:
+                    print('Tried to do more calls than permited, waiting for {0} seconds'.format(15*60-elapsed_time))
+                    time.sleep(15*60-elapsed_time)
+                    count=0
+                    print('Restarting Stream')
+                    start_time = time.time()                
+            if (max_id <= 0):
+                if (not sinceId):
+                    new_tweets = api.search(q=t, count=tweetsPerQry,tweet_mode='extended')
+                else:
+                    new_tweets = api.search(q=t, count=tweetsPerQry,
+                                            since_id=sinceId,tweet_mode='extended')
+            else:
+                if (not sinceId):
+                    new_tweets = api.search(q=t, count=tweetsPerQry,
+                                            max_id=str(max_id - 1),tweet_mode='extended')
+                else:
+                    new_tweets = api.search(q=t, count=tweetsPerQry,
+                                            max_id=str(max_id - 1),
+                                            since_id=sinceId,tweet_mode='extended')
+            if not new_tweets:
+                print("No more tweets found")
+                break
+            for tweet in new_tweets:
+                allTweets.append(tweet)
+
+            tweetCount += len(new_tweets)
+
+            print(".." + str(tweetCount) + ".", end='', flush=True)
+
+            max_id = new_tweets[-1].id
+        except tweepy.TweepError as e:
+            if (errors<=max_num_errors) and (e.api_code==130 or e.api_code==131 or e.api_code==500 or e.api_code==501 or e.api_code==502 or e.api_code==503):
+                errors+=1
+                print('Error #{0}. Status Code {1}. Waiting for {2} seconds'.format(str(errors),str(e.api_code),str(180*errors)))
+                time.sleep(60*errors)
+                continue
+            else:   #Other error                    
+                # Just exit if any error
+                print("#### Breaking stream cause of some unchecked error : " + str(e))
+                break
+    return allTweets
+
 def rest_rehydrate(tweet_ids, tweetAPI, outPath, fileName):
     ''' Rehydrate tweets provided in tweet_ids. 
     + fileName: specifies the name of the out file'''   

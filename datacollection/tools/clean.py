@@ -1,24 +1,22 @@
 """
 
-depulication and separate twitters by date, sequentially
-
-$ python clean.py input_folder output_path
-
 """
 
 import json, sys, os
+import tweepy
+from tools import newstweet_tools as news
+from tools import credentials as cred
 
-def clean(input_folder, output_path):
 
-    print("## Cleaning {}".format(input_folder))
+def dedup(inputFolder, outputFolder, outputFile):
 
-    # DEDUPLICATION
+    print("## Deduplication")
 
     # read all tweets into lines
     allIDs = set()
     allTweets = []
 
-    for (dirpath, dirnames, filenames) in os.walk(input_folder):
+    for (dirpath, dirnames, filenames) in os.walk(inputFolder):
         for filename in filenames:
             if filename.endswith('.json'): 
                 print("Currently on " + filename, end="")
@@ -30,8 +28,16 @@ def clean(input_folder, output_path):
                             allIDs.add(tweet['id'])
                 print("..." + str(len(allTweets)) + " tweets so far")
 
+    if not os.path.exists(outputFolder):
+        os.makedirs(outputFolder)  
 
-    # SEPARATE BY DATE
+    writeFile(outputFolder, outputFile, allTweets)
+
+    return allTweets
+
+def separateByDate(allTweets, outputFolder):
+
+    print("## Separate tweets by date")
 
     allTweets_dict = {}
 
@@ -44,24 +50,61 @@ def clean(input_folder, output_path):
             allTweets_dict[date] = []
         allTweets_dict[date].append(line.strip())
 
-
-    # WRITE INTO FILES
-
-    print ("## Writing cleaned files into {}".format(output_path))
-
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)  
-
-    writeFile(output_path, "deduped.json", allTweets)
-
     for date in allTweets_dict:
         tweets = allTweets_dict[date]
-        writeFile(output_path, date + ".json", tweets)
+        writeFile(outputFolder, date + ".json", tweets)
 
+    return allTweets_dict
+
+def filter(inputFolder, inputFile, outputFolder, handle, maxTweets, appN):
+
+    print("## Filtering by relevance to @" + handle)
+
+    inTweets = ""
+    with open(inputFolder + "/" + inputFile) as i_file:
+        inTweets = i_file.read()
+    tweets = inTweets.split("\n")
+
+    auth = cred.getAuth(appN, "app")
+    api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+
+    relevantTweets = []
+    irrelevantTweets = []
+
+    for tweet in tweets:
+        print(".", end="")
+        (result, accum) = news.isRelatedToAgency(api, json.loads(tweet), handle)
+        if result:
+            relevantTweets.append(tweet)
+            relevantTweets.extend(accum)
+        else:
+            irrelevantTweets.append(tweet)
+
+    writeFile(inputFolder, "relevant.json", relevantTweets)
+    writeFile(inputFolder, "irrelevant.json", irrelevantTweets)
+
+    return (relevantTweets, irrelevantTweets)
 
 def writeFile(path, filename, tweets):
+    if not os.path.exists(path):
+        os.makedirs(path)
+
     o_file = open(path + "/" + filename, "w")
     o_file.write("\n".join(tweets))
+
+
+
+# def clean(input_folder, output_path):
+
+#     print("## Cleaning {}".format(input_folder), end="")
+#     print (" and writing cleaned files into {}".format(output_path))
+
+#     # DEDUPLICATION
+#     allTweets = dedup(input_folder, output_path)
+
+#     # SEPARATE BY DATE
+#     allTweets_dict = separateByDate(allTweets)
+
 
 def main(argv):
   print("Running")

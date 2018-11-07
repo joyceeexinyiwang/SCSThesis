@@ -26,8 +26,9 @@ Curious:
 
 
 ### Fri 11/9/2018
+
+
 ### Thu 11/8/2018
-### Wed 11/7/2018
 **put some numbers behind the observations.**
 To assess the opinion strength of the message you could use these indicators
 a) use of emotional words
@@ -35,27 +36,60 @@ b) use of bold letters
 c) use of capitals
 d) use of excalamation points
 
-### Tue 11/6/2018
-- profile agents and scrape agent data
-- analyze ORA report
+To prove quantitatively:
+- journalists (especially those who work for the news org) spread the words most effectively --> because their high follower count and that their followers probably share similar views?
+- many accounts with low follower counts express very strong and controversial opinions and stir the pot on a smaller scale
+- many people like to address multiple news agencies at the same time in a tweet. e.g., "@AJEnglish @newsweek blah blah blah..."
+- mentioning seems to be associated with strong reactions, disagreement; retweeting seems to be associated agreement; quoting seems to be associated with a variety of sentiments
 
-### Mon 11/5/2018
+try netmapper stuff
+
+
+
+### Wed 11/7/2018
+
+install ORA pro
+
+ask Dave and Matt for scripts
+
+- profile agents and scrape agent data
+- get ORA dynamic report
+
 profile agents by 
-- profession (news orgs, individual journalist, and others, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
+- profession (news orgs, journalist working for a news org, citizen journalist, and other citizens, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
 - influence (high/mid/low profile, by follower number)
-- activeness (how frequently they post on Twitter)
+- activeness (how frequently they post on Twitter, average tweets in the last n days)
 some example types
 - POTUS (other, high profile, active)
 - NYTimes (news orgs, high profile, active)
 - [@ArturoFernandez](https://twitter.com/ArturoFernandez) (individual journalist, mid profile, active)
 - [Pittsburgh Jewish Chronicle](https://twitter.com/PittJewishChron) (news orgs, mid profile, active)
 - [carolyn limnyuy](https://twitter.com/CarolineBeriny1) (other, low profile, active)
+
 > which kinds of agents are most common?  
 > how do these agents interact with each other? 
+
+
+
 
 ---
 
 ## Past
+
+
+### Tue 11/6/2018
+
+Tried the following data collection approach
+- query by url and filter by quote status to get **quotes**
+- get all tweets with @newsorg and filter by reply status to get **replies**
+- query by a section of the tweet and then filter by retweet status to get **retweets**  
+
+**bug: getting very few tweets**
+
+Ended up using this approach instead
+- scrape tweets by keywords
+- filter tweets by its tracing back to its origin through a chain of retweet/quote/replay. only keep it if it is relevant to something posted by the news corp in question
+- kind of a combination of the keyword-scraping approach and the retweet/quote/reply-scraping approach
 
 
 ### Mon 11/5/2018
