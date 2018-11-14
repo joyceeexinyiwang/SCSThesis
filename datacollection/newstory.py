@@ -2,6 +2,8 @@
 
 python newstory.py data/try sample.json 100000000 0 f PittsburghPG
 
+BUGGY -- NOT USING
+
 """
 
 import datetime, sys, json

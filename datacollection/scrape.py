@@ -2,13 +2,31 @@
 
 """
 $ source activate thesis
-$ python scrape.py queries/AJEEnglish_Khashoggi.csv 100000000 0
-$ python scrape.py queries/AP_Khashoggi.csv 100000000 1
-$ python scrape.py queries/AP_tol.csv 100000000 2
-$ python scrape.py queries/PittsburghPG_tol.csv 100000000 1
 
 $ python scrape.py PittsburghPG queries/tol.csv 100000000 1
-$ python scrape.py AP queries/tol.csv 100000000 1
+$ python scrape.py AP queries/tol.csv 100000000 2
+
+
+TODO:
+
+$ python scrape.py PittsburghPG queries/tol.csv 100000000 1
+$ python scrape.py AP queries/tol.csv 100000000 2
+
+$ python scrape.py nytimes queries/thousandoaks.csv 100000000 0
+$ python scrape.py washingtonpost queries/thousandoaks.csv 100000000 3
+$ python scrape.py latimes queries/thousandoaks.csv 100000000 1
+
+$ python scrape.py nytimes queries/woolseyfire.csv 100000000 4
+$ python scrape.py latimes queries/woolseyfire.csv 100000000 5
+$ python scrape.py ap queries/woolseyfire.csv 100000000 6
+
+
+Move to data folder on drive
+
+$ python scrape.py nytimes queries/thousandoaks_small.csv 100000000 3
+$ python scrape.py washingtonpost queries/thousandoaks_small.csv 100000000 3
+
+
 
 """
 
@@ -55,7 +73,7 @@ def run(handle, qFile, maxTweets, appN):
 
     allTweets = clean.dedup(path + "/by_keywords", path + "/cleaned", "deduped.json")
     (relevantTweets, irrelevantTweets) = clean.filter(path + "/cleaned", "deduped.json", path + "/cleaned", handle, maxTweets, appN)
-    relevantTweets = clean.dedup(path + "/cleaned", path + "/cleaned", "deduped_relevant.json")
+    relevantTweets = clean.dedupFile(path + "/cleaned/relevant.json", path + "/cleaned", "deduped_relevant.json")
     clean.separateByDate(relevantTweets, path + "/by_dates")
 
 

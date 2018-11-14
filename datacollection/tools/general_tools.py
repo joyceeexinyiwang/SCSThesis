@@ -48,9 +48,9 @@ def getTimeline(user_id):
 
 	tweet_str_list = []
 	for t in tweets:
-		tweet_str_list.append(json.dumps(t._json))
+		tweet_str_list.append(t._json)
 
-	writeFile(user_id, tweet_str_list)
+	return tweet_str_list
 
 	# for t in tweets:
 	# 	try:
@@ -99,6 +99,35 @@ def writeEdgeList(filename, user_id, content):
 def writeFile(user_id, tweets):
 	o_file = open(str(user_id) + ".json", "w")
 	o_file.write("\n".join(tweets))
+
+
+def montoNum(mon):
+	if ("Jan" in mon):
+		return 1
+	elif ("Feb" in mon):
+		return 2
+	elif ("Mar" in mon):
+		return 3
+	elif ("Apr" in mon):
+		return 4
+	elif ("May" in mon):
+		return 5
+	elif ("Jun" in mon):
+		return 6
+	elif ("Jul" in mon):
+		return 7
+	elif ("Aug" in mon):
+		return 8
+	elif ("Sep" in mon):
+		return 9
+	elif ("Oct" in mon):
+		return 10
+	elif ("Nov" in mon):
+		return 11
+	elif ("Dec" in mon):
+		return 12
+	else:
+		print("Illigal month string.")
 
 # def main(argv):
 #   print("Running")

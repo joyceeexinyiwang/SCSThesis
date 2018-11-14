@@ -35,6 +35,23 @@ def dedup(inputFolder, outputFolder, outputFile):
 
     return allTweets
 
+def dedupFile(inputFile, outputFolder, outputFile):
+    allIDs = set()
+    allTweets = []
+    with open(inputFile) as i_file:
+        for line in i_file:
+            tweet = json.loads(line)
+            if tweet['id'] not in allIDs:
+                allTweets.append(line.strip())
+                allIDs.add(tweet['id'])
+                
+    if not os.path.exists(outputFolder):
+        os.makedirs(outputFolder)  
+
+    writeFile(outputFolder, outputFile, allTweets)
+
+    return allTweets
+
 def separateByDate(allTweets, outputFolder):
 
     print("## Separate tweets by date")
@@ -79,6 +96,7 @@ def filter(inputFolder, inputFile, outputFolder, handle, maxTweets, appN):
             relevantTweets.extend(accum)
         else:
             irrelevantTweets.append(tweet)
+            relevantTweets.extend(accum)
 
     writeFile(inputFolder, "relevant.json", relevantTweets)
     writeFile(inputFolder, "irrelevant.json", irrelevantTweets)

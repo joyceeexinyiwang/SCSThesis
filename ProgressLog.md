@@ -17,20 +17,15 @@
 - read DNA book
 
 Curious: 
-> when the news cycle around Jamal Khashoggi dies down, who is still talking about it, and how are they talking about it?
-
+> when the news cycle around an event dies down, who is still talking about it, and how are they talking about it?
 > read papers (existing knowledge!!)
+
+- stats classes to take?
 
 
 ---
 
-
-### Fri 11/9/2018
-
-
-### Thu 11/8/2018
-**put some numbers behind the observations.**
-To assess the opinion strength of the message you could use these indicators
+To assess the **opinion strength** of the message you could use these indicators
 a) use of emotional words
 b) use of bold letters
 c) use of capitals
@@ -44,32 +39,59 @@ To prove quantitatively:
 
 try netmapper stuff
 
-
-
-### Wed 11/7/2018
-
-install ORA pro
-
-ask Dave and Matt for scripts
-
-- profile agents and scrape agent data
-- get ORA dynamic report
-
-profile agents by 
-- profession (news orgs, journalist working for a news org, citizen journalist, and other citizens, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
+**Profile agents** by 
+- profession (bot, news orgs, journalist working for a news org, citizen journalist, and other citizens, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
 - influence (high/mid/low profile, by follower number)
 - activeness (how frequently they post on Twitter, average tweets in the last n days)
-some example types
-- POTUS (other, high profile, active)
-- NYTimes (news orgs, high profile, active)
-- [@ArturoFernandez](https://twitter.com/ArturoFernandez) (individual journalist, mid profile, active)
-- [Pittsburgh Jewish Chronicle](https://twitter.com/PittJewishChron) (news orgs, mid profile, active)
-- [carolyn limnyuy](https://twitter.com/CarolineBeriny1) (other, low profile, active)
 
-> which kinds of agents are most common?  
-> how do these agents interact with each other? 
+> bot detection
+
+> news agency detection
+
+> which kinds of agents are most common?
+
+> how do these agents interact with each other?
+
+existing ways to profile agents:
+???
 
 
+### Friday 11/16/2018
+Observations
+
+### Thursday 11/15/2018
+find topic groups, find active agents, find key stories (who tweets what), find key agents in the stories
+
+### Wednesday 11/14/2018
+
+
+verical and horizonal propagation
+
+vertical stories (tweets on a micro scale) v.s. horizontal stories (tweets on a macro scale)
+
+agent classification:
+- use percentile to set thresholds for influence?
+
+tweet classification:
+- opinion strength
+- rt/quote/reply
+
+thread classification:
+
+
+louvain clustering? (density of topics, density of groups)
+
+collect Stan Lee data (but this is not really news, more like entertainment news)
+
+- ORA pro for Mac doesn't load data, can i get ORA pro for windows
+  - send messages to ORA Google Group (CASOS Ora join group and ask the questions)
+- tools to calculate half-life?
+  - email Kathleen (also schedule monday meeting)
+  - email Sameet
+
+- use Matt's script to detect news agencies
+
+- existing ways to profile agents
 
 
 ---
@@ -77,8 +99,83 @@ some example types
 ## Past
 
 
-### Tue 11/6/2018
+- collect data on ToL, Thousand Oaks, Woolsey fire
+- Some tweets contain an url to a news website, but in the tweet object, the url and the expanded_url are something like "https://t.co/MQcxEaLpwN". Is there a way to detect the source of these urls?
 
+### Tuesday 11/13/2018
+[ORA Google group](https://groups.google.com/forum/#!forum/ora-google-group)
+
+### Monday 11/12/2018
+Article: "Audience Analysis of Major News Accounts on Twitter" (SocialFlow, 2011)
+- written for businesses who want to use social media to reach audiences
+- analysis across the Twitter audiences of Al-Jazeera English, BBC News, CNN, The Economist, Fox News and New York Times
+- "...we see clear content-based and behavioral differences between audiences: users choose to follow news accounts based on the type of content being posted by the account."
+
+[bot-hunter script](http://data-analytics.net/Apps/botApp/)
+- "Note that this model leverages supervised learning and the **training data involves specific bots that attacked NATO in the Summer of 2017**. This means that it is primarily looking for this type of bot, and will not necessarily find many other types."
+
+Generate dynamic networks in ORA:
+- when importing Twitter data, aggregate by time
+- to generate dynamic reports, make sure the "Meta-Network Time" field is activated
+- "Measure Charts" is also helpful for looking at temporal stuff
+
+
+### Sunday 11/11/2018
+half-life of tweets
+- Bit.ly has done research in defining half-life of tweets (https://searchenginewatch.com/sew/study/2108186/bitly-links-hour-half-life-study)
+- ([link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3278109/)) "The tweeted half-life (THLn) is defined as the point in time after publication by which half of all tweetations of that article within the first n days occur. As n I have used 30 days—that is, as the denominator I chose the total cumulative number of tweets within a 30-day period following the publication date. The THLn is the day when cumulatively half of these tweetations have occurred."
+  - "tweetation" = a citation in a tweet (mentioning an article URL), a unit of engagement 
+- the article below (Castillo, 2014) has more specific info about half-life 
+
+Article: "Characterizing the Life Cycle of Online News Stories Using Social Media Reactions" (Castillo, 2014)
+- RELATED WORKS SECTION: past works surrounding patterns of consumption of online news
+  - behavioral patterns of consumption of online news/behavioral-driven article classification
+  - prediction of user activities and real-world variables using social media signals (nice table of predictive models in past works)
+- classification of articles and their online traffic patterns
+- predictive modeling of shelf-life (time passed between its 1rst visit and the time at which it has received a fraction tau of the visits it will ever receive. In this work we set tau = 0:90)
+- (Twitter free API only provides partial coverage)
+- result: social media signals can improve by a large margin the accuracy of predictions of future visits, as well as the accuracy of predictions of article shelf-life.
+- interesting citations: 8, 19, 4, 26, 31, 23, 15, 14
+
+> in the context of news, what is deemed share-worthy by the public? What information is informationally rich but doesn't get shared much?
+
+
+### Friday 11/9/2018
+New events:
+- Thousand Oaks shooting data collection (@washingtonpost, @latimes)
+- Woosley fires (@washingtonpost, @latimes)
+
+profiling agents **NAIVELY** 
+- profession (by whether description contains keywords)
+  - keywords = ["news", "newsroom", "columnist", "journalist", "reporter"]
+- influence (by sum of followers and friends numbers)
+  - "vlow" < 200; 200 <= "low" < 2000; 2000 <= "mid" < 100000; "high" < 100000
+- activeness (by number of tweets in the month leading up to the event)
+  - "inactive" < 10; 10 <= "active" < 50; "veryactive" > 50 
+
+some example types based on the naive profiling scheme
+- POTUS (other, high profile, active)
+- NYTimes (news orgs, high profile, active)
+- [@ArturoFernandez](https://twitter.com/ArturoFernandez) (individual journalist, mid profile, active)
+- [Pittsburgh Jewish Chronicle](https://twitter.com/PittJewishChron) (news orgs, mid profile, active)
+- [carolyn limnyuy](https://twitter.com/CarolineBeriny1) (other, low profile, active)
+
+
+
+
+Interesting article: [Reuters’ new algorithm confirms once and for all that Twitter is the best place to find news](https://www.digitaltrends.com/social-media/reuters-algorithm/)
+- "biggest (and most important) challenge when developing the algorithm was figuring out what events were newsworthy and not spam"
+- Reg Chua, executive editor for data and innovation at Reuters: "We can’t be at everything. Our tool helps shift some of the burden of witnessing and lets journalists do much more of the high value-added work."
+- same story covered by [NiemanLab](http://www.niemanlab.org/2016/11/reuters-built-its-own-algorithmic-prediction-tool-to-help-it-spot-and-verify-breaking-news-on-twitter/) and [Columbia Journalism Review](https://www.cjr.org/analysis/cyborg_virtual_reality_reuters_tracer.php) written by computer scientist/journalist [Jonathan Stray](http://jonathanstray.com/me).
+
+### Thu 11/8/2018
+ask Dave and Matt for scripts
+
+
+### Wed 11/7/2018
+installed ORA pro
+
+### Tue 11/6/2018
 Tried the following data collection approach
 - query by url and filter by quote status to get **quotes**
 - get all tweets with @newsorg and filter by reply status to get **replies**
