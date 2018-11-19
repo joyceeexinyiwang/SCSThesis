@@ -1,4 +1,4 @@
-russiainsider,True
+s = """russiainsider,True
 therussophile,True
 cnn_trending,True
 100percfedup,True
@@ -6564,3 +6564,12 @@ ahmalcolm,True
 glennbeck,True
 donnabrazile,True
 davidcorndc,True
+"""
+
+l = s.strip().split("\n")
+woop = set()
+for a in l:
+	woop.add(a.split(",")[0])
+print(len(l))
+print(len(woop))
+print(woop)

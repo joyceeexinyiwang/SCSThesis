@@ -55,15 +55,18 @@ try netmapper stuff
 existing ways to profile agents:
 ???
 
+Lauvain Clustering
 
-### Friday 11/16/2018
+
+### Thanksgiving
 Observations
 
-### Thursday 11/15/2018
+### Tuesday 11/20/2018
 find topic groups, find active agents, find key stories (who tweets what), find key agents in the stories
 
-### Wednesday 11/14/2018
+collect data on ToL, Thousand Oaks, Woolsey fire
 
+### Monday 11/19/2018
 
 verical and horizonal propagation
 
@@ -81,15 +84,11 @@ thread classification:
 
 louvain clustering? (density of topics, density of groups)
 
-collect Stan Lee data (but this is not really news, more like entertainment news)
-
 - ORA pro for Mac doesn't load data, can i get ORA pro for windows
   - send messages to ORA Google Group (CASOS Ora join group and ask the questions)
 - tools to calculate half-life?
   - email Kathleen (also schedule monday meeting)
   - email Sameet
-
-- use Matt's script to detect news agencies
 
 - existing ways to profile agents
 
@@ -98,7 +97,26 @@ collect Stan Lee data (but this is not really news, more like entertainment news
 
 ## Past
 
+use Matt's script to detect news agencies
 
+Measure User Influence:
+- [Measuring User Influence in Twitter: The Million Follower Fallacy](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/viewFile/1538/1826,2011)
+  - findings:
+    - 1) popular users who have high indegree are not necessarily influential in terms of spawning retweets or mentions
+    - 2) most influential users can hold significant influence over a variety of topics
+    - 3) influence is not gained spontaneously or accidentally, but through concerted effort such as limiting tweets to a single topic
+  - "Indegree represents popularity of a user; retweets represent the content value of one’s tweets; and mentions represent the name value of a user. Hence, the top users based on the three measures have little overlap"
+- [Classifying Latent User Attributes in Twitter](http://delivery.acm.org/10.1145/1880000/1871993/p37-rao.pdf?ip=128.237.170.101&id=1871993&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648705_e652767f0dd4e39c7359b1ab6663cf46)
+- [Follow the Green: Growth and Dynamics in Twitter Follower Markets](http://delivery.acm.org/10.1145/2510000/2504731/p163-stringhini.pdf?ip=128.237.170.101&id=2504731&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648728_fcb4a5cf876627e04a630ca19f1bc15a)
+- [Everyone’s an Influencer: Quantifying Influence on Twitter](http://delivery.acm.org/10.1145/1940000/1935845/p65-bakshy.pdf?ip=128.237.170.101&id=1935845&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648733_f1b3735c2c5624eca9c76030e2ac3c1b)
+
+
+### Friday 11/16/2018
+Twitter data research ethics: *Is it okay if we look at individual's tweets and try to profile them as individual human beings?*
+
+Research amplifies data, but is that a voluntary amplification?
+
+### Wednesday 11/14/2018
 - collect data on ToL, Thousand Oaks, Woolsey fire
 - Some tweets contain an url to a news website, but in the tweet object, the url and the expanded_url are something like "https://t.co/MQcxEaLpwN". Is there a way to detect the source of these urls?
 
@@ -159,8 +177,6 @@ some example types based on the naive profiling scheme
 - [@ArturoFernandez](https://twitter.com/ArturoFernandez) (individual journalist, mid profile, active)
 - [Pittsburgh Jewish Chronicle](https://twitter.com/PittJewishChron) (news orgs, mid profile, active)
 - [carolyn limnyuy](https://twitter.com/CarolineBeriny1) (other, low profile, active)
-
-
 
 
 Interesting article: [Reuters’ new algorithm confirms once and for all that Twitter is the best place to find news](https://www.digitaltrends.com/social-media/reuters-algorithm/)
