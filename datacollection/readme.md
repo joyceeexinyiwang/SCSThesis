@@ -8,7 +8,7 @@ To stream data:
 `python stream.py keywords.csv`
 
 To read trace the origin of tweets:
-`python thread.py tweets.json maxTweets`
+`python thread.py tweets.json maxTweets appNumber`
 
 To query agents from tweets:
 `python agents.py inputFolder`

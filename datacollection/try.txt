@@ -7,558 +7,133 @@ Extracted threads from try.json and writing into try.txt
 
 -
 
-'ChikoritaPropaganda': "Serious question.  I've now lived/voted in 3 #Pittsburgh suburbs and they have NEVER had #Ivoted stickers WHY?????????? Always got them in Ohio.  \nPittsburgh votes … and collects 'I Voted' stickers https://t.co/nxdT4tneJf via @PittsburghPG"
+latimes: journalism, high influence, very_active: 
+'RT @boreskes: NEWS #hillfire:  The 101 Freeway is closed in both directions from the Camarillo Springs Road to Ventu Park Road, according t…'
 
--
-
-'Jessie Wardarski': '“It was a rush to just be able to choose who’s going to be representing me in my government.” It was Olivia’s first time voting! Outside of Church of the Epiphany Tuesday, Nov. 6, 2018. @PGVisuals @PittsburghPG #Pittsburgh #MidtermElection2018 https://t.co/vF6rjwHWex'
-
--
-
-'Sharon Eberson': 'New nonprofit awards back innovative training for #Pittsburgh nonprofits https://t.co/SWfqIyFgJk via @PittsburghPG'
-
--
-
-'Claire': 'New nonprofit awards back innovative training for #Pittsburgh #nonprofits &gt;&gt; https://t.co/iVsNRu5k4v via @PittsburghPG'
-
--
-
-'Sue X. 🇺🇸🇮🇪🌎🌊': "As you head to the polls on #ElectionDay remember that the Tree of Life shooting survivors hid among bags of clothes, witnessed some victims' final moments. All this thanks to Trump's hateful rhetoric and bigotry. \n#Pittsburgh #IVoted https://t.co/LZYmx8Fj2c via @PittsburghPG"
-
--
-
-'SharonStacieSteph': '#RobRogers #political #cartoonist fired from #Pittsburgh @PittsburghPG reminds us - yes, we can &amp; should question!  What do you know &amp; how do you know it?! https://t.co/sdlckMJyUR #censorship 1984 #film #JumpCutTheater #artists #Rogers'
-
--
-
-'The Pittsburgh Foundation': 'RT @joyce_gannon: Crowdfunding appeal for #TreeofLife victims: $500,000-plus in four days. “They have made #LoveIsStronger a success, but i…'
-
-   Retweeting...'Joyce Gannon': 'Crowdfunding appeal for #TreeofLife victims: $500,000-plus in four days. “They have made #LoveIsStronger a success, but it is only a first step.” #Pittsburgh #StrongerThanHate\nhttps://t.co/SjJ3WzaxaO via @PittsburghPG'
-
--
-
-'Stephanie Ritenbaugh': 'RT @joyce_gannon: Crowdfunding appeal for #TreeofLife victims: $500,000-plus in four days. “They have made #LoveIsStronger a success, but i…'
-
-   Retweeting...'Joyce Gannon': 'Crowdfunding appeal for #TreeofLife victims: $500,000-plus in four days. “They have made #LoveIsStronger a success, but it is only a first step.” #Pittsburgh #StrongerThanHate\nhttps://t.co/SjJ3WzaxaO via @PittsburghPG'
-
--
-
-'Shelana deSilva': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Joyce Gannon': 'Crowdfunding appeal for #TreeofLife victims: $500,000-plus in four days. “They have made #LoveIsStronger a success, but it is only a first step.” #Pittsburgh #StrongerThanHate\nhttps://t.co/SjJ3WzaxaO via @PittsburghPG'
-
--
-
-'🍁I’ve never been to Boston in the fall🍁': 'RT @CathyCeekay: #Pittsburgh schools have more important things to worry about than @ChickfilA #SMH https://t.co/eFfZzIpAyt via @Pittsburgh…'
-
-   Retweeting...'cathy k': '#Pittsburgh schools have more important things to worry about than @ChickfilA #SMH https://t.co/eFfZzIpAyt via @PittsburghPG'
-
--
-
-'Mel_Storni': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Gretchen McKay': 'Best dishes and drinks in #Pittsburgh right now https://t.co/bMVZgSZDCi via @PittsburghPG'
-
--
-
-'Eben Adams': 'RT @LegalSifter: #Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search to…'
-
-   Retweeting...'LegalSifter': '#Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search tool https://t.co/iS8KPoQ06U via @PittsburghPG'
-
--
-
-'LegalSifter': '#Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search tool https://t.co/iS8KPoQ06U via @PittsburghPG'
-
--
-
-'MarTiger': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'ThinkResist': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Adrienne Hollis': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Rev Yearwood': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Terence Muhammad': 'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
-
-   Retweeting...'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Hip Hop Caucus': "We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
-
--
-
-'Andrew Managh': '#AriMahler #pittsburgh Jewish nurse who treated #PittsburghSynagogue shooter as he would any other patient in the ER! #pittsburgh MayorPeduto treated @POTUS @realDonaldTrump with hatred! Learn from the nurse, mayor @PittsburghPG'
-
--
-
-'WrathofJan': 'RT @howardfineman: This @OnPointRadio hour was very good, especially report from #Pittsburgh by #DavidShribman, my friend and editor of @Pi…'
-
-   Retweeting...'Howard Fineman': 'This @OnPointRadio hour was very good, especially report from #Pittsburgh by #DavidShribman, my friend and editor of @PittsburghPG. https://t.co/WgAckRcBDZ'
-
-      Quoting...'Susan L. Parish': 'Thank you, @MeghnaWBUR @OnPointRadio tonight with @howardfineman @TheRaDR &amp; @ShribmanPG re: Pittsburgh #synagogueshooting and growing white #Nationalism in America. If you missed their thoughtful, compelling discussion, listen here: https://t.co/TeztfMfeQK https://t.co/JzfoJKiP3m'
-
--
-
-'Béatrice Strouf': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Zach Funk': 'Loving our fall colors this year in #Pittsburgh #pghlocal @PittsburghPG @PGHCityPaper @vstpgh @PittsburghMag @CityPGH @ImaginePgh @LivingPgh https://t.co/nzk0BQH7ye'
-
--
-
-'Brigitte Salama': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Alexandre Leduc': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'lubica jolly': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'chouquette #NS #LW matricule 275': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Christophe Cerutti': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Darrieux Sophie': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Hervé Torchet': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'rivet': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Benjamin de Grave': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'ישראל היא ארצי': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Anne D. ن†✡🇫🇷⭐️⭐️': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'Naomi is Drafting, Drafting Away': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'ניצה 🇮🇱': 'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
-   Retweeting...'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'i24NEWS Français': 'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
-
--
-
-'jose guaipo': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Tel_Jai': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'KariRappo': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Daniel Brenner': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
+   Retweeting...boreskes: unknown, low influence, very_active: 
+   'NEWS #hillfire:  The 101 Freeway is closed in both directions from the Camarillo Springs Road to Ventu Park Road, according to Ventura Fire Captain Stan Ziegler.'
 
-'Daniel Brenner': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
-
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
-
--
-
-'quinn': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
-
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
-
--
-
-'Elizabeth': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
-
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
-
--
-
-'Dan Acton 🇺🇸🇮🇱 #JobsNotMobs': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
-
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
-
--
-
-'marcelo fridlenderis': 'RT @AssafMoran: El titular del periódico líder en #Pittsburgh @PittsburghPG esta mañana. \nCita en hebreo la primera frase de una oración ju…'
-
-   Retweeting...'Assaf Moran 🇮🇱': 'El titular del periódico líder en #Pittsburgh @PittsburghPG esta mañana. \nCita en hebreo la primera frase de una oración judía, #Kaddish, al traer a alguien para el entierro.\n#PittsburghSynagogue #PittsburghSynagogueShooting https://t.co/Q27LRDRRNy'
-
--
-
-'Rene Pereira Salinas': 'RT @samyschwartz: Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado a…'
-
-   Retweeting...'Samy Schwartz': 'Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado antisemita: en letras hebreas, el comienzo del Kadish, la oración por los muertos.  “Magnificado y santificado sea tu nombre “ @PittsburghPG https://t.co/XBpH8NjjDB'
-
--
-
-'Barry Grossman': 'First Shabbat services held since Tree of Life massacre #Pittsburgh https://t.co/LLwi9F3Kt0 via @PittsburghPG'
-
--
-
-'Andrew Managh': 'This woman is the epitome of deranged lunatic left! In @PittsburghPG she’s a leader in the Hate Trump movement! She represents @TheDemocrats leadership in #pittsburgh the same cowards who dogged meeting @POTUS https://t.co/dyIpaHgYxM'
-
-   Quoting...'Amy Mek': 'God Help Her!\n\nPresbyterian Lunatic "Minister" Susan Rothenberg screams at Trump as he pays respects to Victims of Synagogue Massacre\n\n"We welcome everybody here!" the minister screams at Trump. She followed up her invitation to "everybody" with, "You\'re not welcome on my street" https://t.co/XYNi7FYGql'
-
--
-
-'Boris.S.GómezÚzqueda': 'RT @samyschwartz: Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado a…'
-
-   Retweeting...'Samy Schwartz': 'Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado antisemita: en letras hebreas, el comienzo del Kadish, la oración por los muertos.  “Magnificado y santificado sea tu nombre “ @PittsburghPG https://t.co/XBpH8NjjDB'
-
--
-
-'Walter Morales': 'RT @samyschwartz: Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado a…'
-
-   Retweeting...'Samy Schwartz': 'Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado antisemita: en letras hebreas, el comienzo del Kadish, la oración por los muertos.  “Magnificado y santificado sea tu nombre “ @PittsburghPG https://t.co/XBpH8NjjDB'
-
--
-
-'IsaNoFear ❤💛💚': 'RT @samyschwartz: Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado a…'
-
-   Retweeting...'Samy Schwartz': 'Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado antisemita: en letras hebreas, el comienzo del Kadish, la oración por los muertos.  “Magnificado y santificado sea tu nombre “ @PittsburghPG https://t.co/XBpH8NjjDB'
-
--
-
-'Samy Schwartz': 'Impresionante homenaje del Periódico @PittsburghPG  #Pittsburgh  #USA en memoria de las 11 victimas judías del atentado antisemita: en letras hebreas, el comienzo del Kadish, la oración por los muertos.  “Magnificado y santificado sea tu nombre “ @PittsburghPG https://t.co/XBpH8NjjDB'
-
--
-
-'Ken 🤷🏻\u200d♂️': 'H/T @PittsburghPG and all the good people of #Pittsburgh and all who grieve. #LoveNotHate https://t.co/zuA8IXfnML'
-
--
-
-'Twteo': 'RT @UnitedHatzalah: UH #Psychotrauma and Crisis Response Team is en route to #Pittsburgh in order to aid the community and treat the victim…'
-
-   Retweeting...'United Hatzalah': "UH #Psychotrauma and Crisis Response Team is en route to #Pittsburgh in order to aid the community and treat the victims, witnesses and community members who were affected by yesterday's attack. @IsraelMFA @JewishNewsUSA @JBusinessNews @JewishPress @PittsburghPG @PittJewishChron https://t.co/nblvdrIuIJ"
-
--
-
-'Danielle Finkel': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Barry Grossman': 'ICYMI Viral video of Pittsburgh pastor screaming at Trump motorcade creates backlash #Pittsburgh #PittsburghStrong https://t.co/mBVgrpUfGo via @PittsburghPG'
-
--
-
-'Kevin H.': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Wendy Ragsdale': "The headlines of today's Pittsburgh Post-Gazette\n@MichaelKeaton  #Pittsburgh #Pittsburghpg https://t.co/tOHy29mi2S"
-
--
-
-'Don': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Assaf Moran 🇮🇱': 'El titular del periódico líder en #Pittsburgh @PittsburghPG esta mañana. \nCita en hebreo la primera frase de una oración judía, #Kaddish, al traer a alguien para el entierro.\n#PittsburghSynagogue #PittsburghSynagogueShooting https://t.co/Q27LRDRRNy'
-
--
-
-'Ailsa "Vote Them All Out" Hermann-Wu🌈✡吳': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Casey Darnell': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'David Flores 🇵🇷': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Robbin Simmons': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'VoteSaveAmerica November 6th!': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Sarah': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'David Beard': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'(((Berko)))': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'ıqqɐɹ ǝbǝןןoɔ ǝɥʇ': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
-
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
-
--
-
-'(((WernerBremen)))': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Francisco Taveira': '.@CNN’s Kate Bolduan was moved to tears when Friday’s @PittsburghPG published a very different kind of front page headline. https://t.co/4oHTv49pha #UnitedStates #Pittsburgh'
-
--
-
-'bettypol': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Damaso Reyes': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Saul Seguel Palma': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'Jozsef': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
-
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
-
--
-
-'mapmaker97': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
--
-
-'Indira Lakshmanan': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
 -
-
-'Tammy Garrison': '@jodikantor @PittsburghPG @catrineinhorn I am a Christian. I am not Jewish, but today I am.  This week I am.  This Sabbath, I am. #Pittsburgh #jewish'
 
-   Replying to...'jodikantor': 'The headline of the @PittsburghPG is the Kaddish. The ultimate tribute to the victims. A statement that Jews belong. (via @catrineinhorn) https://t.co/FOI8Lldt7H'
+knittingknots: unknown, low influence, very_active: 
+'Another Cal fire  #HillFire\n\nWildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/PVYdYqxrZh'
 
 -
 
-'Daniel C. Vock': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+K38rescue: unknown, low influence, very_active: 
+'RT @JonLaird87: Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillF…'
 
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+   Retweeting...JonLaird87: unknown, low influence, very_active: 
+   'Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillFire'
 
 -
 
-'John Roman': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+JonLaird87: unknown, low influence, very_active: 
+'Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillFire'
 
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
 -
 
-'Yvonne Wenger': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+ValentinaInLA: unknown, low influence, very_active: 
+'Un pericoloso incendio in Nord California ha già causato l’evacuazione di migliaia di persone. Il ferimento di alcune e la distruzione di alcune strutture @rainews @antdibella Camp fire burning in Northern California forces thousands to evacuate https://t.co/ikaV9WtgjL'
 
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
 -
 
-'Teresa Lindeman': 'Uber hoping to resume self-driving car tests in #Pittsburgh months after fatal Arizona accident. #autonomous @PittsburghPG\n\nhttps://t.co/9mQ5EhnvZJ https://t.co/XfAYw1JY3s'
+latimes: journalism, high influence, very_active: 
+'Evacuations ordered in Northern California as fast-moving wildfire spreads https://t.co/maJPdWvAjA https://t.co/oTLF48lMVf'
 
 -
-
-'Patricia Degen': 'RT @SharonMcGowanDC: I am coming to understand more with each passing day why there is such pride among those who have ever called #Pittsbu…'
 
-   Retweeting...'Sharon_McGowan': 'I am coming to understand more with each passing day why there is such pride among those who have ever called #Pittsburgh home.  As #TreeofLife continues to bury their dead, this show of love, support and respect for the Jewish community from @PittsburghPG  is incredibly moving. https://t.co/22jiEz7bVX'
+ValentinaInLA: unknown, low influence, very_active: 
+'Un secondo fronte del fuoco anche in sud California. Evacuazione in corso @RaiNews Wildfire burning near Newbury Park in Ventura County prompts evacuations and freeway closure https://t.co/vN8j5sqURx'
 
-      Quoting...'jodikantor': 'The headline of the @PittsburghPG is the Kaddish. The ultimate tribute to the victims. A statement that Jews belong. (via @catrineinhorn) https://t.co/FOI8Lldt7H'
-
 -
 
-'DESAPABULLADA': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
+latimes: journalism, high influence, very_active: 
+"Here's what we know now about the #CampFire in Northern California https://t.co/maJPdWNbb8 https://t.co/nG8bwv1eSR"
 
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+   Quoting...paigestjohn: unknown, low influence, very_active: 
+   'Abandoned cars blocking escape route, fire truck trying to bump them out of the way, bulldozer called to help clear the way https://t.co/6VkgkVuT2H'
 
 -
 
-'DESAPABULLADA': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+latimes: journalism, high influence, very_active: 
+'Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https://t.co/maJPdWNbb8\n\nFollow @paigestjohn for updates fro the fire. https://t.co/C1L9ZpApdH'
 
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+   Quoting...paigestjohn: unknown, low influence, very_active: 
+   'Area of Butte fire as residents flee south on Skyway. NB through Magilia is gridlocked. Flames overtaking vehicles on Clark https://t.co/Rjfap7u075'
 
 -
-
-'writewhale': 'RT @SharonMcGowanDC: I am coming to understand more with each passing day why there is such pride among those who have ever called #Pittsbu…'
 
-   Retweeting...'Sharon_McGowan': 'I am coming to understand more with each passing day why there is such pride among those who have ever called #Pittsburgh home.  As #TreeofLife continues to bury their dead, this show of love, support and respect for the Jewish community from @PittsburghPG  is incredibly moving. https://t.co/22jiEz7bVX'
-
-      Quoting...'jodikantor': 'The headline of the @PittsburghPG is the Kaddish. The ultimate tribute to the victims. A statement that Jews belong. (via @catrineinhorn) https://t.co/FOI8Lldt7H'
-
--
+latimes: journalism, high influence, very_active: 
+'The Ventura County Fire Department said a family hotline number has been established for those still waiting to hear back from loved ones (805) 465-6650. https://t.co/mWKxujuMMo'
 
-'Yinz Bot': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+   Replying to...latimes: journalism, high influence, very_active: 
+   'This morning, family members of people who may have been at the Borderline Bar &amp; Grill Wednesday night wait for answers at the Thousand Oaks Teen Center https://t.co/WDgOVV8rr4'
 
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+      Quoting...sarahparvini: unknown, low influence, very_active: 
+      'Ventura county sheriff PIO said there’s about 50-60 people in the center, family and friends. This is where people will find out whether a loved one was killed or injured in the #borderlinebarshooting https://t.co/4c2CW1elE1'
 
--
+      Replying to...latimes: journalism, high influence, very_active: 
+      'He didn’t have any ID on him but the man was 29,  heavily tattooed, drove his mother’s car to the attack and said nothing during the shooting. He was found down with a gunshot wound when the officers entered the building. https://t.co/oLOZU7fTZ1'
 
-'Arie Han': 'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+         Replying to...latimes: journalism, high influence, very_active: 
+         'Authorities have not disclosed the suspect’s name, but a law enforcement source reported that he was armed with a Glock .45 handgun and some type of smoke device. https://t.co/RnquLSw1Mz'
 
-   Retweeting...'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+            Replying to...latimes: journalism, high influence, very_active: 
+            'A motive in the shooting was not immediately clear, but Ventura County Sheriff Geoff  Dean said there was no evidence linking the attack to terrorism.'
 
--
+               Replying to...latimes: journalism, high influence, very_active: 
+               'Helus’s body will be  escorted from the hospital to the medical examiner’s office in Ventura this morning. https://t.co/yZSIZUiCvC'
 
-'Laura Goldman': 'Thank you @PittsburghPG @penguins @steelers for fighting #Antisemitism with love and acceptance I will never forget it The Hebrew words in the headline are the beginning of the Jewish prayer of mourning #Pittsburgh https://t.co/68XMEHLJsE'
+                  Replying to...latimes: journalism, high influence, very_active: 
+                  'He was shot multiple times and died at Los Robles Regional Medical Center. https://t.co/LvXNAM4cnn'
 
--
+                     Quoting...andreamcastillo: unknown, low influence, very_active: 
+                     'I’m at Los Robles Regional Medical Center, where Sgt. Ron Helus was taken after he was shot. He died here a short while ago of multiple gunshot wounds. He’d been with the sheriff’s department for 29 years. #Borderline'
 
-'Yinz Bot': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
+                     Replying to...latimes: journalism, high influence, very_active: 
+                     'Sgt. Sgt. Ron Helus called his wife before entering the scene, telling her he loved her. A 29-year veteran of the department, Helus was planning to retire next year.https://t.co/ax187R6bnz'
 
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+                        Replying to...latimes: journalism, high influence, very_active: 
+                        '“I thought for a minute that, maybe, I won’t make it out,” said Erika Sigman, Cal State Channel Islands student who was at the bar celebrating a birthday. https://t.co/udGYw7kquQ'
 
--
+                           Replying to...latimes: journalism, high influence, very_active: 
+                           '“He just pulled out a gun and shot my friend that was working the front desk,” said Holden Harrah, 21, who has been visiting the bar for 6 months. https://t.co/XMKyyEtT0y'
 
-'Daniel Brenner': '¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+                              Replying to...latimes: journalism, high influence, very_active: 
+                              'He then threw smoke bombs into the bar and shot into a crowd of hundreds, killing 12 people. One of those killed was a Ventura County Sheriff’s Department sergeant responding to the shooting. \nhttps://t.co/OyYqXmmfDD'
 
--
+                                 Replying to...latimes: journalism, high influence, very_active: 
+                                 'The gunman was dressed in black when he burst into the Borderline Bar &amp; Grill, a country-music-themed venue that is popular with college students, around 11:20 p.m., according to Sheriff Geoff Dean. https://t.co/YTwPcmksus https://t.co/DZ7hapTqAm'
 
-'SONY GIRÓN 🎄🎄🎄': 'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
+                                    Replying to...latimes: journalism, high influence, very_active: 
+                                    'Authorities have not yet identified the gunman, who died in the incident, or any of the victims inside the bar. We are updating this page as we learn new information. https://t.co/LN8o4z0h9X'
 
-   Retweeting...'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+                                       Replying to...latimes: journalism, high influence, very_active: 
+                                       "Here's what we know about the shooting in Thousand Oaks, CA last night where a gunman killed 12 people. https://t.co/1DFIBM4BIv"
 
 -
 
-'Daniel Brenner': 'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+PhyllisKStein: unknown, min influence, very_active: 
+'Evacuations ordered in Northern California as fast-moving wildfire spreads - Los Angeles Times https://t.co/ZKWmwz2fSV'
 
 -
 
-'Robert Laubach': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+MademoiselleRe5: unknown, low influence, very_active: 
+'RT @shelbygrad: On a normal day, this would be the scariest photo from California. Not today... https://t.co/lgMAfbS1u4 https://t.co/0vEHbl…'
 
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+   Retweeting...shelbygrad: unknown, mid influence, very_active: 
+   'On a normal day, this would be the scariest photo from California. Not today... https://t.co/lgMAfbS1u4 https://t.co/0vEHbljTXE'
 
 -
 
-'Nancy Barnes': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+AnneCMulkern: unknown, low influence, very_active: 
+'RT @latimes: Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https:/…'
 
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
+   Retweeting...latimes: journalism, high influence, very_active: 
+   'Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https://t.co/maJPdWNbb8\n\nFollow @paigestjohn for updates fro the fire. https://t.co/C1L9ZpApdH'
 
--
-
-'Kira Grunenberg 🎲': 'Cheers to you #Pittsburgh and an extra round of applause for the wonderfully tenacious folks of the @PittsburghPG. \n\n#StrongerThanHate #Journalism #FrontPage #Headlines https://t.co/Gaj5dAaKAM'
+      Quoting...paigestjohn: unknown, low influence, very_active: 
+      'Area of Butte fire as residents flee south on Skyway. NB through Magilia is gridlocked. Flames overtaking vehicles on Clark https://t.co/Rjfap7u075'
 
-   Quoting...'Rich Lord': 'In 13 years @PittsburghPG I have never seen a front page quite like this one. https://t.co/NcKJpwstmL'
-
 -
-
-'Naomi Gingold': 'RT @dabeard: What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'
-
-   Retweeting...'David Beard': 'What a front page this morning from the @PittsburghPG #Pittsburgh #StrongerThanHate h/t @eramshaw https://t.co/X2b8wSq91C'

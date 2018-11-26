@@ -8,17 +8,19 @@ $ python scrape.py AP queries/tol.csv 100000000 2
 
 
 TODO:
+$ python scrape.py AJEnglish queries/khashoggi.csv 100000000 1
+$ python scrape.py AP queries/Khashoggi.csv 100000000 1
 
-$ python scrape.py PittsburghPG queries/tol.csv 100000000 1
-$ python scrape.py AP queries/tol.csv 100000000 2
+$ python scrape.py PittsburghPG queries/tol.csv 100000000 0
+$ python scrape.py AP queries/tol.csv 100000000 1
 
-$ python scrape.py nytimes queries/thousandoaks.csv 100000000 0
+$ python scrape.py nytimes queries/thousandoaks.csv 100000000 2
 $ python scrape.py washingtonpost queries/thousandoaks.csv 100000000 3
-$ python scrape.py latimes queries/thousandoaks.csv 100000000 1
+$ python scrape.py latimes queries/thousandoaks.csv 100000000 4
 
-$ python scrape.py nytimes queries/woolseyfire.csv 100000000 4
-$ python scrape.py latimes queries/woolseyfire.csv 100000000 5
-$ python scrape.py ap queries/woolseyfire.csv 100000000 6
+$ python scrape.py nytimes queries/woolseyfire.csv 100000000 5
+$ python scrape.py latimes queries/woolseyfire.csv 100000000 6
+$ python scrape.py ap queries/woolseyfire.csv 100000000 0
 
 
 Move to data folder on drive

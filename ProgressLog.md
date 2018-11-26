@@ -25,12 +25,6 @@ Curious:
 
 ---
 
-To assess the **opinion strength** of the message you could use these indicators
-a) use of emotional words
-b) use of bold letters
-c) use of capitals
-d) use of excalamation points
-
 To prove quantitatively:
 - journalists (especially those who work for the news org) spread the words most effectively --> because their high follower count and that their followers probably share similar views?
 - many accounts with low follower counts express very strong and controversial opinions and stir the pot on a smaller scale
@@ -52,21 +46,14 @@ try netmapper stuff
 
 > how do these agents interact with each other?
 
-existing ways to profile agents:
-???
-
-Lauvain Clustering
-
-
 ### Thanksgiving
 Observations
 
-### Tuesday 11/20/2018
 find topic groups, find active agents, find key stories (who tweets what), find key agents in the stories
 
 collect data on ToL, Thousand Oaks, Woolsey fire
 
-### Monday 11/19/2018
+read reports
 
 verical and horizonal propagation
 
@@ -78,9 +65,14 @@ agent classification:
 tweet classification:
 - opinion strength
 - rt/quote/reply
+To assess the **opinion strength** of the message you could use these indicators
+a) use of emotional words
+b) use of bold letters
+c) use of capitals
+d) use of excalamation points
+
 
 thread classification:
-
 
 louvain clustering? (density of topics, density of groups)
 
@@ -90,12 +82,14 @@ louvain clustering? (density of topics, density of groups)
   - email Kathleen (also schedule monday meeting)
   - email Sameet
 
-- existing ways to profile agents
-
 
 ---
 
 ## Past
+
+### Monday 11/19/2018
+
+[Statistics How To](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/)
 
 use Matt's script to detect news agencies
 
@@ -105,8 +99,14 @@ Measure User Influence:
     - 1) popular users who have high indegree are not necessarily influential in terms of spawning retweets or mentions
     - 2) most influential users can hold significant influence over a variety of topics
     - 3) influence is not gained spontaneously or accidentally, but through concerted effort such as limiting tweets to a single topic
-  - "Indegree represents popularity of a user; retweets represent the content value of one’s tweets; and mentions represent the name value of a user. Hence, the top users based on the three measures have little overlap"
+  - "Indegree represents popularity of a user; retweets represent the content value of one’s tweets; and mentions represent the name value of a user." ... "retweeting...can typically be identified by the use of RT @username or via @username in tweets...users can respond to (or comment on) other people’s tweets, which we call mentioning. Mentioning is identified by searching for @username in the tweet content, after excluding retweets. A tweet that starts with @username is not broadcast to all followers, but only to the replied user. A tweet containing @username in the middle of its text gets broadcast to all followers."
+  - backgrounds: " opinion leaders in the two-step flow theory (Katz and Lazarsfeld 1955), innovators in the diffusion of innovations theory (Rogers 1962), and hubs, connectors, or mavens in other work (Gladwell 2002)"
+  - [Spearman's **rank correlation** coefficient](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient) --> measure of the strength of the association between two rank sets
+  - "The most followed users span a wide variety of public figures and news sources...most retweeted users were content aggregation services (Mashable, TwitterTips, TweetMeme), businessmen (Guy Kawasaki), and news sites (The New York Times, The Onion)...the most mentioned users were mostly celebrities"
+  - "To get a measure of influence for a *given topic*, we count only the retweets and mentions a user spawned on the given topic."
+  - "For each user, we computed a **single explanatory variable P: the probability that a random tweet posted on Twitter during a 15 day period is a retweet (or a mention) of that user**. Normalizing by the total number of tweets posted on Twitter is essential to cancel out any variable effect on the data and allows the underlying characteristics of the data sets to be compared. For instance, because the Twitter network quadrupled over time in terms of the registered users, the total volume of tweets merely increased over time. Hence, if we didn’t normalize the results, the trend wouldn’t be interesting. Google similarly normalizes the data when analyzing their search trends (Ginsberg et al. 2009)."
 - [Classifying Latent User Attributes in Twitter](http://delivery.acm.org/10.1145/1880000/1871993/p37-rao.pdf?ip=128.237.170.101&id=1871993&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648705_e652767f0dd4e39c7359b1ab6663cf46)
+  - stacked-SVM-based classification algorithms over a rich set of original features, applied to classifying gender, age, regional origin, and political orientation
 - [Follow the Green: Growth and Dynamics in Twitter Follower Markets](http://delivery.acm.org/10.1145/2510000/2504731/p163-stringhini.pdf?ip=128.237.170.101&id=2504731&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648728_fcb4a5cf876627e04a630ca19f1bc15a)
 - [Everyone’s an Influencer: Quantifying Influence on Twitter](http://delivery.acm.org/10.1145/1940000/1935845/p65-bakshy.pdf?ip=128.237.170.101&id=1935845&acc=ACTIVE%20SERVICE&key=A792924B58C015C1%2E5A12BE0369099858%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542648733_f1b3735c2c5624eca9c76030e2ac3c1b)
 
