@@ -1,0 +1,74 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_960_970.txt
+
+---
+---
+---
+
+
+-
+
+PittsburghPG: 
+[OPINION: 0.0/1.0]'RT @PG_PeterSmith: How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students via @pittsburghpg https://t.co/t1CxPw…'
+
+   Retweeting...PG_PeterSmith: 
+   [OPINION: 0.0/1.0]'How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students via @pittsburghpg https://t.co/t1CxPwrhCL'
+
+-
+
+PG_PeterSmith: 
+[OPINION: 0.0/1.0]'How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students via @pittsburghpg https://t.co/t1CxPwrhCL'
+
+-
+
+PittsburghPG: 
+[OPINION: 0.044444444444444446/1.0]'There were warning signs that Robert Bowers was capable of mass murder, but they may have been invisible, except to those in a remote corner of the social media landscape. https://t.co/JZnxkg7fLI'
+
+-
+
+PGHMayors: 
+[OPINION: 0.03333333333333334/1.0]'RT @PittsburghPG: There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landsc…'
+
+   Retweeting...PittsburghPG: 
+   [OPINION: 0.03333333333333334/1.0]'There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landscape. https://t.co/nIR2ERCFit https://t.co/DBqMkPPrOm'
+
+-
+
+tedsbear1: 
+[OPINION: 0.03333333333333334/1.0]'RT @PittsburghPG: There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landsc…'
+
+   Retweeting...PittsburghPG: 
+   [OPINION: 0.03333333333333334/1.0]'There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landscape. https://t.co/nIR2ERCFit https://t.co/DBqMkPPrOm'
+
+-
+
+skinnztv: 
+[OPINION: 0.03333333333333334/1.0]'RT @PittsburghPG: There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landsc…'
+
+   Retweeting...PittsburghPG: 
+   [OPINION: 0.03333333333333334/1.0]'There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landscape. https://t.co/nIR2ERCFit https://t.co/DBqMkPPrOm'
+
+-
+
+PittsburghPG: 
+[OPINION: 0.03333333333333334/1.0]'There were warning signs, but they may have been invisible, except to those in a remote corner of the social media landscape. https://t.co/nIR2ERCFit https://t.co/DBqMkPPrOm'
+
+-
+
+wasregan: 
+[OPINION: 0.0/1.0]'RT @lola_patty: How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students https://t.co/HIJKdh3kIf via @PittsburghPG'
+
+   Retweeting...lola_patty: 
+   [OPINION: 0.0/1.0]'How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students https://t.co/HIJKdh3kIf via @PittsburghPG'
+
+-
+
+lola_patty: 
+[OPINION: 0.0/1.0]'RT @lola_patty: How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students https://t.co/HIJKdh3kIf via @PittsburghPG'
+
+   Retweeting...lola_patty: 
+   [OPINION: 0.0/1.0]'How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students https://t.co/HIJKdh3kIf via @PittsburghPG'
+
+-
+
+lola_patty: 
+[OPINION: 0.0/1.0]'How Pittsburgh-area classrooms are addressing Squirrel Hill massacre with students https://t.co/HIJKdh3kIf via @PittsburghPG'

@@ -7,7 +7,6 @@ import tweepy
 from tools import newstweet_tools as news
 from tools import credentials as cred
 
-
 def dedup(inputFolder, outputFolder, outputFile):
 
     print("## Deduplication")
@@ -73,7 +72,7 @@ def separateByDate(allTweets, outputFolder):
 
     return allTweets_dict
 
-def filter(inputFolder, inputFile, outputFolder, handle, maxTweets, appN):
+def filter(tool, inputFolder, inputFile, outputFolder, handle, maxTweets, appN):
 
     print("## Filtering by relevance to @" + handle)
 
@@ -90,7 +89,7 @@ def filter(inputFolder, inputFile, outputFolder, handle, maxTweets, appN):
 
     for tweet in tweets:
         print(".", end="")
-        (result, accum) = news.isRelatedToAgency(api, json.loads(tweet), handle)
+        (result, accum) = tool.isRelatedToAgency(json.loads(tweet), handle)
         if result:
             relevantTweets.append(tweet)
             relevantTweets.extend(accum)

@@ -1,0 +1,77 @@
+Extracted threads from data/PittsburghPG_tol_1124_thread and writing into thread_10_20.txt
+
+---
+---
+---
+
+
+-
+
+YinzBot [unknown, low influence, very_active]: 
+[OPINION: 0.25/1.0]'RT @PittsburghPG: Pennsylvania has more than enough sun, space and interest to dramatically increase the amount of energy it gets from sola…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.25/1.0]'Pennsylvania has more than enough sun, space and interest to dramatically increase the amount of energy it gets from solar panels by 2030 #Pittsburgh #solar https://t.co/iprPCTPco0 https://t.co/62utpcIWol'
+
+-
+
+GoSolar01 [unknown, low influence, very_active]: 
+[OPINION: 0.25/1.0]'RT @PittsburghPG: Pennsylvania has more than enough sun, space and interest to dramatically increase the amount of energy it gets from sola…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.25/1.0]'Pennsylvania has more than enough sun, space and interest to dramatically increase the amount of energy it gets from solar panels by 2030 #Pittsburgh #solar https://t.co/iprPCTPco0 https://t.co/62utpcIWol'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.2/1.0]'Phipps Conservatory and Botanical Gardens has pushed us to think about grass-cutting in a greener way. #Phipps #Pittsburgh #green https://t.co/rlo0iM4xU9 https://t.co/ZWqCnlgZ9k'
+
+-
+
+YinzBot [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PittsburghPG: OPINION: Amazon lessons: City, county abrogated their duty to taxpayers #amazon #pittsburgh #alleghenycounty https://t.co…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'OPINION: Amazon lessons: City, county abrogated their duty to taxpayers #amazon #pittsburgh #alleghenycounty https://t.co/IecVN0Fvo8 https://t.co/fkS8VgJJDw'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'OPINION: Amazon lessons: City, county abrogated their duty to taxpayers #amazon #pittsburgh #alleghenycounty https://t.co/IecVN0Fvo8 https://t.co/fkS8VgJJDw'
+
+-
+
+4cleanearth [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PittsburghPG: OPINION: Amazon lessons: City, county abrogated their duty to taxpayers #amazon #pittsburgh #alleghenycounty https://t.co…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'OPINION: Amazon lessons: City, county abrogated their duty to taxpayers #amazon #pittsburgh #alleghenycounty https://t.co/IecVN0Fvo8 https://t.co/fkS8VgJJDw'
+
+-
+
+PaulZeise [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PittsburghPG: A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three pe…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three people in recent bank robberies. #PITTSBURGH #ALLEGHENYCOUNTY https://t.co/rYeSXx7Gst https://t.co/o1sPozttu0'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three people in recent bank robberies. #PITTSBURGH #ALLEGHENYCOUNTY https://t.co/rYeSXx7Gst https://t.co/o1sPozttu0'
+
+-
+
+YinzBot [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PittsburghPG: A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three pe…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three people in recent bank robberies. #PITTSBURGH #ALLEGHENYCOUNTY https://t.co/rYeSXx7Gst https://t.co/o1sPozttu0'
+
+-
+
+CapedScalpel [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PittsburghPG: A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three pe…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'A joint effort by city police, the Allegheny County sheriff’’s office and the FBI has resulted in the arrests of three people in recent bank robberies. #PITTSBURGH #ALLEGHENYCOUNTY https://t.co/rYeSXx7Gst https://t.co/o1sPozttu0'

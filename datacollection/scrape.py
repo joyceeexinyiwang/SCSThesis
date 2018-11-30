@@ -8,27 +8,34 @@ $ python scrape.py AP queries/tol.csv 100000000 2
 
 
 TODO:
+
+khashoggi:
 $ python scrape.py AJEnglish queries/khashoggi.csv 100000000 1
 $ python scrape.py AP queries/Khashoggi.csv 100000000 1
 
+tol:
 $ python scrape.py PittsburghPG queries/tol.csv 100000000 0
 $ python scrape.py AP queries/tol.csv 100000000 1
 
+thousandoaks:
 $ python scrape.py nytimes queries/thousandoaks.csv 100000000 2
 $ python scrape.py washingtonpost queries/thousandoaks.csv 100000000 3
 $ python scrape.py latimes queries/thousandoaks.csv 100000000 4
 
+woolseyfire:
 $ python scrape.py nytimes queries/woolseyfire.csv 100000000 5
 $ python scrape.py latimes queries/woolseyfire.csv 100000000 6
 $ python scrape.py ap queries/woolseyfire.csv 100000000 0
 
+mars:
+$ python scrape.py nytimes queries/mars.csv 100000000 0
+$ python scrape.py washingtonpost queries/mars.csv 100000000 1
+$ python scrape.py NASAInSight queries/mars.csv 100000000 2
+
+$ python scrape.py PDChina queries/pdchina.csv 100000000 3
+
 
 Move to data folder on drive
-
-$ python scrape.py nytimes queries/thousandoaks_small.csv 100000000 3
-$ python scrape.py washingtonpost queries/thousandoaks_small.csv 100000000 3
-
-
 
 """
 
@@ -37,10 +44,11 @@ import tweepy
 from tools import credentials as cred
 from tools import rest_tools as rest
 from tools import clean
+from tools.newstweet_tools import NewsTools
 
 def run(handle, qFile, maxTweets, appN):   
 
-    #Create Query list
+    # #Create Query list
     qlist = ""
     with open(qFile) as i_file:
         qlist = i_file.read()
@@ -73,8 +81,10 @@ def run(handle, qFile, maxTweets, appN):
     auth = cred.getAuth(i, "app")
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
+    tool = NewsTools(api)
+
     allTweets = clean.dedup(path + "/by_keywords", path + "/cleaned", "deduped.json")
-    (relevantTweets, irrelevantTweets) = clean.filter(path + "/cleaned", "deduped.json", path + "/cleaned", handle, maxTweets, appN)
+    (relevantTweets, irrelevantTweets) = clean.filter(tool, path + "/cleaned", "deduped.json", path + "/cleaned", handle, maxTweets, appN)
     relevantTweets = clean.dedupFile(path + "/cleaned/relevant.json", path + "/cleaned", "deduped_relevant.json")
     clean.separateByDate(relevantTweets, path + "/by_dates")
 

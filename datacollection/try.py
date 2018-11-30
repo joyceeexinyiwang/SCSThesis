@@ -6566,10 +6566,14 @@ donnabrazile,True
 davidcorndc,True
 """
 
+# l = s.strip().split("\n")
+# woop = set()
+# for a in l:
+# 	woop.add(a.split(",")[0])
+# print(len(l))
+# print(len(woop))
+# print(woop)
+
 l = s.strip().split("\n")
-woop = set()
 for a in l:
-	woop.add(a.split(",")[0])
-print(len(l))
-print(len(woop))
-print(woop)
+	print(a.split(",")[0] + ",", end="")

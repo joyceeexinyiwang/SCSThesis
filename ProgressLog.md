@@ -1,7 +1,107 @@
+## NEW APPROACH
+*How to describe the evolving relationship between the news org, the journalist, and the audience?*
 
-## To-do
+In print, there is a more linear relationship from news creation (news agencies and journalists) to news consumption (readers). With social-media, the relationship between news professionals and their readers become more convoluted. Once content is created and posted on the web, news orgs, journalists, and readers interact with each other to spread the information and engage in discourse. Original content gets shared as a link in the tweet, most often by the news orgs themselves. 
 
-*scope down to some specific research questions and start defining some hypothesis.*
+I want to explore the different kinds of links between these different roles, and paint a quantified picture of how news get spread around between different agents, which would help illustrate the complex relationship between news professionals and readers nowadays.
+
+**Game plan**:
+- annotate all agents
+  - find an event, collect agent data, annotate them to be news org, journalist, or citizen (is this new much?)
+  - down the line can profile agents based on: bots, influence, etc.
+- build network based on following **relationship framework**
+  - link -> org
+  - link -> journalist
+  - link -> reader
+  - news org <- news org
+  - news org <- journalist
+  - news org <- reader
+  - journalist <- news org
+  - journalist <- journalist
+  - journalist <- reader
+  - reader <- journalist
+  - reader <- reader
+- analyze ORA reports:
+  - which agents are most active?
+  - which relationships are most common?
+- with each agents:
+  - who follow them and who do their followers follow?
+  - in their tweets, do they...
+    - "spread information" (link sharing, non-sentiment retweets, etc.) v.s. "spread opinion" (opinion, sharing opinion links, sharing opinion tweets, etc.) v.s. "express opinion" (reply, opinion tweets, etc.)
+  - describe their informational influence based on follower-network and behavior
+    - **what's the reach if they "spread information"?**
+    - **what's the reach if they "spread opinion"?**
+    - **what's the reach if they "express opinion"?**
+  - how do informational influence differ among news orgs, journalists, citizen journalists, and citizens based on the above metrics?
+- connect back to news events:
+    - vertical stories?
+- hypothesis
+  - news orgs spread their original content the most
+  - journalists prefer to share their orgs' content rather than share links on their own
+  - readers prefer retweet rather than share direct links of news articles
+  - readers prefer to share tweets that do not have comments
+  - journalists tweet less but reach a farther group of people
+- **visualize** the dissemination of news and the relationships of agents in a graph (similar to journal entry 11/28/2019)
+
+Future questions:
+- Does the Twitter community have the power to influence whether people think of an article as good or bad? Does a negative comment increase its retweeting numbers? (The self-correcting power of the community)
+- Who reads People's Daily on Twitter? (I can use the strategies developed in this work and see if People's Daily shows peculiar patterns that are at odds with new media in the 'free' world.)
+
+Meeting with Matt:
+- go over research approach
+- netmapper
+- detect bot
+- poster presentation (data collection, related works, framework, observations, future plan)
+- how to build custom networks
+
+
+#### To-do:
+
+build custom networks and analyze reports
+
+- read related works and organize
+  - what we know already about the relationship graph:
+    - journalists and news curators...
+    - ...
+  - information influence and responsibility
+- finish reading reports and come up with a few observations
+- agent data and annotation
+
+
+---
+
+### Thursday 11/28/2018
+Meeting with David Danks
+- (my project started from a place where I am interested in helping people take better responsibility over the weight and influence of their words)
+- information influence of agents in the context of news consumption
+- responsibility: can we allow agents to self-monitor their role in the network?
+  - what is the accountability of an agent...
+    - as a reader, filter their own sources and spread the words forward 
+    - understand their role as a channel?
+    - ...how to if they cannot exactly predict where their words go?
+    - what they do is: understand their own proximities--sources/audiences
+    - provide a new lens to look at informational influence?
+
+Readings
+- "News sharing in social media: The effect of gratifications and prior experience": the uses and gratifications (U&G) and social cognitive theories (SCT), how influences of information seeking, socializing, entertainment, status seeking and prior social media sharing experience on news sharing intention
+- "Posting, commenting, and tagging: Effects of sharing news stories on Facebook": asking the network’s opinions and targeting specific friends led to greater involvement in the news content; discussion through comments led to a greater sense of influence and greater involvement for those sharing the news story
+- "Share, Like, Recommend" (Hermida, 2012): based on an online survey of 1600 Canadians
+  - Two-fifths of social networking users said they receive news from people they follow on services like Facebook, while a fifth get news from news organizations and individual journalists they follow.
+  - a significant number of social media users value their personal network as a way to filter the news, rather than solely relying on the professional judgment of a news organization or journalist.
+  - a message from a news organization or journalist was sent on average 15.5 times (An et al., 2011)
+  - **useful stats table: use of social media for news and information on a typical day (%)**
+  - Canadians were twice as likely to prefer news links and recommendations from friends and family than from journalists or news organizations on both Facebook and on Twitter. While, as has been cited, 43 per cent said they received their news from friends and family on social networks like Facebook, only 20 per cent cited the account of a news organization or a journalist as a source.
+  - On Twitter, only 10 per cent of social media users said they followed a journalist or news outlet, compared to 18 per cent from personal connections.
+- "Ideological Segregation and the Effects of Social Media on News Consumption" (Flaxman, 2013): examining web browsing histories for 50,000 U.S.-located users who regularly read online news
+  - these polarizing articles from social media and web search constitute only 2% of news consumption. Consequently, while recent technological changes do increase ideological segregation, the magnitude of the effect is limited.
+
+### Wednesday 11/28/2018
+
+(See graph on journal entry of 11/28/2018)
+
+---
+
+### Plans archived on 11/28/2018
 
 **Approach 1: Tracing threads** 
 - Read a sample of individual tweets to make some empirical observations and understand what exactly people tend to write
@@ -12,18 +112,11 @@
 - friends and followers networks
   - understand the different types of agents in the tweets I collected (influencers? journalists? followers of the news agency? bots?)
 
-- get ORA pro
-- read "Statistical Analysis of Network Data"
-- read DNA book
-
 Curious: 
 > when the news cycle around an event dies down, who is still talking about it, and how are they talking about it?
-> read papers (existing knowledge!!)
 
-- stats classes to take?
-
-
----
+- Find vertical stories (threads of tweets on a micro scale) and horizontal stories (propagation of tweets on a macro scale)
+- Collect data on ToL, Thousand Oaks, Woolsey fire
 
 To prove quantitatively:
 - journalists (especially those who work for the news org) spread the words most effectively --> because their high follower count and that their followers probably share similar views?
@@ -31,61 +124,43 @@ To prove quantitatively:
 - many people like to address multiple news agencies at the same time in a tweet. e.g., "@AJEnglish @newsweek blah blah blah..."
 - mentioning seems to be associated with strong reactions, disagreement; retweeting seems to be associated agreement; quoting seems to be associated with a variety of sentiments
 
-try netmapper stuff
-
-**Profile agents** by 
-- profession (bot, news orgs, journalist working for a news org, citizen journalist, and other citizens, by [verified status](https://help.twitter.com/en/managing-your-account/about-twitter-verified-accounts) and account description)
-- influence (high/mid/low profile, by follower number)
-- activeness (how frequently they post on Twitter, average tweets in the last n days)
-
-> bot detection
-
-> news agency detection
-
-> which kinds of agents are most common?
-
-> how do these agents interact with each other?
-
-### Thanksgiving
-Observations
-
-find topic groups, find active agents, find key stories (who tweets what), find key agents in the stories
-
-collect data on ToL, Thousand Oaks, Woolsey fire
-
-read reports
-
-verical and horizonal propagation
-
-vertical stories (tweets on a micro scale) v.s. horizontal stories (tweets on a macro scale)
-
-agent classification:
+Understanding Agents:
+- which kinds of agents are most common?
+- how do these agents interact with each other?
 - use percentile to set thresholds for influence?
-
-tweet classification:
-- opinion strength
-- rt/quote/reply
-To assess the **opinion strength** of the message you could use these indicators
-a) use of emotional words
-b) use of bold letters
-c) use of capitals
-d) use of excalamation points
-
-
-thread classification:
-
-louvain clustering? (density of topics, density of groups)
-
-- ORA pro for Mac doesn't load data, can i get ORA pro for windows
-  - send messages to ORA Google Group (CASOS Ora join group and ask the questions)
-- tools to calculate half-life?
-  - email Kathleen (also schedule monday meeting)
-  - email Sameet
+- bot detection
+- louvain clustering? (density of topics, density of groups)
 
 
 ---
 
-## Past
+### Tuesday 11/27/2018
+
+PittsburghPG_tol_1107_Reports observations:
+- topic groups
+- active agents
+- key stories (who tweets what)
+- key agents in the stories
+
+local people make the most active and influential agents?
+
+twitter.com/user/status/#id
+
+### Monday 11/26/2018
+Louvain clustering -- community detection
+- "Tracking the Evolution of Communities in Dynamic Social Networks"
+- [Louvain clustering wiki page](https://en.wikipedia.org/wiki/Louvain_Modularity)
+
+tweet classification:
+- opinion strength
+- rt/quote/reply
+
+To assess the **opinion strength** of the message you could use these indicators  
+a) use of [emotional words](https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#lexicon)  
+b) use of all cap words  
+c) use of excalamation points  
+
+incorporated Dave's code for sentiment analysis
 
 ### Monday 11/19/2018
 

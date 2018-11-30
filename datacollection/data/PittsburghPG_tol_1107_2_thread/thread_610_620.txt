@@ -1,0 +1,83 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_610_620.txt
+
+---
+---
+---
+
+
+-
+
+ElleMH0: 
+[OPINION: 0.0/1.0]'RT @AndreaWBZ: Front page of the @PittsburghPG today. #PittsburghSynagogueShooting https://t.co/8J94qwtBSn'
+
+   Retweeting...AndreaWBZ: 
+   [OPINION: 0.0/1.0]'Front page of the @PittsburghPG today. #PittsburghSynagogueShooting https://t.co/8J94qwtBSn'
+
+-
+
+boston_camera: 
+[OPINION: 0.0/1.0]'RT @AndreaWBZ: Front page of the @PittsburghPG today. #PittsburghSynagogueShooting https://t.co/8J94qwtBSn'
+
+   Retweeting...AndreaWBZ: 
+   [OPINION: 0.0/1.0]'Front page of the @PittsburghPG today. #PittsburghSynagogueShooting https://t.co/8J94qwtBSn'
+
+-
+
+AndreaWBZ: 
+[OPINION: 0.0/1.0]'Front page of the @PittsburghPG today. #PittsburghSynagogueShooting https://t.co/8J94qwtBSn'
+
+-
+
+cspanradio: 
+[OPINION: 0.13636363636363635/1.0]"📻 LIVE NOW #WashingtonToday\n\n✔️ @PG_PeterSmith of @PittsburghPG on #PittsburghSynagogueShooting\n✔️ @dlippman of @politico on @realDonaldTrump's #ExecutiveTime\n\nListen: https://t.co/cKSTtNmYNg      OR in the DC area on 90.1FM"
+
+-
+
+RozitaRiazati: 
+[OPINION: 0.0/1.0]'RT @raziaiqbal: Today @BBCNewshour we spoke to the executive editor of @PittsburghPG #PittsburghSynagogueShooting his name is David Shribma…'
+
+   Retweeting...raziaiqbal: 
+   [OPINION: 0.42500000000000004/1.0]'Today @BBCNewshour we spoke to the executive editor of @PittsburghPG #PittsburghSynagogueShooting his name is David Shribman and I urge you to read what he has written in @nytimes &amp; in his own newspaper. He is blessed with much wisdom and the gentlest, most thoughtful voice https://t.co/tj4fIhfQYK'
+
+      Quoting...nytimes: 
+      [OPINION: 0.15/1.0]'In Opinion\n\nDavid Shribman, the executive editor of the Pittsburgh Post-Gazette, writes, "An anti-Semitic rampage at the Tree of Life synagogue has inflicted deep wounds on perhaps the least anti-Semitic city in the country" https://t.co/5hi3BVLuWX'
+
+-
+
+surfbgull: 
+[OPINION: 0.0/1.0]'RT @raziaiqbal: Today @BBCNewshour we spoke to the executive editor of @PittsburghPG #PittsburghSynagogueShooting his name is David Shribma…'
+
+   Retweeting...raziaiqbal: 
+   [OPINION: 0.42500000000000004/1.0]'Today @BBCNewshour we spoke to the executive editor of @PittsburghPG #PittsburghSynagogueShooting his name is David Shribman and I urge you to read what he has written in @nytimes &amp; in his own newspaper. He is blessed with much wisdom and the gentlest, most thoughtful voice https://t.co/tj4fIhfQYK'
+
+      Quoting...nytimes: 
+      [OPINION: 0.15/1.0]'In Opinion\n\nDavid Shribman, the executive editor of the Pittsburgh Post-Gazette, writes, "An anti-Semitic rampage at the Tree of Life synagogue has inflicted deep wounds on perhaps the least anti-Semitic city in the country" https://t.co/5hi3BVLuWX'
+
+-
+
+raziaiqbal: 
+[OPINION: 0.42500000000000004/1.0]'Today @BBCNewshour we spoke to the executive editor of @PittsburghPG #PittsburghSynagogueShooting his name is David Shribman and I urge you to read what he has written in @nytimes &amp; in his own newspaper. He is blessed with much wisdom and the gentlest, most thoughtful voice https://t.co/tj4fIhfQYK'
+
+   Quoting...nytimes: 
+   [OPINION: 0.15/1.0]'In Opinion\n\nDavid Shribman, the executive editor of the Pittsburgh Post-Gazette, writes, "An anti-Semitic rampage at the Tree of Life synagogue has inflicted deep wounds on perhaps the least anti-Semitic city in the country" https://t.co/5hi3BVLuWX'
+
+-
+
+jqdsz: 
+[OPINION: 0.0/1.0]'Follow @PaulaReedWard for info following #PittsburghSynagogueShooting https://t.co/K1B9ZBPWHk'
+
+   Quoting...PittsburghPG: 
+   [OPINION: 0.12878787878787878/1.0]'Follow live: Accused Squirrel Hill synagogue shooter Robert Bowers is currently making his first appearance in federal court. https://t.co/rZMDsj7EM6'
+
+-
+
+nickcunningham1: 
+[OPINION: 0.021428571428571415/1.0]'@Ostrov_A @billpeduto @ADL_National @rabbicreditor @Daroff @HIASrefugees @AvivaKlompas @BurtonJM @PittsburghPG Allowing naftali Bennett to speak is not the way to defeat hate with love. He’s a far right racist, and it’s shameful he’s given a platform in Pittsburgh #PittsburghSynagogueShooting'
+
+   Replying to...Ostrov_A: 
+   [OPINION: 0.15000000000000002/1.0]'#Pittsburgh Mayor @billpeduto:\n\n“This is the darkest hour in our city’s history. But here’s another thing about Pittsburgh. We are resilient. We will work together as one. We will defeat hate with love. We will be a city of compassion and we will be welcoming to all people.” https://t.co/yxdhDy13fu'
+
+-
+
+Milarso: 
+[OPINION: 0.37083333333333335/1.0]"The front page of the @PittsburghPG is simply a black background with the names of the 11 victims of the #PittsburghSynagogueShooting. It's beautiful and powerful, and represents the top of the flowchart on how this story should be reported."

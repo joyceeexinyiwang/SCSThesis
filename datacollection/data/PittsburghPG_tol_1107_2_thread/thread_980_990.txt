@@ -1,0 +1,74 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_980_990.txt
+
+---
+---
+---
+
+
+-
+
+PittsburghPG: 
+[OPINION: 0.19629629629629633/1.0]'Tough conversations played out Monday in classrooms throughout the region and country, as teachers did what they could to address the massacre and  provide assurances while processing their own shock and grief.\nhttps://t.co/ym1wpyeZGP'
+
+-
+
+ForAllTheMarble: 
+[OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints — except online \n\nhttps://t.co/Uevg4g3r1k via @PittsburghPG'
+
+-
+
+clinthendler: 
+[OPINION: 0.013333333333333336/1.0]'RT @ShellyBradbury: A high school dropout and trucker, Robert Bowers left few footprints — except online https://t.co/NZPIPOZPN1 via @Pitts…'
+
+   Retweeting...ShellyBradbury: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints — except online https://t.co/NZPIPOZPN1 via @PittsburghPG'
+
+-
+
+raisingtissy: 
+[OPINION: 0.0/1.0]'For lives lost in the senseless Pittsburgh massacre...\n\nhttps://t.co/ynuEmLrD5q\n\n@realDonaldTrump @Torontosun2 @PittsburghPG'
+
+-
+
+ShellyBradbury: 
+[OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints — except online https://t.co/NZPIPOZPN1 via @PittsburghPG'
+
+-
+
+rayfitt1: 
+[OPINION: 0.013333333333333336/1.0]'RT @jimiovino: A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @Pittsburg…'
+
+   Retweeting...jimiovino: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @PittsburghPG https://t.co/aasnY5bOxa'
+
+-
+
+New_Narrative: 
+[OPINION: 0.013333333333333336/1.0]'RT @jimiovino: A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @Pittsburg…'
+
+   Retweeting...jimiovino: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @PittsburghPG https://t.co/aasnY5bOxa'
+
+-
+
+PittsburghPG: 
+[OPINION: 0.013333333333333336/1.0]'RT @jimiovino: A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @Pittsburg…'
+
+   Retweeting...jimiovino: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @PittsburghPG https://t.co/aasnY5bOxa'
+
+-
+
+StephChambers76: 
+[OPINION: 0.013333333333333336/1.0]'RT @jimiovino: A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @Pittsburg…'
+
+   Retweeting...jimiovino: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @PittsburghPG https://t.co/aasnY5bOxa'
+
+-
+
+theJoshBanks: 
+[OPINION: 0.013333333333333336/1.0]'RT @jimiovino: A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @Pittsburg…'
+
+   Retweeting...jimiovino: 
+   [OPINION: 0.013333333333333336/1.0]'A high school dropout and trucker, Robert Bowers left few footprints -- except online https://t.co/Lcvt80eLkc via @PittsburghPG https://t.co/aasnY5bOxa'

@@ -1,0 +1,65 @@
+Extracted threads from data/PittsburghPG_tol_1124_thread and writing into thread_30_40.txt
+
+---
+---
+---
+
+
+-
+
+whitemagic101 [unknown, mid influence, very_active]: 
+[OPINION: 0.2857142857142857/1.0]'RT @jsilverpg: This is as close as anyone is going to come right now to a definitive profile of the #TreeofLife accused shooter and how dis…'
+
+   Retweeting...jsilverpg [unknown, low influence, very_active]: 
+   [OPINION: 0.33809523809523806/1.0]'This is as close as anyone is going to come right now to a definitive profile of the #TreeofLife accused shooter and how disaffection, online radicalization and hate echo chambers intersect. @richelord leads our all-star team in telling a chilling story. Take time to read it all. https://t.co/C6qzPrsl3f'
+
+      Quoting...PittsburghPG [unknown, high influence, very_active]: 
+      [OPINION: 0.35/1.0]'He struck his colleagues as a guy who liked beer, Hooters, action films and guns, with a bit of an anti-government streak https://t.co/DDpBUJVksx'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.35/1.0]'He struck his colleagues as a guy who liked beer, Hooters, action films and guns, with a bit of an anti-government streak https://t.co/DDpBUJVksx'
+
+-
+
+jsilverpg [unknown, low influence, very_active]: 
+[OPINION: 0.33809523809523806/1.0]'This is as close as anyone is going to come right now to a definitive profile of the #TreeofLife accused shooter and how disaffection, online radicalization and hate echo chambers intersect. @richelord leads our all-star team in telling a chilling story. Take time to read it all. https://t.co/C6qzPrsl3f'
+
+   Quoting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.35/1.0]'He struck his colleagues as a guy who liked beer, Hooters, action films and guns, with a bit of an anti-government streak https://t.co/DDpBUJVksx'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.2/1.0]'Holiday brings thanks and giving after the massacre in Squirrel Hill https://t.co/QESMLSt0Qs'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.09999999999999998/1.0]'Judge rules that Rosfeld civil, criminal lawyers can share materials in Antwon Rose cases https://t.co/EtWqMtZgrG'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.016666666666666646/1.0]'Former BNY Mellon analyst Lisa Ellis wrote "Total BS. Too bad he didn\'t have a bus to plow through." on a Facebook post about a Bell Acres councilman driving through a group of Antwon Rose shooting protesters.\n\nBNY Mellon fired her several days later. https://t.co/mOXHl23vt3'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]"'I was angry most of the time we were there.' Sister of slain Pittsburgh federal witness reflects on killer's trial https://t.co/RSbozBtnqg"
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Police have charged a man in the shooting death of a woman in Munhall: https://t.co/90ImgqEFf9'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.2/1.0]'A public defender representing Jeffrey Clark Jr. asked a federal magistrate to free the 30-year-old man from custody while he awaits trial on gun-related charges in Washington,  D.C. https://t.co/mQ6MzEnQ10'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Chaplain moved to rehab unit after surviving Tree of Life shooting https://t.co/0YFZDXxC1D'

@@ -1,0 +1,80 @@
+Extracted threads from data/PittsburghPG_tol_1107_thread and writing into thread_20_30.txt
+
+---
+---
+---
+
+
+-
+
+HipHopCaucus [unknown, high influence, very_active]: 
+[OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+AndrewManagh [unknown, mid influence, very_active]: 
+[OPINION: 0.2114583333333333/1.0]'#AriMahler #pittsburgh Jewish nurse who treated #PittsburghSynagogue shooter as he would any other patient in the ER! #pittsburgh MayorPeduto treated @POTUS @realDonaldTrump with hatred! Learn from the nurse, mayor @PittsburghPG'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.25/1.0]'RT @SEberson_pg: First tickets off the line for \u2066@HamiltonMusical\u2069 in #Pittsburgh went to a dad from Beaver County buying for his two teens…'
+
+   Retweeting...SEberson_pg [unknown, low influence, very_active]: 
+   [OPINION: 0.09444444444444444/1.0]'First tickets off the line for \u2066@HamiltonMusical\u2069 in #Pittsburgh went to a dad from Beaver County buying for his two teens. He left home at 1:20 AM. Reminder: If you score tix, cover the bar code if you’re posting to social media. https://t.co/Opv9mRbP1L'
+
+-
+
+JDignum [unknown, low influence, very_active]: 
+[OPINION: 0.45499999999999996/1.0]'RT @howardfineman: This @OnPointRadio hour was very good, especially report from #Pittsburgh by #DavidShribman, my friend and editor of @Pi…'
+
+   Retweeting...howardfineman [unknown, high influence, very_active]: 
+   [OPINION: 0.45499999999999996/1.0]'This @OnPointRadio hour was very good, especially report from #Pittsburgh by #DavidShribman, my friend and editor of @PittsburghPG. https://t.co/WgAckRcBDZ'
+
+      Quoting...susanparish [unknown, low influence, very_active]: 
+      [OPINION: 0.2333333333333333/1.0]'Thank you, @MeghnaWBUR @OnPointRadio tonight with @howardfineman @TheRaDR &amp; @ShribmanPG re: Pittsburgh #synagogueshooting and growing white #Nationalism in America. If you missed their thoughtful, compelling discussion, listen here: https://t.co/TeztfMfeQK https://t.co/JzfoJKiP3m'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.25/1.0]'RT @SEberson_pg: First in line for \u2066@HamiltonMusical\u2069 tickets in #Pittsburgh got here at 3 AM https://t.co/td8RRWK82K'
+
+   Retweeting...SEberson_pg [unknown, low influence, very_active]: 
+   [OPINION: 0.25/1.0]'First in line for \u2066@HamiltonMusical\u2069 tickets in #Pittsburgh got here at 3 AM https://t.co/td8RRWK82K'
+
+-
+
+BeatriceStrouf [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+   Retweeting...i24NEWS_FR [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+-
+
+zachfunkphoto [unknown, low influence, inactive]: 
+[OPINION: 0.6/1.0]'Loving our fall colors this year in #Pittsburgh #pghlocal @PittsburghPG @PGHCityPaper @vstpgh @PittsburghMag @CityPGH @ImaginePgh @LivingPgh https://t.co/nzk0BQH7ye'
+
+-
+
+Bridebulle [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+   Retweeting...i24NEWS_FR [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+-
+
+AlexandreLeduc4 [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+   Retweeting...i24NEWS_FR [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+-
+
+cvirikgazouille [unknown, low influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @i24NEWS_FR: Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+   Retweeting...i24NEWS_FR [unknown, high influence, very_active]: 
+   [OPINION: 0.0/1.0]'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'

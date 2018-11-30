@@ -1,0 +1,61 @@
+Extracted threads from data/PittsburghPG_tol_1107_thread and writing into thread_40_50.txt
+
+---
+---
+---
+
+
+-
+
+i24NEWS_FR [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Le #Kaddish dans les médias américains en hommage aux victimes de #Pittsburgh @PittsburghPG @NBCNews https://t.co/gXaLXvfeUy'
+
+-
+
+josegguaipoq [unknown, low influence, very_active]: 
+[OPINION: 0.05/1.0]'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.03333333333333333/1.0]'¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+
+-
+
+Tel_Jai [unknown, low influence, inactive]: 
+[OPINION: 0.05/1.0]'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.03333333333333333/1.0]'¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+
+-
+
+KarinaKlionski [unknown, low influence, very_active]: 
+[OPINION: 0.05/1.0]'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.03333333333333333/1.0]'¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+
+-
+
+Daniel_Brenner [unknown, mid influence, very_active]: 
+[OPINION: 0.05/1.0]'RT @Daniel_Brenner: ¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gra…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.03333333333333333/1.0]'¡Excepcional! Portada edición de hoy del #Pittsburgh Post-Gazette. Otros diarios podrían seguir el ejemplo. Hay una gran diferencia entre publicar noticias y hacer esto. @PittsburghPG\n\n“Estas son las primeras palabras de la oración de luto judía... recitará esta noche #Shabbat” https://t.co/z18bffS5lO'
+
+-
+
+Daniel_Brenner [unknown, mid influence, very_active]: 
+[OPINION: 0.39666666666666667/1.0]'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.2813333333333333/1.0]'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+
+-
+
+quindle [unknown, low influence, very_active]: 
+[OPINION: 0.39666666666666667/1.0]'RT @Daniel_Brenner: Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great diffe…'
+
+   Retweeting...Daniel_Brenner [unknown, mid influence, very_active]: 
+   [OPINION: 0.2813333333333333/1.0]'Outstanding! #Pittsburgh Post-Gazette today’s front page edition. May some other newspapers follow. It is a great difference between posting a news and doing this. #ThankYou @PittsburghPG\n\n“These are the first words of #Jewish mourning prayer ... to be recited tonight #Shabbat” https://t.co/TM917R08y2'
+
+-

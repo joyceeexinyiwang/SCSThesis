@@ -1,0 +1,77 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_830_840.txt
+
+---
+---
+---
+
+
+-
+
+mattsmith_pg: 
+[OPINION: 0.9/1.0]'Here is an inside look of the terrible shooting at Tree of Life synagogue, where 11 people lost their lives to hate on Oct. 27. This comprehensive story involved dozens of staffers at the @PittsburghPG. \nhttps://t.co/s066CcYoGF https://t.co/gEe4GWKhg4'
+
+-
+
+BrianChatot: 
+[OPINION: 0.48571428571428577/1.0]'RT @seangentille: “Unbroken:” The @PittsburghPG’s  latest special section on the Tree of Life shooting.\n\nThis is amazing, in-depth and wort…'
+
+   Retweeting...seangentille: 
+   [OPINION: 0.25142857142857145/1.0]'“Unbroken:” The @PittsburghPG’s  latest special section on the Tree of Life shooting.\n\nThis is amazing, in-depth and worth your time. It’s also got some unavoidably difficult details.\n\nhttps://t.co/L4sfZkFCst https://t.co/Hrv5J3X7FY'
+
+-
+
+SEberson_pg: 
+[OPINION: 0.4083333333333333/1.0]"RT @jaxel222: This is one of the most extraordinary pieces of journalism I've ever experienced &amp; it's the only piece of journalism to ever…"
+
+   Retweeting...jaxel222: 
+   [OPINION: 0.5222222222222223/1.0]"This is one of the most extraordinary pieces of journalism I've ever experienced &amp; it's the only piece of journalism to ever make me cry.\n\nI'm proud to be even kinda associated with the talented folks at the @PittsburghPG, &amp; also just to be a Pittsburgher\nhttps://t.co/zNCPJnOhnB"
+
+-
+
+LeslieShmezlie: 
+[OPINION: 0.125/1.0]'RT @MikeVorkunov: This is remarkable piece of multimedia journalism by @ShellyBradbury and the @PittsburghPG. It is also remarkably sad — a…'
+
+   Retweeting...MikeVorkunov: 
+   [OPINION: 0.125/1.0]'This is remarkable piece of multimedia journalism by @ShellyBradbury and the @PittsburghPG. It is also remarkably sad — a moment-by-moment reportage, with words, audio, and video of the shooting at Tree of Life Synagogue and the police/SWAT response. https://t.co/a4yEjKcd4F'
+
+-
+
+etkeld: 
+[OPINION: 0.0/1.0]"RT @LizNavratil: Unbroken: A gunman shattered a sacred space, but not a community's spirit. A deeper look at the Tree of Life shooting and…"
+
+   Retweeting...LizNavratil: 
+   [OPINION: 0.5/1.0]"Unbroken: A gunman shattered a sacred space, but not a community's spirit. A deeper look at the Tree of Life shooting and its aftermath, written by @ShellyBradbury based on reporting by many @PittsburghPG staff https://t.co/zOoLWOk07e"
+
+-
+
+jaxel222: 
+[OPINION: 0.5222222222222223/1.0]"This is one of the most extraordinary pieces of journalism I've ever experienced &amp; it's the only piece of journalism to ever make me cry.\n\nI'm proud to be even kinda associated with the talented folks at the @PittsburghPG, &amp; also just to be a Pittsburgher\nhttps://t.co/zNCPJnOhnB"
+
+-
+
+YaronWeitzman: 
+[OPINION: 0.125/1.0]'RT @MikeVorkunov: This is remarkable piece of multimedia journalism by @ShellyBradbury and the @PittsburghPG. It is also remarkably sad — a…'
+
+   Retweeting...MikeVorkunov: 
+   [OPINION: 0.125/1.0]'This is remarkable piece of multimedia journalism by @ShellyBradbury and the @PittsburghPG. It is also remarkably sad — a moment-by-moment reportage, with words, audio, and video of the shooting at Tree of Life Synagogue and the police/SWAT response. https://t.co/a4yEjKcd4F'
+
+-
+
+MikeVorkunov: 
+[OPINION: 0.125/1.0]'This is remarkable piece of multimedia journalism by @ShellyBradbury and the @PittsburghPG. It is also remarkably sad — a moment-by-moment reportage, with words, audio, and video of the shooting at Tree of Life Synagogue and the police/SWAT response. https://t.co/a4yEjKcd4F'
+
+-
+
+brittaml16: 
+[OPINION: 0.48571428571428577/1.0]'RT @seangentille: “Unbroken:” The @PittsburghPG’s  latest special section on the Tree of Life shooting.\n\nThis is amazing, in-depth and wort…'
+
+   Retweeting...seangentille: 
+   [OPINION: 0.25142857142857145/1.0]'“Unbroken:” The @PittsburghPG’s  latest special section on the Tree of Life shooting.\n\nThis is amazing, in-depth and worth your time. It’s also got some unavoidably difficult details.\n\nhttps://t.co/L4sfZkFCst https://t.co/Hrv5J3X7FY'
+
+-
+
+RobOwenTV: 
+[OPINION: 0.0/1.0]"RT @LizNavratil: Unbroken: A gunman shattered a sacred space, but not a community's spirit. A deeper look at the Tree of Life shooting and…"
+
+   Retweeting...LizNavratil: 
+   [OPINION: 0.5/1.0]"Unbroken: A gunman shattered a sacred space, but not a community's spirit. A deeper look at the Tree of Life shooting and its aftermath, written by @ShellyBradbury based on reporting by many @PittsburghPG staff https://t.co/zOoLWOk07e"

@@ -1,0 +1,24 @@
+Extracted threads from data/PittsburghPG_tol_1124_thread and writing into thread_70_80.txt
+
+---
+---
+---
+
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.125/1.0]"The public's living memorial to 11 slain worshipers is moved indoors -- flowers and other signs of love and defiance against hatred. https://t.co/B8MNL9nrk0"
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Painted stones, crayon drawings, heartbreaking messages - all moved inside Tree of Life https://t.co/0kWsKjkyGj'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'RT @PGVisuals: In the wake of tragedy, a memorial grows outside Tree of Life: https://t.co/ldzPtQGZKl\n\nPhoto by @alexandrawimley https://t.…'
+
+   Retweeting...PGVisuals [unknown, low influence, very_active]: 
+   [OPINION: 0.0/1.0]'In the wake of tragedy, a memorial grows outside Tree of Life: https://t.co/ldzPtQGZKl\n\nPhoto by @alexandrawimley https://t.co/L2QyDS5ltP'

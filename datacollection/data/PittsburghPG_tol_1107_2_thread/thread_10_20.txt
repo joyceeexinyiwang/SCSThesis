@@ -1,0 +1,80 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_10_20.txt
+
+---
+---
+---
+
+
+-
+
+jeremiahrjones: 
+[OPINION: 0.45/1.0]'RT @CathyCeekay: #Pittsburgh schools have more important things to worry about than @ChickfilA #SMH https://t.co/eFfZzIpAyt via @Pittsburgh…'
+
+   Retweeting...CathyCeekay: 
+   [OPINION: 0.45/1.0]'#Pittsburgh schools have more important things to worry about than @ChickfilA #SMH https://t.co/eFfZzIpAyt via @PittsburghPG'
+
+-
+
+Mel_Storni: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+gtmckay: 
+[OPINION: 0.6428571428571428/1.0]'Best dishes and drinks in #Pittsburgh right now https://t.co/bMVZgSZDCi via @PittsburghPG'
+
+-
+
+ebenadams: 
+[OPINION: 0.0/1.0]'RT @LegalSifter: #Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search to…'
+
+   Retweeting...LegalSifter: 
+   [OPINION: 0.0/1.0]'#Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search tool https://t.co/iS8KPoQ06U via @PittsburghPG'
+
+-
+
+LegalSifter: 
+[OPINION: 0.0/1.0]'#Pittsburgh "LegalTech ecosystem is growing: \nNorth Side company secures $250K to help develop AI-powered patent search tool https://t.co/iS8KPoQ06U via @PittsburghPG'
+
+-
+
+TheMartiScott: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+ThinkResist_X: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+EjToxicdoc: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+RevYearwood: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"
+
+-
+
+HiphopTC: 
+[OPINION: 0.0/1.0]'RT @HipHopCaucus: We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families…'
+
+   Retweeting...HipHopCaucus: 
+   [OPINION: 0.225/1.0]"We joined 87 civil rights groups in full-page @nytimes &amp; @PittsburghPG ads to show solidarity with the victims &amp; families of the violence in #Pittsburgh, #Louisville, &amp; all around the country these past few weeks. We're with you &amp; will fight for you. #LoveIlluminates ✊🏽✊🏿✊🏻✊🏾✊🏼 https://t.co/9r80Aqiq33"

@@ -1,0 +1,62 @@
+Extracted threads from data/PittsburghPG_tol_1124_thread and writing into thread_40_50.txt
+
+---
+---
+---
+
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Violinist Itzhak Perlman will perform with PSO to honor synagogue shooting victims https://t.co/e64z3pIbZf'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.1/1.0]'An alleged admirer of accused Tree of Life synagogue shooter Robert Bowers was charged with gun crimes in D.C. https://t.co/axg7WfvQlm'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.0/1.0]'Jewish Federation readying to distribute donations to Tree of Life shooting victims https://t.co/IQX64JQo7F'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.5/1.0]'Paying more for bikes, water pumps, nails and screws: Tariffs pinch products passing through Pittsburgh https://t.co/GNu10UAHLU'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.2/1.0]"How President Trump’s immigration policies are affecting Everyday Noodles, one of Pittsburgh's busiest restaurants: https://t.co/ygHLwsU70S https://t.co/gZorTirix9"
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.5/1.0]'Paying more for bikes, water pumps, nails and screws: Tariffs pinch products passing through Pittsburgh https://t.co/RklsEot1RL'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.375/1.0]"A reader originally from Squirrel Hill asks: why are Pittsburghers allowed to park against traffic? *spoiler: you aren't.*\n\nTake this quiz to see if you know the rules to parking in Pittsburgh -- and ask us your question -- HERE: https://t.co/GsY3GWyvVb https://t.co/IG96eyffvZ"
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.05/1.0]'RT @alexandrawimley: Members of the Jewish community in Squirrel Hill spent their Thanksgiving morning making thank you cards and food for…'
+
+   Retweeting...alexandrawimley [unknown, low influence, very_active]: 
+   [OPINION: 0.05/1.0]'Members of the Jewish community in Squirrel Hill spent their Thanksgiving morning making thank you cards and food for Zone 4 Pittsburgh Police officers at the Kollel Jewish Learning Center. (Alexandra Wimley/Post-Gazette) https://t.co/TWBIXbYm0d'
+
+-
+
+PittsburghPG [unknown, high influence, very_active]: 
+[OPINION: 0.2645/1.0]'A researcher, a dentist, a grandmother, a physician, two loving brothers, a married couple, a little league baseball coach, a retired accountant, a Taylor Allderdice High School alum.\n\nLearn more about the victims of the Squirrel Hill synagogue ...  https://t.co/f84eTBB0qO'
+
+-
+
+vox_independens [unknown, low influence, very_active]: 
+[OPINION: 0.225/1.0]'RT @PittsburghPG: Pittsburgh has changed a lot over the past few decades. Check out this view of Squirrel Hill from 1937.\n\nTake a look at h…'
+
+   Retweeting...PittsburghPG [unknown, high influence, very_active]: 
+   [OPINION: 0.225/1.0]'Pittsburgh has changed a lot over the past few decades. Check out this view of Squirrel Hill from 1937.\n\nTake a look at how the city has transformed with our "Then and Now" photo interactive: https://t.co/csRJxm6Hwe https://t.co/dG9PVipXqC'

@@ -1,0 +1,754 @@
+<html><meta charset='utf-8'>
+<head>
+<a name='top'/>
+<title>Data Description</title>
+<link rel='stylesheet' type='text/css' href='All Measures by Category-style-sheet.css'/>
+<link rel='stylesheet' type='text/css' href = 'https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css'>
+<script type='text/javascript' language='javascript' src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script type='text/javascript' language='javascript' src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
+<script type='text/javascript' language='javascript' src='RankedTables.js'></script>
+<script type='text/javascript' language='javascript' src='Chart.js'></script>
+</head>
+<h1>Data Description</h1>
+<blockquote>
+<p>This page contains a description of the transformations and settings for each network prior to calculating measures. Auto-detect means that the network was not modified, but only measured to determine whether each property is true or false. Note that symmetry and self-loops only apply to uni-modal networks. These settings affect measure values.</p>
+<p><a href="All Measures by Category.html">Return to previous page</a></p>
+</blockquote>
+<blockquote>
+<h2>Network Properties</h2>
+<blockquote>
+<table>
+<col width='300px'/>
+<col width='250px'/>
+<col width='200px'/>
+<col width='200px'/>
+<col width='200px'/>
+<col width='200px'/>
+<tr>
+<th>Meta-network</th>
+<th>Network</th>
+<th>Negative Values</th>
+<th>Symmetric</th>
+<th>Binary</th>
+<th>Ignore Self-loops</th>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 AM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Tweet - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Agent - Mentions</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Tweet - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - Mentioned-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - Reciprocal</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-27 12 PM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Tweet - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Agent - Mentions</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Tweet - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - Mentioned-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - Reciprocal</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 AM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Agent - Mentions</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Tweet - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Tweet - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - Mentioned-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - Reciprocal</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-28 12 PM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Tweet - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Agent - Mentions</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Tweet - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - Mentioned-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - Reciprocal</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 AM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Tweet - Sender</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Tweet - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Agent - Mentions</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Tweet - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>True (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - Retweeted-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - Mentioned-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - Replied-By</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - Reciprocal</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Agent - Common Hashtags</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Tweet x Tweet - All Communication</td>
+<td>False (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Hashtag x Hashtag - Co-Occurrence</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+<td>False (auto-detect)</td>
+<td>True (auto-detect)</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Hashtag</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+<tr>
+<td>2018-10-29 12 PM</td>
+<td>Agent x Url</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+<td>False (auto-detect)</td>
+<td>n/a</td>
+</tr>
+
+</table>
+</blockquote>
+</blockquote>
+<p>Produced by ORA, a joint product of the CASOS center at Carnegie Mellon University and Netanomics</p>
+</blockquote>
+<p><a href="All Measures by Category.html">Return to previous page</a></p>
+</html>

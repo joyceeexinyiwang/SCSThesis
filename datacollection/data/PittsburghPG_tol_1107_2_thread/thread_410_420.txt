@@ -1,0 +1,95 @@
+Extracted threads from data/PittsburghPG_tol_1107_2_thread and writing into thread_410_420.txt
+
+---
+---
+---
+
+
+-
+
+rfoltin: 
+[OPINION: 0.5/1.0]'RT @AbbaCohen1: My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the…'
+
+   Retweeting...AbbaCohen1: 
+   [OPINION: 0.3333333333333333/1.0]'My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the same time — headline. #PittsburghShooting https://t.co/YJtxHlT8Q7'
+
+      Quoting...PittsburghPG: 
+      [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+JacobMagid: 
+[OPINION: 0.0/1.0]"RT @EricCortellessa: The @PittsburghPG's headline today leads, in Hebrew, with the opening words of Kaddish, the Jewish prayer of mourning.…"
+
+   Retweeting...EricCortellessa: 
+   [OPINION: 0.0/1.0]"The @PittsburghPG's headline today leads, in Hebrew, with the opening words of Kaddish, the Jewish prayer of mourning. #PittsburghShooting https://t.co/9SeFPgYB4S"
+
+-
+
+BMReynolds_: 
+[OPINION: 0.3/1.0]'RT @EvanHirsch: Powerful. #PittsburghShooting #Kaddish https://t.co/RqZW9zUfKS'
+
+   Retweeting...EvanHirsch: 
+   [OPINION: 0.3/1.0]'Powerful. #PittsburghShooting #Kaddish https://t.co/RqZW9zUfKS'
+
+      Quoting...PittsburghPG: 
+      [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+EvanHirsch: 
+[OPINION: 0.3/1.0]'Powerful. #PittsburghShooting #Kaddish https://t.co/RqZW9zUfKS'
+
+   Quoting...PittsburghPG: 
+   [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+EzraFriedlander: 
+[OPINION: 0.5/1.0]'RT @AbbaCohen1: My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the…'
+
+   Retweeting...AbbaCohen1: 
+   [OPINION: 0.3333333333333333/1.0]'My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the same time — headline. #PittsburghShooting https://t.co/YJtxHlT8Q7'
+
+      Quoting...PittsburghPG: 
+      [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+EricCortellessa: 
+[OPINION: 0.0/1.0]"The @PittsburghPG's headline today leads, in Hebrew, with the opening words of Kaddish, the Jewish prayer of mourning. #PittsburghShooting https://t.co/9SeFPgYB4S"
+
+-
+
+ScottPesetsky: 
+[OPINION: 0.5/1.0]'RT @AbbaCohen1: My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the…'
+
+   Retweeting...AbbaCohen1: 
+   [OPINION: 0.3333333333333333/1.0]'My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the same time — headline. #PittsburghShooting https://t.co/YJtxHlT8Q7'
+
+      Quoting...PittsburghPG: 
+      [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+kampeas: 
+[OPINION: 0.5/1.0]'RT @AbbaCohen1: My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the…'
+
+   Retweeting...AbbaCohen1: 
+   [OPINION: 0.3333333333333333/1.0]'My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the same time — headline. #PittsburghShooting https://t.co/YJtxHlT8Q7'
+
+      Quoting...PittsburghPG: 
+      [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
+
+-
+
+mischasindyukov: 
+[OPINION: 0.16666666666666666/1.0]'Today\'s front page of @PittsburghPG: "Magnified and sanctified be Your name"\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting.\n\n#PittsburghShooting https://t.co/1RHrstLRl8'
+
+-
+
+AbbaCohen1: 
+[OPINION: 0.3333333333333333/1.0]'My wife Sandy and I are in Pittsburgh today and we woke up this morning to a stunning — inspiring and heartbreaking at the same time — headline. #PittsburghShooting https://t.co/YJtxHlT8Q7'
+
+   Quoting...PittsburghPG: 
+   [OPINION: 0.16666666666666666/1.0]'"Magnified and sanctified be Your name"\n\nThese are the first words of the Jewish mourners\' prayer, which will be recited tonight on the first Sabbath since the Tree of Life Synagogue shooting. https://t.co/LJPsKdlWRQ'
