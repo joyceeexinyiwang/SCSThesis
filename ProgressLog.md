@@ -5,6 +5,8 @@ In print, there is a more linear relationship from news creation (news agencies 
 
 I want to explore the different kinds of links between these different roles, and paint a quantified picture of how news get spread around between different agents, which would help illustrate the complex relationship between news professionals and readers nowadays.
 
+Informational influence across different types of agents?
+
 **Game plan**:
 - annotate all agents
   - find an event, collect agent data, annotate them to be news org, journalist, or citizen (is this new much?)
@@ -47,12 +49,23 @@ Future questions:
 - Does the Twitter community have the power to influence whether people think of an article as good or bad? Does a negative comment increase its retweeting numbers? (The self-correcting power of the community)
 - Who reads People's Daily on Twitter? (I can use the strategies developed in this work and see if People's Daily shows peculiar patterns that are at odds with new media in the 'free' world.)
 
-Meeting with Matt:
-- go over research approach
-- netmapper
-- detect bot
-- poster presentation (data collection, related works, framework, observations, future plan)
-- how to build custom networks
+
+## APPROACH 2
+
+News orgs, citizens, influential individuals, non-influential individuals:
+- **What's their reach if they "spread information"?**
+- **What's their reach if they "spread opinion"?**
+- **What's their reach if they "express opinion"?**
+
+- classify the type of information: "spread information" (link sharing, non-sentiment retweets, etc.) v.s. "spread opinion" (opinion, sharing opinion links, sharing opinion tweets, etc.) v.s. "express opinion" (reply, opinion tweets, etc.)
+  - sentiment analysis
+  - how to perform sentiment analysis over content of links?
+- classify reach: number of retweets and likes and snowballing, the type of people that these content reach
+  - build my own meta-network?
+  - correctly identify journalists and citizen-journalists
+- choose an agent, analyze informational influence for three types of informational spread
+- look at other agents
+
 
 
 #### To-do:
@@ -70,7 +83,16 @@ build custom networks and analyze reports
 
 ---
 
-### Thursday 11/28/2018
+### Friday 11/30/2018
+
+Meeting with Matt:
+- go over research approach
+- netmapper/sentiment analysis
+- detect bot
+- poster presentation (data collection, related works, framework, observations, future plan)
+- how to build custom networks
+
+### Thursday 11/29/2018
 Meeting with David Danks
 - (my project started from a place where I am interested in helping people take better responsibility over the weight and influence of their words)
 - information influence of agents in the context of news consumption
@@ -94,6 +116,12 @@ Readings
   - On Twitter, only 10 per cent of social media users said they followed a journalist or news outlet, compared to 18 per cent from personal connections.
 - "Ideological Segregation and the Effects of Social Media on News Consumption" (Flaxman, 2013): examining web browsing histories for 50,000 U.S.-located users who regularly read online news
   - these polarizing articles from social media and web search constitute only 2% of news consumption. Consequently, while recent technological changes do increase ideological segregation, the magnitude of the effect is limited.
+  - classify news v.s. opinion pieces based on words in url using machine learning
+- "Reuters Institute Digital News Report 2017":
+  - "incidental exposure to news" – situations where people end up consuming something while intending to do something else.
+  - For users of both social media and news aggregators, more people agree that they often see news from sources they wouldn’t normally use (36% and 35%) than disagree (27%). As a possible consequence of this, but also because these services have the potential to incidentally expose users to different topics as well as different news sources, more agree (40% and 37%) that they often see news stories that do not interest them than disagree (27%).
+  - **A significant number of people across all 36 markets say that they curate their social feeds based on the news content they want to see**. Over a third (36%) have added a user for news, and around one in five have blocked someone because of news they posted. A similar number have also fine-tuned their feeds in order to see more or less news from a particular account.
+  - So far we have seen that only a minority of users share and comment on news in most countries. To understand why most people tend to abstain from sharing and commenting on news, we asked them to identify possible reasons why. When looking at overall findings, we find that the two most cited reasons are (a) lack of interest in commenting on news and sharing news (37%) and (b) a preference for face-to-face discussions (37%).
 
 ### Wednesday 11/28/2018
 
