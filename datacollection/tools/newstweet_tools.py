@@ -65,6 +65,44 @@ class NewsTools():
 
 		return (False, addAccum)
 
+	def isRelated2Tweet(self, tweet, targetID):
+
+		addAccum = []
+
+		if tweet["id"] == targetID:
+			# this tweet is tweeted by the news agency originally
+			return (True, [tweet])
+
+		if "retweeted_status" in tweet:
+			(result, accum) = self.isRelated2Tweet(tweet["retweeted_status"], targetID)
+			if result:
+				accum.append(tweet)
+				return (True, accum)
+			addAccum.extend(accum)
+
+		if "quoted_status" in tweet:
+			(result, accum) = self.isRelated2Tweet(tweet["quoted_status"], targetID)
+			if result:
+				accum.append(tweet)
+				return (True, accum)
+			addAccum.extend(accum)
+
+		if tweet["in_reply_to_status_id"] != None:
+			reply_to = None
+			try:
+				reply_to = self.api.get_status(id=tweet["in_reply_to_status_id"], tweet_mode='extended')
+			except:
+				print("get_status error with id=" + tweet["in_reply_to_status_id_str"])
+
+			if (reply_to != None):
+				(result, accum) = self.isRelated2Tweet(reply_to._json, targetID)
+				if result:
+					accum.append(tweet)
+					return (True, accum)
+				addAccum.extend(accum)
+
+		return (False, addAccum)
+
 	def opinionScore(self, tweet):
 		full_text = tweet["full_text"]
 
@@ -149,7 +187,6 @@ class NewsTools():
 		return profile
 
 
-	# def profileTweet(tweet):
 
 	def isNewsProfessional(self, handle):
 		# TO-DO

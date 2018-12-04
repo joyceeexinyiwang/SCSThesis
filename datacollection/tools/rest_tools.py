@@ -2,7 +2,7 @@ import datetime, time, os, math, json, csv, sys
 from collections import Counter
 import tweepy
 
-def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=100000, fileName=None, max_num_errors=5):
+def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=10000, fileName=None, max_num_errors=5):
     ''' Perform a REST grab of terms '''
     tweetsPerQry = 100  # this is the max the API permits according to documentation
     # Number of tweets per file
@@ -37,9 +37,10 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=100000, fileName=
             max_id = -1 
             tweetCount = 0
             print("Downloading max {0} tweets for \'{1}\'".format(maxTweets,t))
-            if fileName is not None: nPart='{1}_{2}'.format(fileName, "_".join(t.split(" ")))
-            else:   nPart=t
-            fname=outPath+r'/{0}_{1}.json'.format("_".join(t.split(" ")), file_num)
+            if fileName is not None: nPart='{1}_{2}'.format(t.replace("/", "_"), "_".join(t.split(" ")))
+            else:   nPart=t.replace("/", "_")
+            print(t)
+            fname=outPath+r'\\{0}_{1}.json'.format("_".join(t.replace("/", " "). split(" ")), file_num)
             f=open(fname, 'a+',encoding='utf8')
             while tweetCount < maxTweets:
                 try:
@@ -108,13 +109,6 @@ def rest_scrape_single(t, maxTweets, api):
     print("Scraping for \'" + t + "\'.")
     tweetsPerQry = 100  # this is the max the API permits according to documentation
     allTweets = []
-
-    # for page in tweepy.Cursor(api.search, q=term, count=tweetsPerQry, tweet_mode='extended').pages():
-    #     # process status here
-    #     allTweets.extend(page)
-
-    # print("Found " + str(len(allTweets)) + " tweets.")
-
 
     #Check whether more than 450 calls have been done before 15 minutes
     errors=0

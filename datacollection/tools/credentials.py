@@ -7,8 +7,13 @@ cred_dict['Thesis']['csecret']=["azWdvSiYYi1ciIYqXh8D8Z1IzAUFGrR4pMr7srLNiZe7leU
 cred_dict['Thesis']['atoken']=["1051549838792364035-t2PvjyeXW3UIsQuH7l00MxdhXxYReD", "1051549838792364035-TuVg6QFOYhBlGKYfHM7sj60guO1xCc", "1051549838792364035-ThZ0KsVBTVFWVebOumlY7ZLG0iEJTT", "1051549838792364035-FKFsITF3yPQoXlwZTx5nMpI9eod4N5", "1051549838792364035-QVyABqOILqs76p0OWorqu7xAhMWzPY", "1051549838792364035-B2DfeZeJLRXiYFKLScJw4NJDhbFV6o", "1051549838792364035-rPf7gu2mtBfVIqplNPvblggu78dIDO"]
 cred_dict['Thesis']['asecret']=["ob7MhEOhFykrggxvPpxc8qnjE0aO9xSrVY9UgIhFRG1m1pr", "k9ua4w2PH3d6BSYvLfaFjaJCmVg5mZ0tjT0wXGezQwlzH", "HXGsnXHvGZcztssvz4qmV76MVk171K6AOfP8EYVCXNsyQ", "XrjbjcFOtU2gUX8nIk7nCyzUrfrapSrMkOybcYFYzZI7z", "lsJaxJK7xy5jgqYsPsdycDps2R0wJEWfoZvImPoBsJp12", "GR2duCp7A5QeT05dLuz7iMIfXUgzBvyRcrRuMKwJP51O0", "SAFLZPfguWah4doQGgPCoLYVJyVviOaOgk9Z08BNFtSbZ"]
 
-
 ### App-User Authorization
+
+"""
+
+https://developer.twitter.com/en/docs/basics/rate-limits
+
+"""
 
 def getAuth(i, mode):
     ckey = cred_dict['Thesis']['ckey'][i]

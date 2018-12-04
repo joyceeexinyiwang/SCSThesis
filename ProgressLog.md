@@ -1,4 +1,209 @@
-## NEW APPROACH
+## APPROACH 2
+
+In the context of news, how do 
+
+News orgs, journalists, influential individuals, non-influential individuals:
+- **What's their reach if they "spread information"?**
+- **What's their reach if they "spread opinion"?**
+- **What's their reach if they "express opinion"?**
+
+### Friday 12/7/2018
+
+### Thursday 12/6/2018
+Poster put together
+
+### Wednesday 12/5/2018
+data stats
+bots and journalists
+ORA graph
+
+### Tuesday 12/4/2018
+
+lit review
+
+email Binxuan and Dave (Binxuan: classify who's media/celebrity/normal people； Dave: bot hunter script)
+what would be a set of principles to design machine learning softwares?
+
+---
+
+### Tuesday 12/4/2018
+
+**Collect data**:
+- nytimes x china's genetically modified babies
+  - opinion: https://twitter.com/nytimes/status/1069475079195713536
+  - factual story: https://twitter.com/nytimes/status/1069505295687266304
+
+(if it is nytimes and nytimes opinions, I need to consider their different scales (number of followers).)
+- nytimes x death of G. H. W. Bush
+  - opinion: https://twitter.com/nytopinion/status/1069463438391459840
+  - factual story: https://twitter.com/nytimes/status/1069214662674264065
+  - ?: https://twitter.com/nytimes/status/1069263693974786048
+  - DO THIS ONE LATER COZ IT IS SO NEW: opinion: https://twitter.com/nytopinion/status/1070009039814316033
+
+> LATE
+
+
+### Monday 12/3/2018
+
+#### Meeting with Kathleen
+I was looking very generally at the spread of information. Not sure what I was looking for. Lost track of my research problems.  
+I am behind on my own schedules, but last week I decided to sit down and really scope down my problem statement and do more literature review. I also met with Matt on Friday and got a lot of help. So here is what I am thinking.
+
+I had a meeting with David Danks.   
+The "so what" question  
+Helping news agencies be more aware of the consequences of their words.
+
+Tried to figure out the specific questions to ask.
+
+In the context of news, how do opinion pieces and factual pieces spread differently?  
+Choose an event, choose a news outlet, observe the spread of a few opinion tweets and a few factual tweets.
+
+Define two different types of "spread"
+- circulation (retweets | how many, who, how fast )
+- discourse (quote/replies, agreement/disagreement/elaborate | how many, who, how fast | )
+(--> how does these patterns of information spread relate to the role of the media in a democracy)
+
+#### poster
+
+problem statement, related works, approach/methods, data collection  
+sample tweets  
+sample stats for both circulation and discourse  
+sample data, load into ORA and show up image
+show expected results  
+statistics: here are some of the variables i need to make decisions about. here is the followership for new york times. here are the number of opinion pieces and factual pieces I have extracted.
+
+describe events (and also say many events don't have both of these)
+
+- send first version on Friday
+- print it on Monday (def before Wednesday), Sienne will help
+- pick up poster board on Monday
+- presentation is on Wednesday
+
+research write-up:  
+describe where I started (the very general questions) and the limitations of the data, and what made me narrow down to the topics I have now 
+
+#### today
+
+**Collect data**:
+- nytimes x china's genetically modified babies
+  - opinion: https://twitter.com/nytimes/status/1069475079195713536
+  - factual story: https://twitter.com/nytimes/status/1069505295687266304
+
+(if it is nytimes and nytimes opinions, I need to consider their different scales (number of followers).)
+- nytimes x death of G. H. W. Bush
+  - opinion: https://twitter.com/nytopinion/status/1069463438391459840
+  - factual story: https://twitter.com/nytimes/status/1069214662674264065
+  - ?: https://twitter.com/nytimes/status/1069263693974786048
+  - opinion: https://twitter.com/nytopinion/status/1070009039814316033
+
+simple stats
+
+(maybe)
+- nytimes x immigration detention
+  - opinion: https://twitter.com/nytimes/status/1069256163039080455
+  - factual story: https://twitter.com/nytimes/status/1069271739992088580
+- ajenglish x Brexit
+  - opinion: https://twitter.com/AJEnglish/status/1069512340633280512
+  - factual story: https://twitter.com/AJEnglish/status/1069350556878155777
+
+
+### Sunday 12/2/2018
+
+Literature review:
+- "Differences in the Mechanics of Information Diffusion Across Topics: Idioms, Political Hashtags, and Complex Contagion on Twitter" (Romero, 2011)
+  - analyzing the ways in which tokens known as hashtags spread on a network defined by the interactions among Twitter users
+  - the variation in the spread of hashtags is not attributable simply to differences in "stickiness," the probability of adoption based on one or more exposures, but also to a quantity that could be viewed as a kind of "persistence:—the relative extent to which repeated exposures to a hashtag continue to have significant marginal effects.
+  - first large-scale validation of the **"complex contagion"** principle from sociology
+  - *Repeated exposure to controversial things allow them to stick longer.* Successive exposures to a political hashtag have an unusually large effect relative to the peak.
+  - Interpreting the findings: The distinction between contentious topics in the on-line and off-line worlds is one issue to keep in mind when interpreting these results.
+- "Social Influence Analysis: Models, Methods, and Evaluation" (Li, 2018)
+  - Social Influence Analysis (SIA)
+  - two types of **SIA models**: microscopic and macroscopic models. Microscopic models consider human interactions and the structure of the influence process, whereas macroscopic models consider the same transmission probability and identical influential power for all users.
+  - **SIA methods** are used to solve the sub-problems of social network influence analysis, such as influence maximization, influence minimization, flow of influence, and individual influence.
+  - **Social influence evaluation** 
+- "A New Influence Measure Based on Graph Centralities and Social Network Behavior Applied to Twitter Data" (Boulet, 2018) -- *section 2 has a super good lit review on graphical methods for social network analysis*
+  - ...“fake news” spreads faster than true news (Langin, 2018)
+  - graph theory for social network analysis
+    - Fortunato (2010) provides an excellent overview of community-detection methods
+  - 
+
+### Friday 11/30/2018
+
+Meeting with Matt:
+- go over research approach
+- netmapper/sentiment analysis
+- detect bot (use Dave's website and download csv)
+- poster presentation (data collection, related works, framework, observations, future plan)
+- how to build custom networks (see screenshots)
+
+factual stories v.s. opinion stories
+find opinion stories and factual stories (breaking news, news articles) on the same event by the same news agency 
+(nytimes v.s. nytopinion)
+(aje v.s. #ajopinion)
+- circulation (retweets | how many, who, how fast)
+- discourse (quote/replies, positive/negative/elaborate | how many, who, how fast)
+(--> how does these patterns of information spread relate to the role of the media in a democracy)
+
+R.Q:
+- are the audiences for news and opinions the same? who are they?
+- do they act the same?
+- do they spread with the same speed?
+- do they spread with the same amount
+
+data collection
+- retweets: check if the total number of retweets match/is similar with the total number of retweets
+- quotes: url of the tweets
+- replies: search by handle and then filter by reply status
+
+for the 'who' questions:
+- detect bot using [Dave's code](http://data-analytics.net/Apps/botApp/)
+- classify journalists/citizen/news org
+- verified?
+
+what we know right now:
+- emotional language that gears towards anger/revulsions get shared more
+- sad language do not get shared as much
+
+poster:
+- an example of what I am aiming
+- a table of preliminary stats (label if the results are actual, preliminary, or expected)
+
+### Thursday 11/29/2018
+Meeting with David Danks
+- (my project started from a place where I am interested in helping people take better responsibility over the weight and influence of their words)
+- information influence of agents in the context of news consumption
+- responsibility: can we allow agents to self-monitor their role in the network?
+  - what is the accountability of an agent...
+    - as a reader, filter their own sources and spread the words forward 
+    - understand their role as a channel?
+    - ...how to if they cannot exactly predict where their words go?
+    - what they do is: understand their own proximities--sources/audiences
+    - provide a new lens to look at informational influence?
+
+Readings
+- "News sharing in social media: The effect of gratifications and prior experience": the uses and gratifications (U&G) and social cognitive theories (SCT), how influences of information seeking, socializing, entertainment, status seeking and prior social media sharing experience on news sharing intention
+- "Posting, commenting, and tagging: Effects of sharing news stories on Facebook": asking the network’s opinions and targeting specific friends led to greater involvement in the news content; discussion through comments led to a greater sense of influence and greater involvement for those sharing the news story
+- "Share, Like, Recommend" (Hermida, 2012): based on an online survey of 1600 Canadians
+  - Two-fifths of social networking users said they receive news from people they follow on services like Facebook, while a fifth get news from news organizations and individual journalists they follow.
+  - a significant number of social media users value their personal network as a way to filter the news, rather than solely relying on the professional judgment of a news organization or journalist.
+  - a message from a news organization or journalist was sent on average 15.5 times (An et al., 2011)
+  - **useful stats table: use of social media for news and information on a typical day (%)**
+  - Canadians were twice as likely to prefer news links and recommendations from friends and family than from journalists or news organizations on both Facebook and on Twitter. While, as has been cited, 43 per cent said they received their news from friends and family on social networks like Facebook, only 20 per cent cited the account of a news organization or a journalist as a source.
+  - On Twitter, only 10 per cent of social media users said they followed a journalist or news outlet, compared to 18 per cent from personal connections.
+- "Ideological Segregation and the Effects of Social Media on News Consumption" (Flaxman, 2013): examining web browsing histories for 50,000 U.S.-located users who regularly read online news
+  - these polarizing articles from social media and web search constitute only 2% of news consumption. Consequently, while recent technological changes do increase ideological segregation, the magnitude of the effect is limited.
+  - classify news v.s. opinion pieces based on words in url using machine learning
+- "Reuters Institute Digital News Report 2017":
+  - "incidental exposure to news" – situations where people end up consuming something while intending to do something else.
+  - For users of both social media and news aggregators, more people agree that they often see news from sources they wouldn’t normally use (36% and 35%) than disagree (27%). As a possible consequence of this, but also because these services have the potential to incidentally expose users to different topics as well as different news sources, more agree (40% and 37%) that they often see news stories that do not interest them than disagree (27%).
+  - **A significant number of people across all 36 markets say that they curate their social feeds based on the news content they want to see**. Over a third (36%) have added a user for news, and around one in five have blocked someone because of news they posted. A similar number have also fine-tuned their feeds in order to see more or less news from a particular account.
+  - So far we have seen that only a minority of users share and comment on news in most countries. To understand why most people tend to abstain from sharing and commenting on news, we asked them to identify possible reasons why. When looking at overall findings, we find that the two most cited reasons are (a) lack of interest in commenting on news and sharing news (37%) and (b) a preference for face-to-face discussions (37%).
+
+### Wednesday 11/28/2018
+
+(See graph on journal entry of 11/28/2018)
+
+**NEW APPROACH??**  
 *How to describe the evolving relationship between the news org, the journalist, and the audience?*
 
 In print, there is a more linear relationship from news creation (news agencies and journalists) to news consumption (readers). With social-media, the relationship between news professionals and their readers become more convoluted. Once content is created and posted on the web, news orgs, journalists, and readers interact with each other to spread the information and engage in discourse. Original content gets shared as a link in the tweet, most often by the news orgs themselves. 
@@ -7,7 +212,7 @@ I want to explore the different kinds of links between these different roles, an
 
 Informational influence across different types of agents?
 
-**Game plan**:
+plan:
 - annotate all agents
   - find an event, collect agent data, annotate them to be news org, journalist, or citizen (is this new much?)
   - down the line can profile agents based on: bots, influence, etc.
@@ -48,84 +253,6 @@ Informational influence across different types of agents?
 Future questions:
 - Does the Twitter community have the power to influence whether people think of an article as good or bad? Does a negative comment increase its retweeting numbers? (The self-correcting power of the community)
 - Who reads People's Daily on Twitter? (I can use the strategies developed in this work and see if People's Daily shows peculiar patterns that are at odds with new media in the 'free' world.)
-
-
-## APPROACH 2
-
-News orgs, citizens, influential individuals, non-influential individuals:
-- **What's their reach if they "spread information"?**
-- **What's their reach if they "spread opinion"?**
-- **What's their reach if they "express opinion"?**
-
-- classify the type of information: "spread information" (link sharing, non-sentiment retweets, etc.) v.s. "spread opinion" (opinion, sharing opinion links, sharing opinion tweets, etc.) v.s. "express opinion" (reply, opinion tweets, etc.)
-  - sentiment analysis
-  - how to perform sentiment analysis over content of links?
-- classify reach: number of retweets and likes and snowballing, the type of people that these content reach
-  - build my own meta-network?
-  - correctly identify journalists and citizen-journalists
-- choose an agent, analyze informational influence for three types of informational spread
-- look at other agents
-
-
-
-#### To-do:
-
-build custom networks and analyze reports
-
-- read related works and organize
-  - what we know already about the relationship graph:
-    - journalists and news curators...
-    - ...
-  - information influence and responsibility
-- finish reading reports and come up with a few observations
-- agent data and annotation
-
-
----
-
-### Friday 11/30/2018
-
-Meeting with Matt:
-- go over research approach
-- netmapper/sentiment analysis
-- detect bot
-- poster presentation (data collection, related works, framework, observations, future plan)
-- how to build custom networks
-
-### Thursday 11/29/2018
-Meeting with David Danks
-- (my project started from a place where I am interested in helping people take better responsibility over the weight and influence of their words)
-- information influence of agents in the context of news consumption
-- responsibility: can we allow agents to self-monitor their role in the network?
-  - what is the accountability of an agent...
-    - as a reader, filter their own sources and spread the words forward 
-    - understand their role as a channel?
-    - ...how to if they cannot exactly predict where their words go?
-    - what they do is: understand their own proximities--sources/audiences
-    - provide a new lens to look at informational influence?
-
-Readings
-- "News sharing in social media: The effect of gratifications and prior experience": the uses and gratifications (U&G) and social cognitive theories (SCT), how influences of information seeking, socializing, entertainment, status seeking and prior social media sharing experience on news sharing intention
-- "Posting, commenting, and tagging: Effects of sharing news stories on Facebook": asking the network’s opinions and targeting specific friends led to greater involvement in the news content; discussion through comments led to a greater sense of influence and greater involvement for those sharing the news story
-- "Share, Like, Recommend" (Hermida, 2012): based on an online survey of 1600 Canadians
-  - Two-fifths of social networking users said they receive news from people they follow on services like Facebook, while a fifth get news from news organizations and individual journalists they follow.
-  - a significant number of social media users value their personal network as a way to filter the news, rather than solely relying on the professional judgment of a news organization or journalist.
-  - a message from a news organization or journalist was sent on average 15.5 times (An et al., 2011)
-  - **useful stats table: use of social media for news and information on a typical day (%)**
-  - Canadians were twice as likely to prefer news links and recommendations from friends and family than from journalists or news organizations on both Facebook and on Twitter. While, as has been cited, 43 per cent said they received their news from friends and family on social networks like Facebook, only 20 per cent cited the account of a news organization or a journalist as a source.
-  - On Twitter, only 10 per cent of social media users said they followed a journalist or news outlet, compared to 18 per cent from personal connections.
-- "Ideological Segregation and the Effects of Social Media on News Consumption" (Flaxman, 2013): examining web browsing histories for 50,000 U.S.-located users who regularly read online news
-  - these polarizing articles from social media and web search constitute only 2% of news consumption. Consequently, while recent technological changes do increase ideological segregation, the magnitude of the effect is limited.
-  - classify news v.s. opinion pieces based on words in url using machine learning
-- "Reuters Institute Digital News Report 2017":
-  - "incidental exposure to news" – situations where people end up consuming something while intending to do something else.
-  - For users of both social media and news aggregators, more people agree that they often see news from sources they wouldn’t normally use (36% and 35%) than disagree (27%). As a possible consequence of this, but also because these services have the potential to incidentally expose users to different topics as well as different news sources, more agree (40% and 37%) that they often see news stories that do not interest them than disagree (27%).
-  - **A significant number of people across all 36 markets say that they curate their social feeds based on the news content they want to see**. Over a third (36%) have added a user for news, and around one in five have blocked someone because of news they posted. A similar number have also fine-tuned their feeds in order to see more or less news from a particular account.
-  - So far we have seen that only a minority of users share and comment on news in most countries. To understand why most people tend to abstain from sharing and commenting on news, we asked them to identify possible reasons why. When looking at overall findings, we find that the two most cited reasons are (a) lack of interest in commenting on news and sharing news (37%) and (b) a preference for face-to-face discussions (37%).
-
-### Wednesday 11/28/2018
-
-(See graph on journal entry of 11/28/2018)
 
 ---
 
@@ -412,7 +539,7 @@ adapted Ramon's code to collect
 
 
 ### 9/19/2018
-“Computing Political Preference among Twitter Followers”  
+"Computing Political Preference among Twitter Followers"  
 "What Journalists Share: A Comparative Study of the National Press Corps in Australia and Germany"  
 ["Who’s behind that tweet? Here’s how 7 news orgs manage their Twitter and Facebook accounts"](http://www.niemanlab.org/2014/05/whos-behind-that-tweet-heres-how-7-news-orgs-manage-their-twitter-and-facebook-accounts/#disqus_thread) via Neiman Lab
 > According to this Neiman Lab article, tweets with voices tend to generate the most interactions. Maybe consider **voice/no voice** as one of the distinguishing factors for social media-based journalistic behavior?
@@ -468,7 +595,7 @@ D&S: "Searching for Alternative Facts: Analyzing Scriptural Inference in Conserv
 - Girvan, Michelle, and Mark EJ Newman. "Community structure in social and biological networks." Proceedings of the national academy of sciences 99, no. 12 (2002): 7821-7826. [link](/docs/Girvan-2002.pdf)
   - new approach to detect clustering (communities) in social networks
   - using edge-betweenness to detect community peripheries
-- Kathleen M. Carley, 1990, “Structural Constraints on Communication:  The Diffusion of the Homomorphic Signal Analysis Technique through Scientific Fields,” Journal of Mathematical Sociology, 15(3-4): 207-246. (can't download online) 
+- Kathleen M. Carley, 1990, "Structural Constraints on Communication:  The Diffusion of the Homomorphic Signal Analysis Technique through Scientific Fields," Journal of Mathematical Sociology, 15(3-4): 207-246. (can't download online) 
 
 *vocab: centrality (degree, betweenness, and closeless), network analysis, geodesic distance, distance and proximity.*
 

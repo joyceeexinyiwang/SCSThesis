@@ -76,10 +76,10 @@ def run(handle, qFile, maxTweets, appN):
 
     ## Clean up
 
-    i = (appN + 1)%4
+    # i = (appN + 1)%4
 
-    auth = cred.getAuth(i, "app")
-    api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+    # auth = cred.getAuth(i, "app")
+    # api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
     tool = NewsTools(api)
 
