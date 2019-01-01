@@ -1,0 +1,139 @@
+Extracted threads from try.json and writing into try.txt
+
+---
+---
+---
+
+
+-
+
+latimes: journalism, high influence, very_active: 
+'RT @boreskes: NEWS #hillfire:  The 101 Freeway is closed in both directions from the Camarillo Springs Road to Ventu Park Road, according t…'
+
+   Retweeting...boreskes: unknown, low influence, very_active: 
+   'NEWS #hillfire:  The 101 Freeway is closed in both directions from the Camarillo Springs Road to Ventu Park Road, according to Ventura Fire Captain Stan Ziegler.'
+
+-
+
+knittingknots: unknown, low influence, very_active: 
+'Another Cal fire  #HillFire\n\nWildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/PVYdYqxrZh'
+
+-
+
+K38rescue: unknown, low influence, very_active: 
+'RT @JonLaird87: Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillF…'
+
+   Retweeting...JonLaird87: unknown, low influence, very_active: 
+   'Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillFire'
+
+-
+
+JonLaird87: unknown, low influence, very_active: 
+'Wildfire burning near Newbury Park in Ventura County prompts evacuations - Los Angeles Times https://t.co/96yezmvQ1s #HillFire'
+
+-
+
+ValentinaInLA: unknown, low influence, very_active: 
+'Un pericoloso incendio in Nord California ha già causato l’evacuazione di migliaia di persone. Il ferimento di alcune e la distruzione di alcune strutture @rainews @antdibella Camp fire burning in Northern California forces thousands to evacuate https://t.co/ikaV9WtgjL'
+
+-
+
+latimes: journalism, high influence, very_active: 
+'Evacuations ordered in Northern California as fast-moving wildfire spreads https://t.co/maJPdWvAjA https://t.co/oTLF48lMVf'
+
+-
+
+ValentinaInLA: unknown, low influence, very_active: 
+'Un secondo fronte del fuoco anche in sud California. Evacuazione in corso @RaiNews Wildfire burning near Newbury Park in Ventura County prompts evacuations and freeway closure https://t.co/vN8j5sqURx'
+
+-
+
+latimes: journalism, high influence, very_active: 
+"Here's what we know now about the #CampFire in Northern California https://t.co/maJPdWNbb8 https://t.co/nG8bwv1eSR"
+
+   Quoting...paigestjohn: unknown, low influence, very_active: 
+   'Abandoned cars blocking escape route, fire truck trying to bump them out of the way, bulldozer called to help clear the way https://t.co/6VkgkVuT2H'
+
+-
+
+latimes: journalism, high influence, very_active: 
+'Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https://t.co/maJPdWNbb8\n\nFollow @paigestjohn for updates fro the fire. https://t.co/C1L9ZpApdH'
+
+   Quoting...paigestjohn: unknown, low influence, very_active: 
+   'Area of Butte fire as residents flee south on Skyway. NB through Magilia is gridlocked. Flames overtaking vehicles on Clark https://t.co/Rjfap7u075'
+
+-
+
+latimes: journalism, high influence, very_active: 
+'The Ventura County Fire Department said a family hotline number has been established for those still waiting to hear back from loved ones (805) 465-6650. https://t.co/mWKxujuMMo'
+
+   Replying to...latimes: journalism, high influence, very_active: 
+   'This morning, family members of people who may have been at the Borderline Bar &amp; Grill Wednesday night wait for answers at the Thousand Oaks Teen Center https://t.co/WDgOVV8rr4'
+
+      Quoting...sarahparvini: unknown, low influence, very_active: 
+      'Ventura county sheriff PIO said there’s about 50-60 people in the center, family and friends. This is where people will find out whether a loved one was killed or injured in the #borderlinebarshooting https://t.co/4c2CW1elE1'
+
+      Replying to...latimes: journalism, high influence, very_active: 
+      'He didn’t have any ID on him but the man was 29,  heavily tattooed, drove his mother’s car to the attack and said nothing during the shooting. He was found down with a gunshot wound when the officers entered the building. https://t.co/oLOZU7fTZ1'
+
+         Replying to...latimes: journalism, high influence, very_active: 
+         'Authorities have not disclosed the suspect’s name, but a law enforcement source reported that he was armed with a Glock .45 handgun and some type of smoke device. https://t.co/RnquLSw1Mz'
+
+            Replying to...latimes: journalism, high influence, very_active: 
+            'A motive in the shooting was not immediately clear, but Ventura County Sheriff Geoff  Dean said there was no evidence linking the attack to terrorism.'
+
+               Replying to...latimes: journalism, high influence, very_active: 
+               'Helus’s body will be  escorted from the hospital to the medical examiner’s office in Ventura this morning. https://t.co/yZSIZUiCvC'
+
+                  Replying to...latimes: journalism, high influence, very_active: 
+                  'He was shot multiple times and died at Los Robles Regional Medical Center. https://t.co/LvXNAM4cnn'
+
+                     Quoting...andreamcastillo: unknown, low influence, very_active: 
+                     'I’m at Los Robles Regional Medical Center, where Sgt. Ron Helus was taken after he was shot. He died here a short while ago of multiple gunshot wounds. He’d been with the sheriff’s department for 29 years. #Borderline'
+
+                     Replying to...latimes: journalism, high influence, very_active: 
+                     'Sgt. Sgt. Ron Helus called his wife before entering the scene, telling her he loved her. A 29-year veteran of the department, Helus was planning to retire next year.https://t.co/ax187R6bnz'
+
+                        Replying to...latimes: journalism, high influence, very_active: 
+                        '“I thought for a minute that, maybe, I won’t make it out,” said Erika Sigman, Cal State Channel Islands student who was at the bar celebrating a birthday. https://t.co/udGYw7kquQ'
+
+                           Replying to...latimes: journalism, high influence, very_active: 
+                           '“He just pulled out a gun and shot my friend that was working the front desk,” said Holden Harrah, 21, who has been visiting the bar for 6 months. https://t.co/XMKyyEtT0y'
+
+                              Replying to...latimes: journalism, high influence, very_active: 
+                              'He then threw smoke bombs into the bar and shot into a crowd of hundreds, killing 12 people. One of those killed was a Ventura County Sheriff’s Department sergeant responding to the shooting. \nhttps://t.co/OyYqXmmfDD'
+
+                                 Replying to...latimes: journalism, high influence, very_active: 
+                                 'The gunman was dressed in black when he burst into the Borderline Bar &amp; Grill, a country-music-themed venue that is popular with college students, around 11:20 p.m., according to Sheriff Geoff Dean. https://t.co/YTwPcmksus https://t.co/DZ7hapTqAm'
+
+                                    Replying to...latimes: journalism, high influence, very_active: 
+                                    'Authorities have not yet identified the gunman, who died in the incident, or any of the victims inside the bar. We are updating this page as we learn new information. https://t.co/LN8o4z0h9X'
+
+                                       Replying to...latimes: journalism, high influence, very_active: 
+                                       "Here's what we know about the shooting in Thousand Oaks, CA last night where a gunman killed 12 people. https://t.co/1DFIBM4BIv"
+
+-
+
+PhyllisKStein: unknown, min influence, very_active: 
+'Evacuations ordered in Northern California as fast-moving wildfire spreads - Los Angeles Times https://t.co/ZKWmwz2fSV'
+
+-
+
+MademoiselleRe5: unknown, low influence, very_active: 
+'RT @shelbygrad: On a normal day, this would be the scariest photo from California. Not today... https://t.co/lgMAfbS1u4 https://t.co/0vEHbl…'
+
+   Retweeting...shelbygrad: unknown, mid influence, very_active: 
+   'On a normal day, this would be the scariest photo from California. Not today... https://t.co/lgMAfbS1u4 https://t.co/0vEHbljTXE'
+
+-
+
+AnneCMulkern: unknown, low influence, very_active: 
+'RT @latimes: Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https:/…'
+
+   Retweeting...latimes: journalism, high influence, very_active: 
+   'Evacuations have been ordered in Butte County in Northern California where the #CampFire is burning thousands of acres https://t.co/maJPdWNbb8\n\nFollow @paigestjohn for updates fro the fire. https://t.co/C1L9ZpApdH'
+
+      Quoting...paigestjohn: unknown, low influence, very_active: 
+      'Area of Butte fire as residents flee south on Skyway. NB through Magilia is gridlocked. Flames overtaking vehicles on Clark https://t.co/Rjfap7u075'
+
+-

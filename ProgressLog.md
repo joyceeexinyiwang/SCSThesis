@@ -7,24 +7,117 @@ News orgs, journalists, influential individuals, non-influential individuals:
 - **What's their reach if they "spread opinion"?**
 - **What's their reach if they "express opinion"?**
 
-### Friday 12/7/2018
+More Questions:
+- how to organize stats and data?????  
+- include any tweets with links to original articles? 
+- How to visualize the identity of agents?
 
-### Thursday 12/6/2018
-Poster put together
+**Analysis plan**
+- Collect "snowballing" data (e.g., replies of the replies) on more <agency, event> pairs and perform comparative analysis in ways similar to the sample
+  - Overlap between readers who engage with opinion tweets and those with factual tweets
+  - Agent identity (news agencies, journalists, citizen journalists, regular people, bots)
+  - Density of agent-agent communication network
+  - Circulation network (retweets) versus discourse network (quotes/reply)
+- Aggregate opinion stories and factual stories and compare across different agencies
+  - Whether there is a consistent engagement pattern across agencies
+  - What allow an agency to generate more discourse around factual stories than opinion stories, or vice versa
+  - Examine whether opinion stories attract more frequent agents or one-time agents
+- Collect data on viral stories
+  - Compare and contrast the network of viral opinion stories and that of viral factual stories
+- Collect data on threads
 
-### Wednesday 12/5/2018
-data stats
-bots and journalists
-ORA graph
+*Why do people not engage with nytimes opinion articles so much, but more with, maybe, Fox?*
 
-### Tuesday 12/4/2018
-
-lit review
-
-email Binxuan and Dave (Binxuan: classify who's media/celebrity/normal people； Dave: bot hunter script)
-what would be a set of principles to design machine learning softwares?
+Read the things by David Danks
 
 ---
+
+
+Update:
+
+- poster presentation
+- ideas
+  - experiment
+  - classification of factual and opinion stories
+  - content of stories may affect discourse patterns (outrage buttons)
+- plan to clean up code and write up report
+
+
+Hi Professor Carley,
+
+Here is my last update of the year 2018:
+- The SCS undergraduate research poster presentation went well! Many people--undegrads, professors, and PhDs--came over and talked to me about the project. It was a great opportunity to practice explaning my research and many interesting ideas came out of the conversations. For example:
+  - I want to think of more robust ways to classify opinion stories, factual stories, and those in between these definitions. It is important to note that the opinion v.s. factual dichotomy is based on perception--whether the writing of the story is perceived as opinionated, or factual. Right now it is a binary classification based on my personal observation, but I could consider having a more complex set of categories, or designing metrics to offset subjectivity (perhaps using MTurks for the labeling tasks also?)
+  - Someone pointed out to me that the network around a news article is related to whether the event presses "outrage buttons." For example, for the "genetically modified babies" event which I collected data for, the story itself is controversial, which probably affects its network regardless of whether the article is written in opinionated language or factual language. I think it would be interesting to compare tweets with controversial materials and those with more neutral materials. Intuitively, articles with controversial stories have larger and more convoluted networks, regardless of the perception of their writing?
+
+After finals I flew back home to Beijing and then immediately got sick. Thus I haven't been able to achieve much since the last week of school. But here is what I plan to do in the next few weeks:
+
+- collect more data
+- clean up data collection code from the semester and write up documentation
+- build slides summarizing my findings
+- write a short report with literature review, data collection process, and preliminary results
+
+Thank you for all your guidance this semester Professor Carley. I learned a lot already, and I look forward to continuring working with you next year.
+
+Hope you have a fun and restful holiday!
+
+Joyce
+
+
+### Future
+
+what I learned from the poster presentation
+- how to classify factual stories, opinion stories, and those in between (by perception of language and content)
+- experiment: create a news aggregator account to test out different behaviors and see how people react to it
+- the content of factual articles can instigate opinions: "outrage buttons"
+- learn techniques: 36491 data analysis course
+- talk to Cori from HCI
+
+COLLECT DATA
+
+
+### Wednesday 12/12/2018
+
+[VIDEO: Disinformation and democracy by Naja Bentzen, EPRS (European Parliamentary Research Service) policy analyst](https://www.youtube.com/watch?v=-KH1uj1ZB3A)
+
+collect @nytimes data
+
+SCS Undergraduate Research Poster Presentation
+
+### Monday 12/10/2018
+collect new data on "Bush" and "Genetic" tweets
+
+### Thursday 12/6/2018
+
+run news agency csv
+study the reports
+send title to Mary Widom
+
+Meeting with Matt:
+- how to get replies to a certain tweet?
+  - *scrape by the handle of account and filter by in_reply status (this method can only get replies by other accounts, but not replies by the account itself, which make up "threads")*
+- general advice: if something is meaningless, don't put on the poster
+- made analysis plan
+
+Email Prof. Carley
+- cite Binxuan's agent identity classification script?
+
+
+### Wednesday 12/5/2018
+Met with Binxuan to classify agents
+Put together poster
+
+Comparing one opinion tweet and one factual tweet for <@nytimes, genetically modified baby>
+- Proportion of journalist and non-journalist agents during the first three 3-hour periods
+  - pretty similar ratios and progression
+- The size of quote/reply network in comparison to the size of retweet networks for factual and opinion tweets during the first three 3-hour periods.
+  - pretty similar ratios and progression
+
+> generalize to other events and news agencies?
+
+> include any tweets with links to original articles?
+
+> simialr results with long-term data? (viral opinion tweets/)
 
 ### Tuesday 12/4/2018
 
@@ -38,9 +131,12 @@ what would be a set of principles to design machine learning softwares?
   - opinion: https://twitter.com/nytopinion/status/1069463438391459840
   - factual story: https://twitter.com/nytimes/status/1069214662674264065
   - ?: https://twitter.com/nytimes/status/1069263693974786048
+  - factual: https://twitter.com/nytimes/status/1070346587510108161
   - DO THIS ONE LATER COZ IT IS SO NEW: opinion: https://twitter.com/nytopinion/status/1070009039814316033
 
-> LATE
+> LATER ON, COLLECT A BUNCH OVER TIME AND THEN DEDUPE!!!!!
+
+["How to write a research paper"](https://xrds.acm.org/resources/how-to-write-research-poster.cfm) by Lorrie Cranor
 
 
 ### Monday 12/3/2018
