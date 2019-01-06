@@ -8,7 +8,6 @@ from textblob import TextBlob
 from tools import rest_tools as rest
 from tools import general_tools as gen
 
-
 class NewsTools():
 
 	def __init__(self, api):

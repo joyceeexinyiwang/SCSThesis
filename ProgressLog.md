@@ -33,36 +33,6 @@ Read the things by David Danks
 ---
 
 
-Update:
-
-- poster presentation
-- ideas
-  - experiment
-  - classification of factual and opinion stories
-  - content of stories may affect discourse patterns (outrage buttons)
-- plan to clean up code and write up report
-
-
-Hi Professor Carley,
-
-Here is my last update of the year 2018:
-- The SCS undergraduate research poster presentation went well! Many people--undegrads, professors, and PhDs--came over and talked to me about the project. It was a great opportunity to practice explaning my research and many interesting ideas came out of the conversations. For example:
-  - I want to think of more robust ways to classify opinion stories, factual stories, and those in between these definitions. It is important to note that the opinion v.s. factual dichotomy is based on perception--whether the writing of the story is perceived as opinionated, or factual. Right now it is a binary classification based on my personal observation, but I could consider having a more complex set of categories, or designing metrics to offset subjectivity (perhaps using MTurks for the labeling tasks also?)
-  - Someone pointed out to me that the network around a news article is related to whether the event presses "outrage buttons." For example, for the "genetically modified babies" event which I collected data for, the story itself is controversial, which probably affects its network regardless of whether the article is written in opinionated language or factual language. I think it would be interesting to compare tweets with controversial materials and those with more neutral materials. Intuitively, articles with controversial stories have larger and more convoluted networks, regardless of the perception of their writing?
-
-After finals I flew back home to Beijing and then immediately got sick. Thus I haven't been able to achieve much since the last week of school. But here is what I plan to do in the next few weeks:
-
-- collect more data
-- clean up data collection code from the semester and write up documentation
-- build slides summarizing my findings
-- write a short report with literature review, data collection process, and preliminary results
-
-Thank you for all your guidance this semester Professor Carley. I learned a lot already, and I look forward to continuring working with you next year.
-
-Hope you have a fun and restful holiday!
-
-Joyce
-
 
 ### Future
 
@@ -74,6 +44,19 @@ what I learned from the poster presentation
 - talk to Cori from HCI
 
 COLLECT DATA
+
+
+### Sun 1/6/2019
+Collect Data:
+
+1/5/2019
+Opinion:
+1081705677079355393
+1081701895696248841
+1081650627493662722 (in a thread) (rt. by nytimes, orig. by nytopinions)
+
+less opinion, but partisan
+1081592679681658880
 
 
 ### Wednesday 12/12/2018

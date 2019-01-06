@@ -4,7 +4,7 @@ retweet: query by keywords of original tweets and filter
 quote: query by url and filter
 reply: query by news agency handle and filter
 
-python tweet_network.py
+python tweet_network.py keywords.tsv outputFolder appNumber
 
 """
 
@@ -12,38 +12,34 @@ import sys, json, os, datetime
 import tweepy
 from tools import credentials as cred
 from tools import rest_tools as rest
-from tools import clean
-from tools.newstweet_tools import NewsTools
+from tools import basics
 
-def rpr():
 
-	idN = 1067738896979644416
-	appN = 3
+def network(idN, excerpts, links, path, appN):
+
 	auth = cred.getAuth(appN, "app")
 	api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
-	tool = NewsTools(api)
 
 	now = datetime.datetime.now()
-	path = "data/@nytimes_" + str(idN) # "data/" + str(idN) + "_" + now.strftime("%Y-%m-%d-%H-%M")
+	path = path + "_" + now.strftime("%Y-%m-%d-%H-%M")
 
 	# get tweet object by ID
 	tweet = api.get_status(id=idN, tweet_mode='extended')
 
 	print("Created at: " + tweet._json["created_at"])
 	print("Retweet count = " + str(tweet._json["retweet_count"]))
-	print("favorite count = " + str(tweet._json["favorite_count"]))
+	print("Favorite count = " + str(tweet._json["favorite_count"]))
 
 	scraped = []
 	terms = []
-	terms.append("I feel proud, actually")
-	terms.append("nytimes genetically")
-	terms.append("nytimes modified")
-	terms.append("https://twitter.com/nytimes/status/1067738896979644416") # full url of tweet
-	terms.append("https://t.co/9v4nxxN96s")
+	terms.extend(excerpts)
+	terms.extend(links)
 	for t in terms:
 		scraped.extend(rest.rest_scrape_single(t, 1000000, api))
 
 	scraped = list(map(lambda x: x._json, scraped))
+	basics.writeFile(path, "all.json", list(map(lambda x: json.dumps(x), scraped)))
+
 	retweets = []
 	quotes = []
 	replies = []
@@ -67,11 +63,18 @@ def rpr():
 					replies_seen.add(t["id"])
 					replies.append(t)
 
-	writeFile(path, "retweets.json", retweets)
-	writeFile(path, "quotes.json", quotes)
-	writeFile(path, "replies.json", replies)
+	ids = list(map(lambda x: x["id"], retweets))
+	ids.extend(list(map(lambda x: x["id"], quotes)))
+	ids.extend(list(map(lambda x: x["id"], replies)))
+	ids = list(map(lambda x: str(x), ids))
+	ids.append(str(idN))
 
-	readAndCategorize(path + "/@nytimes", idN, retweets_seen, quotes_seen, replies_seen, path+"/retweets.json", path+"/quotes.json", path+"/replies.json")
+	basics.writeFile(path, "ids.csv", [",".join(ids)]);
+	basics.writeFile(path, "retweets.json", list(map(lambda x: json.dumps(x), retweets)))
+	basics.writeFile(path, "quotes.json", list(map(lambda x: json.dumps(x), quotes)))
+	basics.writeFile(path, "replies.json", list(map(lambda x: json.dumps(x), replies)))
+
+	# readAndCategorize(path, idN, retweets_seen, quotes_seen, replies_seen, path+"/retweets.json", path+"/quotes.json", path+"/replies.json")
 
 
 def readAndCategorize(inputFolder, idN, retweets_seen, quotes_seen, replies_seen, retweets_path, quotes_path, replies_path):
@@ -114,19 +117,23 @@ def readAndCategorize(inputFolder, idN, retweets_seen, quotes_seen, replies_seen
 						# if not anything:
 						# 	print(t["id"])
 
-def writeFile(path, filename, tweets):
-
-	if not os.path.exists(path):
-		os.makedirs(path)
-
-	ts = list(map(lambda x: json.dumps(x), tweets))
-
-	o_file = open(path + "/" + filename, "w")
-	o_file.write("\n".join(ts))
-
 def main(argv):
 	print("\nRunning...")
-	rpr()
+
+	# keywords.tsv outputFolder appNumber
+
+	tsv = argv[0]
+	outputFolder = argv[1]
+	appN = int(argv[2])
+
+	with open(tsv) as i_file:
+		qlist = i_file.read()
+	queries = qlist.split("\n")
+	tweetID = int(queries[0])
+	excerpts = queries[1].split("\t")
+	links = queries[2].split("\t")
+
+	network(tweetID, excerpts, links, outputFolder, appN)
 	
 if __name__== "__main__":
 	main(sys.argv[1:])

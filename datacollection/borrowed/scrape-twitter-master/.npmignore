@@ -1,0 +1,6 @@
+.babelrc
+.travis.yml
+.editorconfig
+.gitignore
+src/
+test/

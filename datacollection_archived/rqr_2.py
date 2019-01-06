@@ -71,7 +71,7 @@ def rpr():
 	writeFile(path, "quotes.json", quotes)
 	writeFile(path, "replies.json", replies)
 
-	readAndCategorize(path + "/@nytimes", idN, retweets_seen, quotes_seen, replies_seen, path+"/retweets.json", path+"/quotes.json", path+"/replies.json")
+	# readAndCategorize(path + "/@nytimes", idN, retweets_seen, quotes_seen, replies_seen, path+"/retweets.json", path+"/quotes.json", path+"/replies.json")
 
 
 def readAndCategorize(inputFolder, idN, retweets_seen, quotes_seen, replies_seen, retweets_path, quotes_path, replies_path):

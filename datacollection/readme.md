@@ -11,32 +11,37 @@ To stream data:
 To scrape with multiple keywords:  
 `python scrape.py keywords.csv outputFolder maxTweets appNumber`
 
-To scrape using one single keywords:  
+To scrape using one single keyword:  
 `python one.py keyword outputFolder appNumber`
 
 To deduplicate:  
-`python dedup.py inputFolder outputFileName appNumber`
+`python clean.py dedup inputFolder outputFileName`
 
+To separate by date:
+`python clean.py date inputFolder outputFileName` (NOT FINISHED)
+
+
+Other functions:  
+`python func.py tweetID appNumber`
 
 --- 
 
-#### Related to news on Twitter
-
-To query agents of tweets:  
-`python agents.py inputFolder outputFileName appNumber`
+#### Related to news
 
 To do a naive query of the retweet/quote/reply network of a specific tweet:  
 - retweet: query by keywords of original tweets and filter
 - quote: query by url and filter
 - reply: query by news agency handle and filter
-`python tweet_network.py keywords.csv outputFolder appNumber`  
-`python one.py newsAgencyHandle outputFolder appNumber`
+`python tweet_network.py keywords.tsv outputFolder appNumber` (retweets and quotes)  
+`python one.py newsAgencyHandle outputFolder appNumber` (query by handle)  
+`python replies.py ids_file inputFolder outputFolder loops` (filter to get replies NEED FIXES)  
+`python clean.py dedup inputFolder outputFileName` (dedup)
 
 To get sentiments:  
+`python sentiments.py inputFolder outputFileName`
 
-To get whether the tweets are related to news professionals:  
-
-
+To query and profile agents of tweets:  
+`python agents.py inputFolder outputFileName`
 
 ---
 
