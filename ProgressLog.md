@@ -28,11 +28,8 @@ More Questions:
 
 *Why do people not engage with nytimes opinion articles so much, but more with, maybe, Fox?*
 
-Read the things by David Danks
 
 ---
-
-
 
 ### Future
 
@@ -44,6 +41,109 @@ what I learned from the poster presentation
 - talk to Cori from HCI
 
 COLLECT DATA
+
+### Monday 1/14/2019
+
+Come up with hypotheses and data collection (try https://github.com/sebinsua/scrape-twitter)
+* look at some viral news tweets across agencies
+
+
+Hypothesis:
+
+different factors are key to the spread of opinion and factual stories
+
+viral opinion stories are spread through dissent across different groups of people
+viral factual stories are spread through agreement across similar groups of people
+what kind of viral opinion/factual stories can spread through diverse groups?
+
+viral opinion tweets are trigged by quality of opinions?
+viral factual tweets are triggered by opinion responses?
+
+
+Impact: 
+how to spread factual stories across similar groups of people?
+how do we aggregate content that spread evenly?
+
+
+### Monday 1/14/2019
+
+#### literature review
+
+see slides
+
+#### observing some popular tweets (hundreds of engagement):
+
+1083002973440147456: "Pack your bags. @nytimestravel's annual list of 52 places to go is here."
+- pinned
+- in a thread
+- wholesome content
+- unpolitical, NOT REALLY NEWS
+- connect with people of diverse interests and backgrounds
+- present business opportunities for people
+- 
+
+1084860347524268032: "Breaking News: President Trump’s attorney general nominee said he would allow Robert Mueller to finish his investigation, seeking to allay Democrats’ fears"
+- people comment on the "breaking news part"
+  - "Sorry NYT that's not breaking news. We expect nothing less from any present AG or future AG. If William Barr said he would NOT LET Robert Mueller complete his investigation. Than that's breaking news!"
+
+1084853928297144321: "In Opinion: Margaret Renkl writes, "There is hope when a young woman can walk out of prison into the light of freedom after 15 years behind bars for a crime she committed as an endangered and exploited child"
+- generates partisan comments
+
+1084831280410382336 and 1084842088104185856: LA country teacher's strike
+- partisan comments but get shutdown by people who side with the news agency
+
+1084792259797811201: "On Sunday night, a photo of an egg beat out Kylie Jenner's birth announcement as the most-liked Instagram post ever"
+- meme value, internet culture
+- people denounce reporting style
+  - "Really glad your covering all the important stories that no other news organization is brave enough to cover.😌"
+- "Nobody gives a damn"
+
+1084782219338620929: "Just over 100 years ago, the first woman was sworn into Congress. As of this month, a record 131 women are serving in the Legislature."
+- accusing many of these women to be anti-semites or un-American
+- people read bias out of it: "enough of this political bias"
+
+
+1084752036409810944: "In Opinion: Viet Thanh Nguyen writes of Asian parents, 'We honor your sacrifice for us, but you have to encourage your children to speak up as well, to claim their voices, to risk mediocrity and failure, to tell their stories and your stories.'"
+- lots of disagreement
+- 
+
+1084668051239456768: by @lawrence, retweeted by @nytopinion "This is much more important for reporters to read than Trump tweets."
+- 
+
+
+#### hypotheses
+
+opinion news tweets:
+- more strong disagreement (partisanships)
+- people comment on the opinion in the story
+  - if the political leaning of the story differs from the opinion of the story --> very popular
+- people address article content more
+
+factual news tweets:
+- more agreement (coz facts are often not arguable)
+- disagreement: 
+  - people disagree on the partisan nature of the event (partisanships) and then get shut down by people who side with the news agency
+  - people comment on reporting style and other meta factors (whether this is breaking news or not)
+- people mostly address content of the tweet (because the tweet contains the main piece of info in the article)
+- "shock buttons" in the news event itself play an larger role than in opinion tweets to increase engagement
+
+
+PROVE WRONG: opinion news tweets generate more disagreement (observation shows opinion and factual tweets both generates lots of disagreement, because every event/opinion is in a highly partisan context. however, where the disagreement comes from is often different.)
+- need some stats
+
+PROVE: people actually read the opinion articles but don't read the factual news articles. and when they don't read the opinion articles and comment, others point it out and rebut.
+- need to read the linked articles
+
+general:
+* opinion-factual is a spectrum
+* people can always read bias out of things
+* unfortunately, any opinion/event is partisan these days
+* "shock buttons" don't always lead to viral tweets; viral tweets are often caused by meta factors such as pinned, threads, sharing by influencers, etc.
+* people don't really respond to the details in the article. they mainly respond to the tweet itself or the topic that the tweet talks about
+
+(it is hard to keep a lot of variables constant in making comparisons, because there are too many variables)
+
+--> how to aggregate news in a way that encourages people to actually read the article?
 
 
 ### Sun 1/6/2019
