@@ -42,7 +42,6 @@ what I learned from the poster presentation
 
 COLLECT DATA
 
-### Monday 1/14/2019
 
 Come up with hypotheses and data collection (try https://github.com/sebinsua/scrape-twitter)
 * look at some viral news tweets across agencies
@@ -59,17 +58,53 @@ what kind of viral opinion/factual stories can spread through diverse groups?
 viral opinion tweets are trigged by quality of opinions?
 viral factual tweets are triggered by opinion responses?
 
-
 Impact: 
 how to spread factual stories across similar groups of people?
 how do we aggregate content that spread evenly?
 
 
-### Monday 1/14/2019
+### Wednesday 1/16/2019
+
+1085588028893155328 by @washingtonpost: "Opinion: Charisma without competence won’t cut it"
+
+Prove
+- opinion tweets are read and responded to with more care 
+  -factual tweets replies have more simple, short ideas with hashtags (big taglines), and they get more retweets than replies
+  - opinion tweets have more long responds and fewer retweets
+
+DO: 
+- measure like/replies/retweet ratio
+- how many statements and questions in replies
+- average length of replies
+
+data collection:
+
+get a bunch of opinion and news tweets by different agencies
+get their replies/retweet/quote network
+
+
+
+
+### Tuesday 1/15/2019
 
 #### literature review
 
 see slides
+
+* articles and tweets with or without the opinion tag all have biases
+
+factors: tag x media bias
+
+tagged as opinion v.s. not tagged as opinion
+
+tweet with significant media bias v.s. tweet without significant media bias
+article with significant media bias v.s. article without significant media bias
+(the two above are generally the same, but sometimes the tweet is a biased sound-bite)
+
+media bias plays the dominant role in generating controversy and spread
+
+
+### Monday 1/14/2019
 
 #### observing some popular tweets (hundreds of engagement):
 
@@ -82,34 +117,65 @@ see slides
 - present business opportunities for people
 - 
 
-1084860347524268032: "Breaking News: President Trump’s attorney general nominee said he would allow Robert Mueller to finish his investigation, seeking to allay Democrats’ fears"
+1084860347524268032 by @nytimes: "Breaking News: President Trump’s attorney general nominee said he would allow Robert Mueller to finish his investigation, seeking to allay Democrats’ fears"
 - people comment on the "breaking news part"
   - "Sorry NYT that's not breaking news. We expect nothing less from any present AG or future AG. If William Barr said he would NOT LET Robert Mueller complete his investigation. Than that's breaking news!"
 
-1084853928297144321: "In Opinion: Margaret Renkl writes, "There is hope when a young woman can walk out of prison into the light of freedom after 15 years behind bars for a crime she committed as an endangered and exploited child"
+1084853928297144321 by @nytimes: "In Opinion: Margaret Renkl writes, "There is hope when a young woman can walk out of prison into the light of freedom after 15 years behind bars for a crime she committed as an endangered and exploited child"
 - generates partisan comments
 
-1084831280410382336 and 1084842088104185856: LA country teacher's strike
+1084831280410382336 and 1084842088104185856 by @nytimes: LA country teacher's strike
 - partisan comments but get shutdown by people who side with the news agency
 
-1084792259797811201: "On Sunday night, a photo of an egg beat out Kylie Jenner's birth announcement as the most-liked Instagram post ever"
+1084792259797811201 by @nytimes: "On Sunday night, a photo of an egg beat out Kylie Jenner's birth announcement as the most-liked Instagram post ever"
 - meme value, internet culture
 - people denounce reporting style
   - "Really glad your covering all the important stories that no other news organization is brave enough to cover.😌"
 - "Nobody gives a damn"
 
-1084782219338620929: "Just over 100 years ago, the first woman was sworn into Congress. As of this month, a record 131 women are serving in the Legislature."
+1084782219338620929 by @nytimes: "Just over 100 years ago, the first woman was sworn into Congress. As of this month, a record 131 women are serving in the Legislature."
 - accusing many of these women to be anti-semites or un-American
 - people read bias out of it: "enough of this political bias"
 
+1084752036409810944 by @nytimes: "In Opinion: Viet Thanh Nguyen writes of Asian parents, 'We honor your sacrifice for us, but you have to encourage your children to speak up as well, to claim their voices, to risk mediocrity and failure, to tell their stories and your stories.'"
+- lots of disagreement (racist comments)
 
-1084752036409810944: "In Opinion: Viet Thanh Nguyen writes of Asian parents, 'We honor your sacrifice for us, but you have to encourage your children to speak up as well, to claim their voices, to risk mediocrity and failure, to tell their stories and your stories.'"
+1084668051239456768 by @lawrence, retweeted by @nytopinion: "This is much more important for reporters to read than Trump tweets."
+- lots of agreement
+- enthusiastic replies indicate that people actually read the article
+- some people point out the irony that nytimes is talking about media's role for Trump's election
+
+1084833035437178880 by @nytopinion: Tempting though it may be to cry foul over @AOC's fake nude photo, a better use of this moment would be to forcefully affirm the idea that these photos — real or fake — don’t matter, writes @LuxAlptraum
 - lots of disagreement
-- 
+- many people are missing important points in the tweet (the nude photo is FAKE)
 
-1084668051239456768: by @lawrence, retweeted by @nytopinion "This is much more important for reporters to read than Trump tweets."
-- 
+1084244268762521600 by @maureendowd, retweeted by @nytopinion: "The apple doesn’t fall far from the tree, whether blossoming or rotting: Nancy Pelosi Spanks the First Brat"
+- enthusiastic replies indicate that people actually read the article
+- lots of disagreement as well
+- attack on the author
 
+1084380504399454208 by @alia_ww, retweeted by @nytopinion, same article shared by many other users: "I would have preferred to write these words in Arabic, in a Saudi newspaper....
+Here is my article about my little sister, loujain, at NYT. My Sister Is in a Saudi Prison. Will Mike Pompeo Stay Silent?"
+- people read the article
+- show support
+- 1084695366367412224 same article as above, by shared by @nytimes: "In Opinion: Alia al-Hathloul writes of her sister, a women's activist imprisoned in Saudi Arabia, "She said she had been held in solitary confinement, beaten, waterboarded, given electric shocks, sexually harassed and threatened with rape and murder."
+  - the responses are much more political and extreme, indicating the audience for the two accounts are very different
+
+@AJEnglish generally don't link to articles. mostly just videos and photos and taglines.
+
+1084525493892800512 by @AJEnglish: ""I won't let anyone stop me from what I'm doing." Aspiring photographer, 8-year-old Ariyike, has been taking photos since she was 2 - and nothing will stop her realising her dream"
+- lots of positive engagement
+
+engagement patterns:
+- comment on the fact that the news is being reported
+- comment on the topic/event
+  - agree with the stance
+  - disagree with the stance
+- comment on the opinion
+  - agree with the stance
+  - disagree with the stance
+- add more information
+- comment but get the information wrong
 
 #### hypotheses
 
@@ -118,6 +184,8 @@ opinion news tweets:
 - people comment on the opinion in the story
   - if the political leaning of the story differs from the opinion of the story --> very popular
 - people address article content more
+- people address the author (attack or cheer on)
+- spread across different people
 
 factual news tweets:
 - more agreement (coz facts are often not arguable)
@@ -126,13 +194,15 @@ factual news tweets:
   - people comment on reporting style and other meta factors (whether this is breaking news or not)
 - people mostly address content of the tweet (because the tweet contains the main piece of info in the article)
 - "shock buttons" in the news event itself play an larger role than in opinion tweets to increase engagement
-
+- spread across similar people
 
 PROVE WRONG: opinion news tweets generate more disagreement (observation shows opinion and factual tweets both generates lots of disagreement, because every event/opinion is in a highly partisan context. however, where the disagreement comes from is often different.)
 - need some stats
 
-PROVE: people actually read the opinion articles but don't read the factual news articles. and when they don't read the opinion articles and comment, others point it out and rebut.
+PROVE: people read the opinion articles more carefully read the factual news articles. and when they don't read the opinion articles and comment, others point it out and rebut. but in general they are not very careful in their reading. they just respond to shock buttons.
 - need to read the linked articles
+
+PROVE WRONG: opinion tweets spread across dissents. (they actually spread across empathy and agreements)
 
 general:
 * opinion-factual is a spectrum
@@ -140,6 +210,7 @@ general:
 * unfortunately, any opinion/event is partisan these days
 * "shock buttons" don't always lead to viral tweets; viral tweets are often caused by meta factors such as pinned, threads, sharing by influencers, etc.
 * people don't really respond to the details in the article. they mainly respond to the tweet itself or the topic that the tweet talks about
+* Twitter discourse is not really serious discussions. lots of attention-grabbing but shallow content.
 
 (it is hard to keep a lot of variables constant in making comparisons, because there are too many variables)
 
@@ -147,7 +218,7 @@ general:
 
 
 ### Sun 1/6/2019
-Collect Data:
+Collect Data (?):
 
 1/5/2019
 Opinion:
