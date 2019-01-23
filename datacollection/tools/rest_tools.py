@@ -26,7 +26,7 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=10000, fileName=N
     count_per_file=0
     r'{0}/{1}_log.csv'.format(outPath,fileName)
     logFname=outPath+r'/log.csv'
-    if fileName is not None: logFname=r'{0}\{1}_log.csv'.format(outPath,fileName)
+    if fileName is not None: logFname=r'{0}/{1}_log.csv'.format(outPath,fileName)
     with open(logFname,'a+',encoding='utf8') as outLog:
         logWriter=csv.DictWriter(outLog,['search_term','tweets_downloaded','sinceId'],lineterminator='\n')
         logWriter.writeheader()
@@ -84,7 +84,7 @@ def rest_scrape(terms, tweetAPI, outPath, maxTweets, file_size=10000, fileName=N
                     if count_per_file>file_size:
                         f.close()
                         file_num+=1
-                        fname=outPath+r'\{0}_{1}.json'.format(nPart,file_num)
+                        fname=outPath+r'/{0}_{1}.json'.format(nPart,file_num)
                         f=open(fname, 'a+',encoding='utf8')
                         count_per_file=0
                         
@@ -179,8 +179,8 @@ def rest_rehydrate(tweet_ids, tweetAPI, outPath, fileName):
     #Number of request included
     req_num=math.ceil(len(list_of_ids)/100)
     print('Starting Stream')
-    with open(r'{0}\{1}.json'.format(outPath,fileName),'a+') as outTweets:
-        with open(r'{0}\{1}_missing.csv'.format(outPath,fileName),'a+') as outLog:
+    with open(r'{0}/{1}.json'.format(outPath,fileName),'a+') as outTweets:
+        with open(r'{0}/{1}_missing.csv'.format(outPath,fileName),'a+') as outLog:
             i=0
             req_count=0
             start_time = time.time()

@@ -3,8 +3,11 @@ import tweepy
 from tools import credentials
 
 def getTweet(tweet_id, api):
-	tweet = api.get_status(id=tweet_id, tweet_mode='extended')
-	return json.dumps(tweet._json)
+	try:
+		tweet = api.get_status(id=tweet_id, tweet_mode='extended')
+		return json.dumps(tweet._json)
+	except:
+		print("No status found with that ID: " + str(tweet_id))
 
 def getFriends(user_id, api):
 	friends = []
@@ -30,3 +33,19 @@ def getTimeline(user_id, api):
 		tweet_str_list.append(t._json)
 
 	return tweet_str_list
+
+def getRelation(t_str, idN):
+	t = json.loads(t_str)
+	relation = None
+
+	if "retweeted_status" in t and t["retweeted_status"]["id"] == idN:
+		relation = "retweet"
+
+	if "quoted_status" in t and t["quoted_status"]["id"] == idN:
+		relation = "quote"
+
+	if t["in_reply_to_status_id"] != None:
+		if t["in_reply_to_status_id"] == idN:
+			relation = "reply"
+
+	return relation

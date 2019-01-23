@@ -1,7 +1,5 @@
 ## APPROACH 2
 
-In the context of news, how do 
-
 News orgs, journalists, influential individuals, non-influential individuals:
 - **What's their reach if they "spread information"?**
 - **What's their reach if they "spread opinion"?**
@@ -28,9 +26,6 @@ More Questions:
 
 *Why do people not engage with nytimes opinion articles so much, but more with, maybe, Fox?*
 
-
----
-
 ### Future
 
 what I learned from the poster presentation
@@ -39,9 +34,6 @@ what I learned from the poster presentation
 - the content of factual articles can instigate opinions: "outrage buttons"
 - learn techniques: 36491 data analysis course
 - talk to Cori from HCI
-
-COLLECT DATA
-
 
 Come up with hypotheses and data collection (try https://github.com/sebinsua/scrape-twitter)
 * look at some viral news tweets across agencies
@@ -63,6 +55,46 @@ how to spread factual stories across similar groups of people?
 how do we aggregate content that spread evenly?
 
 
+---
+
+to do:
+- collect retweet/reply/quote network of chosen tweets
+- write script to filter tweets from large files
+
+hand-pick replies to demonstrate hypothesis
+
+
+### Thursday 1/24/2019
+
+Get priliminary stats
+
+### Wednesday 1/23/2019
+
+Document empirical observations
+Category by #opinion or opinion tags
+Dedup
+Get all the original tweets by the news agency
+
+Get priliminary stats
+
+
+### Tuesday 1/22/2019
+
+Not getting any quotes and replies using current data collection method (which is to query by ID, links, news agency handle, keywords, and filter down)
+
+new ways: maybe just query by #opinion and news agency handle instead of collecting based on specific tweets?
+
+NEW DATA COLLECTION SCHEME:
+- get a bunch of news tweets
+- filter:
+  - race to retweet/reply/quote status
+  - check if it is by news agency
+
+### Thursday 1/18/2019
+
+- handpicked a bunch of news tweets (news, analysis, opinion) in the past few days
+- collect retweet/reply/quote network of chosen tweets
+
 ### Wednesday 1/16/2019
 
 1085588028893155328 by @washingtonpost: "Opinion: Charisma without competence won’t cut it"
@@ -81,8 +113,6 @@ data collection:
 
 get a bunch of opinion and news tweets by different agencies
 get their replies/retweet/quote network
-
-
 
 
 ### Tuesday 1/15/2019

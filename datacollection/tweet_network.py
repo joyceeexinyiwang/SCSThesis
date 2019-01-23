@@ -13,15 +13,16 @@ import tweepy
 from tools import credentials as cred
 from tools import rest_tools as rest
 from tools import basics
+from tools import general_tools as gen
 
 
-def network(idN, excerpts, links, path, appN):
+def network(idN, terms, path, appN):
 
 	auth = cred.getAuth(appN, "app")
 	api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 	now = datetime.datetime.now()
-	path = path + "_" + now.strftime("%Y-%m-%d-%H-%M")
+	path = path + "/" + str(idN) + "/" + now.strftime("%Y-%m-%d-%H-%M")
 
 	# get tweet object by ID
 	tweet = api.get_status(id=idN, tweet_mode='extended')
@@ -31,9 +32,6 @@ def network(idN, excerpts, links, path, appN):
 	print("Favorite count = " + str(tweet._json["favorite_count"]))
 
 	scraped = []
-	terms = []
-	terms.extend(excerpts)
-	terms.extend(links)
 	for t in terms:
 		scraped.extend(rest.rest_scrape_single(t, 1000000, api))
 
@@ -91,31 +89,19 @@ def readAndCategorize(inputFolder, idN, retweets_seen, quotes_seen, replies_seen
 					for line in infile:
 						# categorize
 						t = json.loads(line)
+						relation = gen.getRelation(line, idN)
 
-						anything = False
-
-						if "retweeted_status" in t and t["retweeted_status"]["id"] == idN:
-							# if t["id"] not in retweets_seen:
-							retweets_seen.add(t["id"])
-							ret.write(line)
-							anything = True
-
-						if "quoted_status" in t and t["quoted_status"]["id"] == idN:
-							# if t["id"] not in quotes_seen:
-							quotes_seen.add(t["id"])
-							quo.write(line)
-							anything = True
-
-
-						if t["in_reply_to_status_id"] != None:
-							if t["in_reply_to_status_id"] == idN or t["in_reply_to_status_id"] in replies_seen or t["in_reply_to_status_id"] in quotes_seen or t["in_reply_to_status_id"] in retweets_seen:
-								# if t["id"] not in replies_seen:
+						if relation != None:
+							if relation == "retweet":
+								retweets_seen.add(t["id"])
+								ret.write(line)
+							elif relation == "quote":
+								quotes_seen.add(t["id"])
+								quo.write(line)
+							elif relation == "reply":
 								replies_seen.add(t["id"])
 								rep.write(line)
-								anything = True
 
-						# if not anything:
-						# 	print(t["id"])
 
 def main(argv):
 	print("\nRunning...")
@@ -128,12 +114,13 @@ def main(argv):
 
 	with open(tsv) as i_file:
 		qlist = i_file.read()
-	queries = qlist.split("\n")
-	tweetID = int(queries[0])
-	excerpts = queries[1].split("\t")
-	links = queries[2].split("\t")
+	queries = qlist.strip().split("\n")
 
-	network(tweetID, excerpts, links, outputFolder, appN)
+	for q in queries:
+		q = q.strip().split(",")
+		tweetID = int(q[0])
+		terms = q[1:]
+		network(tweetID, terms, outputFolder, appN)
 	
 if __name__== "__main__":
 	main(sys.argv[1:])
