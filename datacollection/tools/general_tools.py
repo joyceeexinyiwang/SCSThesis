@@ -49,3 +49,18 @@ def getRelation(t_str, idN):
 			relation = "reply"
 
 	return relation
+
+def getRelationNoID(t_str):
+	t = json.loads(t_str)
+	relation = None
+
+	if "retweeted_status" in t:
+		relation = "retweet"
+
+	if "quoted_status" in t:
+		relation = "quote"
+
+	if t["in_reply_to_status_id"] != None:
+		relation = "reply"
+
+	return relation

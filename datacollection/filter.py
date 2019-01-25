@@ -27,10 +27,10 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 	maxCount = 10000
 	fileNs = [1, 1]
 	fs = [None] * 2
-	if not os.path.exists(outputFolder + "/separated/"):
-		os.makedirs(outputFolder + "/separated/")
-	fs[0] = open(outputFolder + "/separated/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
-	fs[1] = open(outputFolder + "/separated/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
+	if not os.path.exists(outputFolder + "/NEW/"):
+		os.makedirs(outputFolder + "/NEW/")
+	fs[0] = open(outputFolder + "/NEW/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
+	fs[1] = open(outputFolder + "/NEW/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
 
 	keyword = "opinion"
 
@@ -56,7 +56,6 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 							if t["quoted_status"]["user"]["screen_name"].lower() == newsagency.lower():
 								toAdd = line
 								origin = t["quoted_status"]
-
 
 						if t["in_reply_to_screen_name"] != None and t["in_reply_to_screen_name"].lower() == newsagency.lower(): 
 							toAdd = line
@@ -90,7 +89,7 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 										fs[0].close()
 										fileNs[0] += 1
 										print("New file")
-										fs[0] = open(outputFolder + "/separated/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
+										fs[0] = open(outputFolder + "/NEW/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
 
 								else:
 									fs[1].write(line)
@@ -101,7 +100,7 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 										fs[1].close()
 										fileNs[1] += 1
 										print("New file")
-										fs[1] = open(outputFolder + "/separated/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
+										fs[1] = open(outputFolder + "/NEW/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
 
 	f.close()
 	fs[0].close()

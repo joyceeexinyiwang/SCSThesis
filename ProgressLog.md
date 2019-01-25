@@ -66,29 +66,30 @@ hand-pick replies to demonstrate hypothesis
 
 ### Thursday 1/24/2019
 
-Get priliminary stats
+wrote stats.py
+
+to-do:
+- Get all the original tweets by the news agency
+- describe data
+- get preliminary stats
 
 ### Wednesday 1/23/2019
 
-Document empirical observations
-Category by #opinion or opinion tags
-Dedup
-Get all the original tweets by the news agency
+- Document empirical observations
 
-Get priliminary stats
-
+#### NEW DATA COLLECTION SCHEME:
+- query a bunch of news tweets by @newsagencyhandle (`python one.py @nytimes data/@nytimes 0`)
+- filter:
+  - trace to retweet/reply/quote status and check if it is by news agency 
+  - separate based on whether full_text contains "opinion" tag (`python filter.py nytimes data/@nytimes data/filtered_1_22/nytimes_filtered 1`)
+  - dedup (`python clean.py dedup data/filtered_1_22/nytimes_filtered/separated xxx_deduped.csv`)
+  - categorize into retweet/reply/quote (`python categorize.py data/wsj/cleaned data/wsj`)
 
 ### Tuesday 1/22/2019
 
 Not getting any quotes and replies using current data collection method (which is to query by ID, links, news agency handle, keywords, and filter down)
 
 new ways: maybe just query by #opinion and news agency handle instead of collecting based on specific tweets?
-
-NEW DATA COLLECTION SCHEME:
-- get a bunch of news tweets
-- filter:
-  - race to retweet/reply/quote status
-  - check if it is by news agency
 
 ### Thursday 1/18/2019
 

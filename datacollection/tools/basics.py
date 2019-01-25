@@ -27,6 +27,25 @@ def dedup(inputFolder, outputFolder, outputFile):
 
     return allTweets
 
+def dedup_2(inputFolder, outputFolder, outputFile):
+    ids = set()
+
+    if not os.path.exists(outputFolder):
+        os.makedirs(outputFolder)
+        
+    for (dirpath, dirnames, filenames) in os.walk(inputFolder):
+        for filename in filenames:
+            if filename.endswith('.json'): 
+                print("Currently on " + filename)
+                with open(dirpath+"/"+filename) as f:
+                    fd = open(outputFolder+"/" + outputFile + "_"+filename+".csv", "w")
+                    for line in f:
+                        i = json.loads(line)["id"]
+                        if i not in ids:
+                            fd.write(line)
+                            ids.add(i)
+                    fd.close()
+
 def separateByDate(allTweets, outputFolder):
 
     print("## Separate tweets by date")
