@@ -17,8 +17,8 @@ More Questions:
   - Density of agent-agent communication network
   - Circulation network (retweets) versus discourse network (quotes/reply)
 - Aggregate opinion stories and factual stories and compare across different agencies
-  - Whether there is a consistent engagement pattern across agencies
-  - What allow an agency to generate more discourse around factual stories than opinion stories, or vice versa
+  - Is there a consistent engagement pattern across agencies?
+  - What allow an agency to generate more discourse around factual stories than opinion stories, or vice versa?
   - Examine whether opinion stories attract more frequent agents or one-time agents
 - Collect data on viral stories
   - Compare and contrast the network of viral opinion stories and that of viral factual stories
@@ -26,29 +26,11 @@ More Questions:
 
 *Why do people not engage with nytimes opinion articles so much, but more with, maybe, Fox?*
 
-### Future
-
 what I learned from the poster presentation
 - how to classify factual stories, opinion stories, and those in between (by perception of language and content)
 - experiment: create a news aggregator account to test out different behaviors and see how people react to it
 - the content of factual articles can instigate opinions: "outrage buttons"
 - learn techniques: 36491 data analysis course
-- talk to Cori from HCI
-
-Come up with hypotheses and data collection (try https://github.com/sebinsua/scrape-twitter)
-* look at some viral news tweets across agencies
-
-
-Hypothesis:
-
-different factors are key to the spread of opinion and factual stories
-
-viral opinion stories are spread through dissent across different groups of people
-viral factual stories are spread through agreement across similar groups of people
-what kind of viral opinion/factual stories can spread through diverse groups?
-
-viral opinion tweets are trigged by quality of opinions?
-viral factual tweets are triggered by opinion responses?
 
 Impact: 
 how to spread factual stories across similar groups of people?
@@ -57,21 +39,22 @@ how do we aggregate content that spread evenly?
 
 ---
 
-to do:
-- collect retweet/reply/quote network of chosen tweets
-- write script to filter tweets from large files
+### Monday 1/28/2019
 
-hand-pick replies to demonstrate hypothesis
+- met with Cori
+- 
 
+### Friday 1/25/2019
+
+- stats.py
+- getSource.py (original tweets by the news agency)
+
+use small @WSJ dataset to show that opinion tweets tend to generate longer replies
 
 ### Thursday 1/24/2019
 
 wrote stats.py
 
-to-do:
-- Get all the original tweets by the news agency
-- describe data
-- get preliminary stats
 
 ### Wednesday 1/23/2019
 
@@ -81,9 +64,10 @@ to-do:
 - query a bunch of news tweets by @newsagencyhandle (`python one.py @nytimes data/@nytimes 0`)
 - filter:
   - trace to retweet/reply/quote status and check if it is by news agency 
-  - separate based on whether full_text contains "opinion" tag (`python filter.py nytimes data/@nytimes data/filtered_1_22/nytimes_filtered 1`)
-  - dedup (`python clean.py dedup data/filtered_1_22/nytimes_filtered/separated xxx_deduped.csv`)
+  - separate based on whether full_text contains "opinion" tag, and find origin tweets by news agency (`python filter.py nytimes data/@nytimes data/filtered_1_22/nytimes_filtered 1`)
+  - dedup (`python clean.py dedup data/filtered_1_22/nytimes_filtered/separated dedup data/filtered_1_22/nytimes_filtered/`)
   - categorize into retweet/reply/quote (`python categorize.py data/wsj/cleaned data/wsj`)
+  - get stats (`python stats.py directory`)
 
 ### Tuesday 1/22/2019
 

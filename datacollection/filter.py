@@ -20,17 +20,18 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 	count = 0
 	maxCount = 10000
 	fileN = 1
-	f = open(outputFolder + "/" + newsagency + "_" + str(fileN) + ".json", "w")
+	f = open(outputFolder + "/NEW/" + newsagency + "_" + str(fileN) + ".json", "w")
 
 	# 0 -> opinion, 1 -> nonopinion
-	counts = [0, 0]
+	counts = [0, 0, 0]
 	maxCount = 10000
-	fileNs = [1, 1]
-	fs = [None] * 2
+	fileNs = [1, 1, 1]
+	fs = [None] * 3
 	if not os.path.exists(outputFolder + "/NEW/"):
 		os.makedirs(outputFolder + "/NEW/")
 	fs[0] = open(outputFolder + "/NEW/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
 	fs[1] = open(outputFolder + "/NEW/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
+	fs[2] = open(outputFolder + "/NEW/" + newsagency + "_origin_" + str(fileNs[1]) + ".json", "w")
 
 	keyword = "opinion"
 
@@ -43,68 +44,84 @@ def filter(newsagency, inputFolder, outputFolder, appNumber):
 					for line in infile:
 						toAdd = None
 						origin = None
-						t = json.loads(line)
+						try:
+							t = json.loads(line)
 
-						# check if this tweet can be traced to the news agency
+							# check if this tweet can be traced to the news agency
 
-						if "retweeted_status" in t:
-							if t["retweeted_status"]["user"]["screen_name"].lower() == newsagency.lower():
+							if "retweeted_status" in t:
+								if t["retweeted_status"]["user"]["screen_name"].lower() == newsagency.lower():
+									toAdd = line
+									origin = t["retweeted_status"]
+
+							if "quoted_status" in t:
+								if t["quoted_status"]["user"]["screen_name"].lower() == newsagency.lower():
+									toAdd = line
+									origin = t["quoted_status"]
+
+							if t["in_reply_to_screen_name"] != None and t["in_reply_to_screen_name"].lower() == newsagency.lower(): 
 								toAdd = line
-								origin = t["retweeted_status"]
-
-						if "quoted_status" in t:
-							if t["quoted_status"]["user"]["screen_name"].lower() == newsagency.lower():
-								toAdd = line
-								origin = t["quoted_status"]
-
-						if t["in_reply_to_screen_name"] != None and t["in_reply_to_screen_name"].lower() == newsagency.lower(): 
-							toAdd = line
-							replied = gen.getTweet(t["in_reply_to_status_id"], api)
-							if replied != None:
-								origin = json.loads(replied)
-							else:
-								print("! Reply with user id but no reply status id::: id=" + str(t["id"]) + "; in_reply_to_status_id=" + str(t["in_reply_to_status_id"]))
-
-						if toAdd != None:
-							f.write(toAdd)
-							count += 1
-							if count >= maxCount:
-								count = 0
-								f.close()
-								fileN += 1
-								print("New file")
-								f = open(outputFolder + "/" + newsagency + "_" + str(fileN) + ".json", "w")
-	
-							# separate by #opinion or opinion tags in the original tweet
-							# and get stats based on that
-
-							if origin != None:
-								full_text = origin["full_text"]
-								if "opinion" in full_text.lower():
-									fs[0].write(line)
-									counts[0] += 1
-
-									if counts[0] >= maxCount:
-										counts[0] = 0
-										fs[0].close()
-										fileNs[0] += 1
-										print("New file")
-										fs[0] = open(outputFolder + "/NEW/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
-
+								replied = gen.getTweet(t["in_reply_to_status_id"], api)
+								if replied != None:
+									origin = json.loads(replied)
 								else:
-									fs[1].write(line)
-									counts[1] += 1
+									print("! Reply with user id but no reply status id::: id=" + str(t["id"]))
 
-									if counts[1] >= maxCount:
-										counts[1] = 0
-										fs[1].close()
-										fileNs[1] += 1
+							if toAdd != None:
+								f.write(toAdd)
+								count += 1
+								if count >= maxCount:
+									count = 0
+									f.close()
+									fileN += 1
+									print("New file")
+									f = open(outputFolder + "/" + newsagency + "_" + str(fileN) + ".json", "w")
+		
+								# separate by #opinion or opinion tags in the original tweet
+								# and get stats based on that
+
+								if origin != None:
+									full_text = origin["full_text"]
+									if "opinion" in full_text.lower():
+										fs[0].write(line)
+										counts[0] += 1
+
+										if counts[0] >= maxCount:
+											counts[0] = 0
+											fs[0].close()
+											fileNs[0] += 1
+											print("New file")
+											fs[0] = open(outputFolder + "/NEW/" + newsagency + "_op_" + str(fileNs[0]) + ".json", "w")
+
+									else:
+										fs[1].write(line)
+										counts[1] += 1
+
+										if counts[1] >= maxCount:
+											counts[1] = 0
+											fs[1].close()
+											fileNs[1] += 1
+											print("New file")
+											fs[1] = open(outputFolder + "/NEW/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
+
+									fs[2].write(json.dumps(origin))
+									counts[2] += 1
+
+									if counts[2] >= maxCount:
+										counts[2] = 0
+										fs[2].close()
+										fileNs[2] += 1
 										print("New file")
-										fs[1] = open(outputFolder + "/NEW/" + newsagency + "_nonop_" + str(fileNs[1]) + ".json", "w")
+										fs[2] = open(outputFolder + "/NEW/" + newsagency + "_origin_" + str(fileNs[2]) + ".json", "w")
+						except:
+							print(line)
 
 	f.close()
 	fs[0].close()
 	fs[1].close()
+	fs[2].close()
+
+def filterEvents
 
 def main(argv):
 	print("\nRunning...")

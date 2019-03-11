@@ -11,8 +11,12 @@ from tools import general_tools as gen
 
 def categorize(inputFolder, outputFolder):
 
-	if not os.path.exists(outputFolder + "/NEW/"):
-		os.makedirs(outputFolder + "/NEW/")
+	if not os.path.exists(outputFolder + "/NEW/replies"):
+		os.makedirs(outputFolder + "/NEW/replies")
+	if not os.path.exists(outputFolder + "/NEW/retweets"):
+		os.makedirs(outputFolder + "/NEW/retweets")
+	if not os.path.exists(outputFolder + "/NEW/quotes"):
+		os.makedirs(outputFolder + "/NEW/quotes")
 
 	for (dirpath, dirnames, filenames) in os.walk(inputFolder):
 		for filename in filenames:
@@ -20,9 +24,9 @@ def categorize(inputFolder, outputFolder):
 				print("Currently on " + filename)
 				with open(dirpath+"/"+filename) as i_file:
 
-					f_ret = open(outputFolder + "/NEW/" + filename+ "_retweets.json", "w")
-					f_rep = open(outputFolder + "/NEW/" + filename+ "_replies.json", "w")
-					f_quo = open(outputFolder + "/NEW/" + filename+ "_quotes.json", "w")
+					f_ret = open(outputFolder + "/NEW/retweets/" + filename[0:filename.index(".")]+ "_retweets.json", "w")
+					f_rep = open(outputFolder + "/NEW/replies/" + filename[0:filename.index(".")]+ "_replies.json", "w")
+					f_quo = open(outputFolder + "/NEW/quotes/" + filename[0:filename.index(".")]+ "_quotes.json", "w")
 
 					for line in i_file:
 						relation = gen.getRelationNoID(line)

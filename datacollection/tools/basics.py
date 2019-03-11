@@ -1,31 +1,139 @@
 import os, json
 
-def dedup(inputFolder, outputFolder, outputFile):
+def dedup_and_separate(inputFolder, outputFolder, filename, keyword):
 
     print("## Deduplication")
 
     # read all tweets into lines
     allIDs = set()
-    allTweets = []
+
+    if not os.path.exists(outputFolder+"/NEW/"):
+        os.makedirs(outputFolder+"/NEW/")
+
+    maxCount = 10000
+
+    count = 0
+    fileN = 1
+    f = open(outputFolder + "/NEW/" + filename + "_nonop_" + str(fileN) + ".json", "w")
+
+    count_op = 0
+    fileN_op = 1
+    f_op = open(outputFolder + "/NEW/" + filename + "_op_" + str(fileN) + ".json", "w")
+
+    for (dirpath, dirnames, filenames) in os.walk(inputFolder):
+        for fname in filenames:
+            if fname.endswith('.json'): 
+                print("Currently on " + fname)
+                with open(dirpath+"/"+fname) as i_file:
+
+                    for line in i_file:
+                        tweet = json.loads(line)
+                        if tweet['id_str'] not in allIDs:
+                            allIDs.add(tweet['id_str'])
+
+                            isOp = relatedToOpinion(tweet, keyword)
+
+                            if isOp:
+                                f_op.write(line)
+                                count_op += 1
+                                if count_op >= maxCount:
+                                    count_op = 0
+                                    f_op.close()
+                                    fileN_op += 1
+                                    print("New file")
+                                    f_op = open(outputFolder + "/NEW/" + filename + "_op_" + str(fileN_op) + ".json", "w")
+                            else:
+                                f.write(line)
+                                count += 1
+                                if count >= maxCount:
+                                    count = 0
+                                    f.close()
+                                    fileN += 1
+                                    print("New file")
+                                    f = open(outputFolder + "/NEW/" + filename + "_nonop_" + str(fileN) + ".json", "w")
+
+    f.close()
+    f_op.close()
+    print("..." + str(len(allIDs)) + " tweets so far")
+
+
+def relatedToOpinion(t, keyword):
+    isOp = keyword in t["full_text"]
+    if isOp:
+        return True
+
+    if "retweeted_status" in t:
+        retweet = t["retweeted_status"]
+        if keyword in retweet["full_text"]: 
+            isOp = True
+
+        if "retweeted_status" in retweet:
+            retweet_2 = retweet["retweeted_status"]
+            if keyword in retweet_2["full_text"]: 
+                isOp = True
+
+        if "quoted_status" in retweet:
+            quote_2 = retweet["quoted_status"]
+            if keyword in quote_2["full_text"]: 
+                isOp = True
+
+    if "quoted_status" in t:
+        quote = t["quoted_status"]
+        if keyword in quote["full_text"]: 
+            isOp = True
+
+        if "retweeted_status" in quote:
+            retweet_2 = quote["retweeted_status"]
+            if keyword in retweet_2["full_text"]: 
+                isOp = True
+
+        if "quoted_status" in quote:
+            quote_2 = quote["quoted_status"]
+            if keyword in quote_2["full_text"]: 
+                isOp = True
+
+    return isOp
+
+
+def dedup(inputFolder, outputFolder, filename):
+
+    print("## Deduplication")
+
+    # read all tweets into lines
+    allIDs = set()
+
+    if not os.path.exists(outputFolder+"/NEW/"):
+        os.makedirs(outputFolder+"/NEW/")
+
+    count = 0
+    maxCount = 10000
+    fileN = 1
+    f = open(outputFolder + "/NEW/" + filename + "_" + str(fileN) + ".json", "w")
 
     for (dirpath, dirnames, filenames) in os.walk(inputFolder):
         for filename in filenames:
             if filename.endswith('.json'): 
                 print("Currently on " + filename, end="")
                 with open(dirpath+"/"+filename) as i_file:
+
                     for line in i_file:
                         tweet = json.loads(line)
-                        if tweet['id'] not in allIDs:
-                            allTweets.append(line.strip())
-                            allIDs.add(tweet['id'])
-                print("..." + str(len(allTweets)) + " tweets so far")
+                        if tweet['id_str'] not in allIDs:
+                            f.write(line)
+                            allIDs.add(tweet['id_str'])
 
-    if not os.path.exists(outputFolder):
-        os.makedirs(outputFolder)  
+                            count += 1
+                            if count >= maxCount:
+                                count = 0
+                                f.close()
+                                fileN += 1
+                                print("New file")
+                                f = open(outputFolder + "/" + filename + "_" + str(fileN) + ".json", "w")
 
-    writeFile(outputFolder, outputFile, allTweets)
+                    f.close()
 
-    return allTweets
+                print("..." + str(len(allIDs)) + " tweets so far")
+
 
 def dedup_2(inputFolder, outputFolder, outputFile):
     ids = set()

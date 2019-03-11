@@ -1,8 +1,6 @@
 """
 
-python getSource.py inputFolder outputFolder
-
-categorize into reply/retweet/quote 
+python getSource.py inputFolder outputFolder agencyHandle appNumber
 
 """
 
@@ -19,6 +17,8 @@ def getSource(inputFolder, outputFolder, appNumber):
 	if not os.path.exists(outputFolder + "/NEW/"):
 		os.makedirs(outputFolder + "/NEW/")
 
+	f = open(outputFolder + "/NEW/source.json", "w")
+
 	for (dirpath, dirnames, filenames) in os.walk(inputFolder):
 		for filename in filenames:
 			if filename.endswith('.json'): 
@@ -27,27 +27,11 @@ def getSource(inputFolder, outputFolder, appNumber):
 
 					iDs = set()
 
-					f = open(outputFolder + "/NEW/" + filename+ "_source.json", "w")
-
 					for line in i_file:
-						relation = gen.getRelationNoID(line)
-						toAdd = None
 						t = json.loads(line)
-						if relation == "retweet":
-							toAdd = t["retweeted_status"]
-						elif relation == "reply":
-							replied = gen.getTweet(t["in_reply_to_status_id"], api)
-							if replied != None:
-								toAdd = json.loads(replied)
-						elif relation == "quote":
-							toAdd = t["quoted_status"]
+						
 
-						if toAdd != None:
-							if toAdd["id"] not in iDs:
-								f.write(line)
-								iDs.add(toAdd["id"])
-
-					f.close()
+	f.close()
 
 
 def main(argv):

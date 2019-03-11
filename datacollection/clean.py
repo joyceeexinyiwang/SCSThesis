@@ -1,7 +1,21 @@
 """
 
-python clean.py dedup inputFolder outputFileName
+python clean.py dedup inputFolder outputFolder filename
 python clean.py filterByTweet queries.csv inputFolder outFolder
+python clean.py dedup_and_separate inputFolder outputFolder filename
+
+example:
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/AJEnglish /Volumes/JoyceXYW/Joyce/Thesis/_working AJEnglish_deduped
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/washingtonpost /Volumes/JoyceXYW/Joyce/Thesis/_working washingtonpost_deduped
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/WSJ /Volumes/JoyceXYW/Joyce/Thesis/_working WSJ_deduped
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/nytimes /Volumes/JoyceXYW/Joyce/Thesis/_working nytimes_deduped
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/ChinaDaily /Volumes/JoyceXYW/Joyce/Thesis/_working ChinaDaily_deduped
+python clean.py dedup_and_separate /Volumes/JoyceXYW/Joyce/Thesis/data_accum/Spring/NBCNews /Volumes/JoyceXYW/Joyce/Thesis/_working NBCNews_deduped
+
+
+
+REMEMBER:
+change the parameters for "basics.dedup_and_separate(...)" (replace keyword like "#AJOpinion")
 
 """
 import json, sys, os
@@ -10,9 +24,14 @@ from tools import general_tools as gen
 
 def main(argv):
 	print("")
-	if argv[0] == "dedup":
-		# inputFolder outputFileName
-		basics.dedup(argv[1], argv[1]+"/clean", argv[2])
+
+	if argv[0] == "dedup_and_separate":
+		print(argv)
+		basics.dedup_and_separate(argv[1], argv[2], argv[3] , "Opinion")
+
+	elif argv[0] == "dedup":
+		# inputFolder outputFolder
+		basics.dedup(argv[1], argv[2] + "/NEW_DEDUPED", argv[3])
 
 	elif argv[0] == "date":
 		pass
