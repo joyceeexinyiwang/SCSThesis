@@ -22,8 +22,8 @@ Historically, the op-ed page as a unique form of journalism has been designed to
 <a href="https://vimeo.com/358357818"><img src="/doc/video_ss.png" width="400"></a>
 
 
-#### Poster presentation at Meeting of the Minds 2019
+### Poster presentation at Meeting of the Minds 2019
 
-<img src="/doc/DSC03074.JPG" width="400">
+<img src="/doc/DSC03074.JPG" width="600">
 
-<img src="/doc/DSC03078.JPG" width="400">
+<img src="/doc/DSC03078.JPG" width="600">
