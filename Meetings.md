@@ -1,4 +1,4 @@
-# Things I hear in meetings that I don't understand :)
+# Things I hear in CASOS meetings
 
 
 ## 10/15/2018
